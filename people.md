@@ -51,18 +51,22 @@ title: People
         <tr>
             <td>
                 <img src="/assets/img/people/HanWu.jpg"><br>
-                Han Wu
+                <a href="https://erdanc.github.io/">Han Wu</a>
             </td>
             <td>
                 <img src="/assets/img/people/ZhentaoLiu.png"><br>
                 Zhentao Liu
             </td>
             <td>
-                <img src="/assets/img/people/HaoShenWang.jpeg"><br>
+                <img src="/assets/img/people/HaoShenWang.jpg"><br>
                 HaoShen Wang
             </td>
         </tr>
         <tr>
+            <td>
+                <img src="/assets/img/people/QingyaoLuo.jpg"><br>
+                Qingyao Luo
+            </td>
             <td>
                 <img src="/assets/img/people/YulongDou.jpeg"><br>
                 Yulong Dou
