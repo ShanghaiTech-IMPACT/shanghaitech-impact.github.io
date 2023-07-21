@@ -52,15 +52,15 @@ title: People
         <tr>
             <td>
                 <img src="/assets/img/people/HanWu.jpg"><br>
-                Han Wu
-            </td>
-            <td>
-                <img src="/assets/img/people/HaoShenWang.png"><br>
-                HaoShen Wang
+                <a href="http://hanwu.website/">Han Wu</a>
             </td>
             <td>
                 <img src="/assets/img/people/ZhentaoLiu.png"><br>
                 Zhentao Liu
+            </td>
+            <td>
+                <img src="/assets/img/people/HaoshenWang.png"><br>
+                Haoshen Wang
             </td>
         </tr>
         <tr>
