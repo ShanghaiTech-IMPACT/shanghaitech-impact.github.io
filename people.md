@@ -22,8 +22,8 @@ title: People
                 </p>
                 <p style="font-size: 15px;">
                     <a href="https://erdanc.github.io/">[Homepage]</a>
-                    <a href="https://scholar.google.com/citations?user=35F6SXoAAAAJ&hl=en">[Google Scholar]</a>
-                </p>
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=uEd_TroAAAAJ">[Google Scholar]</a>
+                </p>       
             </td>
         </tr>
     </table>
