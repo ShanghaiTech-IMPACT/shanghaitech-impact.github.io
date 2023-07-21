@@ -31,6 +31,7 @@ title: People
 
 <br>
 
+
 ## Students
 <html>
     <table class="people" id="students">
@@ -51,14 +52,14 @@ title: People
         <tr>
             <td>
                 <img src="/assets/img/people/HanWu.jpg"><br>
-                <a href="http://hanwu.website/">Han Wu</a>
+                Han Wu
             </td>
             <td>
                 <img src="/assets/img/people/ZhentaoLiu.png"><br>
                 Zhentao Liu
             </td>
             <td>
-                <img src="/assets/img/people/HaoShenWang.jpg"><br>
+                <img src="/assets/img/people/HaoShenWang.png"><br>
                 HaoShen Wang
             </td>
         </tr>

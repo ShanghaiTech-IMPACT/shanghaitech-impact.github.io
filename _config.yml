@@ -20,7 +20,6 @@ author: IMPACT Lab
 ###############################################
 
 navbar-links:
-  Home: "/IMPACT Lab/"
   People: "/people/"
   Research: "/research/"
   Publications: "/publications/"
