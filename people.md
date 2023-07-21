@@ -51,7 +51,7 @@ title: People
         <tr>
             <td>
                 <img src="/assets/img/people/HanWu.jpg"><br>
-                <a href="https://erdanc.github.io/">Han Wu</a>
+                <a href="http://hanwu.website/">Han Wu</a>
             </td>
             <td>
                 <img src="/assets/img/people/ZhentaoLiu.png"><br>
