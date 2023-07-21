@@ -55,12 +55,12 @@ title: People
                 Han Wu
             </td>
             <td>
-                <img src="/assets/img/people/ZhentaoLiu.png"><br>
-                Zhentao Liu
-            </td>
-            <td>
                 <img src="/assets/img/people/HaoShenWang.png"><br>
                 HaoShen Wang
+            </td>
+            <td>
+                <img src="/assets/img/people/ZhentaoLiu.png"><br>
+                Zhentao Liu
             </td>
         </tr>
         <tr>
