@@ -4,6 +4,25 @@ title: Publications
 ---
 
 <br>
+Full publication list can be referred [here](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=uEd_TroAAAAJ&sortby=pubdate).
+
+\* indicates equal contribution.
+
+## 2023
+<html>
+    <ul class="publications">
+        <li>
+            <div class="title">Robust Hybrid Learning for Automatic Teeth Segmentation and Labeling on 3D Dental Models</div>
+            <p>Shaojie Zhuang, Guangshun Wei, Zhiming Cui, Yuanfeng Zhou.</p>
+            <p>IEEE Transactions on Multimedia (TMM), 2023.</p>
+    	</li>
+        <li>
+            <div class="title">Hierarchical Organ-Aware Total-Body Standard-Dose PET Reconstruction From Low-Dose PET and CT Images</div>
+            <p>Jiadong Zhang, Zhiming Cui, Caiwen Jiang, Shanshan Guo, Fei Gao, Dinggang Shen.</p>
+            <p>IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2023.</p>
+    	</li>
+    </ul>
+</html>
 
 ## 2022
 <html>
@@ -19,11 +38,25 @@ title: Publications
             <p>Medical Image Analysis (MedIA), 2022.</p>
         </li>
         <li>
+            <div class="title">Mapping in Cycles: Dual-Domain PET-CT Synthesis Framework with Cycle-Consistent Constraints</div>
+            <p>Jiadong Zhang, Zhiming Cui, Caiwen Jiang, Jingyang Zhang, Fei Gao, Dinggang Shen.</p>
+            <p>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022.</p>
+        </li>
+        <li>
+            <div class="title">Curvature-Enhanced Implicit Function Network for High-quality Tooth Model Generation from CBCT Images</div>
+            <p>Yu Fang, Zhiming Cui, Lei Ma, Lanzhuju Mei, Bojun Zhang, Yue Zhao, Zhihao Jiang, Yiqiang Zhan, Yongsheng Pan, Min Zhu, Dinggang Shen.</p>
+            <p>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022.</p>
+        </li>
+        <li>
             <div class="title">A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images</div>
             <p>Zhiming Cui, Yu Fang, Lanzhuju Mei, Bojun Zhang, Bo Yu, Jiameng Liu, Caiwen Jiang, Yuhang Sun, Lei Ma, Jiawei Huang, Yang Liu, Yue Zhao, Chunfeng Lian, Zhongxiang Ding, Min Zhu, and Dinggang Shen.</p>
             <p>Nature Communications, 2022.</p>
         </li>
         <li>
+            <div class="title">Reconstruction of Standard-Dose Pet From Low-Dose Pet Via Dual-Frequency Supervision and Global Aggregation Module</div>
+            <p>Caiwen Jiang, Yongsheng Pan, Zhiming Cui, Dinggang Shen.</p>
+            <p>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022.</p>
+        </li><li>
             <div class="title">Structure-Aware Long Short-Term Memory Network for 3D Cephalometric Landmark Detection</div>
             <p>Runnan Chen, Yuexin Ma, Nenglun Chen, Lingjie Liu, Zhiming Cui, Yanhong Lin, Wenping Wang.</p>
             <p>IEEE Transactions on Medical Imaging (TMI), 2022.</p>
