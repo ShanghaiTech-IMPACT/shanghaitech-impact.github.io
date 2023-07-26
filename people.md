@@ -35,7 +35,7 @@ title: People
             B.E. WUT
         </td>
         <td>
-            <img src="/assets/img/people/ZhentaoLiu.png" class="rounded-image"><br>
+            <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image"><br>
             Zhentao Liu<br>
             M.S. since 2022<br>
             B.E. NBU
