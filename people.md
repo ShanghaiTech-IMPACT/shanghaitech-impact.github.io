@@ -29,7 +29,7 @@ title: People
 <table class="people" id="students">
     <tr>
         <td>
-            <img src="/assets/img/people/HanWu.jpg" class="rounded-image"><br>
+            <img src="/assets/img/people/HanWu.png" class="rounded-image"><br>
             <a href="http://hanwu.website/">Han Wu</a><br>
             M.S. since 2022<br>
             B.E. WUT
@@ -107,41 +107,41 @@ title: People
             justify-content: center;
         }
         #image-container {
-            position: relative; /* 设置容器为相对定位 */
-            width: 100%; /* 设置容器宽度 */
-            height: 600px; /* 设置容器高度 */
-            overflow: hidden; /* 隐藏超出容器的部分 */
+            position: relative; 
+            width: 100%; 
+            height: 600px;
+            overflow: hidden; 
         }
         #image-container img {
-            position: absolute; /* 设置图片为绝对定位 */
+            position: absolute; 
             top: 0;
             left: 0;
-            width: 100%; /* 设置图片宽度为容器宽度 */
-            height: 100%; /* 设置图片高度为容器高度 */
+            width: 100%;
+            height: 100%; 
             object-fit: contain; 
-            opacity: 0; /* 初始设置图片透明度为0 */
-            transition: opacity 0.5s ease-in-out; /* 添加过渡效果 */
+            opacity: 0; 
+            transition: opacity 0.5s ease-in-out;
         }
         #image-container img.active {
-            opacity: 1; /* 设置当前图片透明度为1 */
+            opacity: 1; 
         }
     </style>
     <script>
-        var slider = document.getElementById("slider"); // 获取滚动播放图片的父元素
-        var imageContainer = document.getElementById("image-container"); // 获取图片容器
-        var images = imageContainer.getElementsByTagName("img"); // 获取所有滚动播放图片的集合
-        var index = 0;  // 设置初始索引和滚动速度
-        var speed = 3000; // 每张图片滚动的间隔时间（以毫秒为单位）
-        function slide() { // 定义滚动函数
-            images[index].classList.remove("active"); // 移除当前图片的active类
-            index++; // 增加索引
+        var slider = document.getElementById("slider"); 
+        var imageContainer = document.getElementById("image-container"); 
+        var images = imageContainer.getElementsByTagName("img"); 
+        var index = 0; 
+        var speed = 3000; 
+        function slide() { 
+            images[index].classList.remove("active"); 
+            index++; 
             if (index >= images.length) {
-                index = 0; // 如果索引超出范围，则重置为0
+                index = 0; 
             }
-            images[index].classList.add("active"); // 添加下一张图片的active类
-            setTimeout(slide, speed); // 设置下一次滚动的定时器
+            images[index].classList.add("active"); 
+            setTimeout(slide, speed);
         }
-        slide();  // 调用滚动函数开始滚动播放图片
+        slide();  
     </script>
 </div>
 
