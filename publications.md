@@ -8,9 +8,18 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 
 \* indicates equal contribution.
 
+
+
 ## 2023
 <html>
     <ul class="publications">
+        <li>
+            <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
+            <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, Zhiming Cui, Dingggang Shen.</p>
+            <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
+            <p>[<a href="https://arxiv.org/abs/2307.12845" >arXiv</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow">
+</p>
+    	</li>
         <li>
             <div class="title">Robust Hybrid Learning for Automatic Teeth Segmentation and Labeling on 3D Dental Models</div>
             <p>Shaojie Zhuang, Guangshun Wei, Zhiming Cui, Yuanfeng Zhou.</p>
@@ -48,7 +57,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <p>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2022.</p>
         </li>
         <li>
-            <div class="title">A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images</div>
+            <div class="title">A fully Automatic AI System for Tooth and Alveolar Bone Segmentation from Cone-beam CT Images</div>
             <p>Zhiming Cui, Yu Fang, Lanzhuju Mei, Bojun Zhang, Bo Yu, Jiameng Liu, Caiwen Jiang, Yuhang Sun, Lei Ma, Jiawei Huang, Yang Liu, Yue Zhao, Chunfeng Lian, Zhongxiang Ding, Min Zhu, and Dinggang Shen.</p>
             <p>Nature Communications, 2022.</p>
         </li>
