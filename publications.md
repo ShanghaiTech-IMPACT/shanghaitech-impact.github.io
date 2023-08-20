@@ -17,7 +17,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
             <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, Zhiming Cui, Dingggang Shen.</p>
             <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
-            <p>[<a href="https://arxiv.org/abs/2307.12845" >arXiv</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow">
+            <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow">
 </p>
     	</li>
         <li>
