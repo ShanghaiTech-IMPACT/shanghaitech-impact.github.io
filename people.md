@@ -80,7 +80,7 @@ title: People
         <td>
                 <img src="/assets/img/people/JiaminWu.png" class="rounded-image"><br>
                 Jiamin Wu<br>
-                Ph.D from HKU
+                Ph.D. from HKU
             </td>
             <td>
                 <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image"><br>
