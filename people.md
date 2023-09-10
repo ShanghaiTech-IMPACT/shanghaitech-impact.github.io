@@ -78,7 +78,7 @@ title: People
     <table class="people" id="students">
         <tr>
         <td>
-                <img src="/assets/img/people/JiamingWu.png" class="rounded-image"><br>
+                <img src="/assets/img/people/JiaminWu.png" class="rounded-image"><br>
                 Jiamin Wu<br>
                 Ph.D from HKU
             </td>
