@@ -77,13 +77,15 @@ title: People
 <html>
     <table class="people" id="students">
         <tr>
+        <td>
+                <img src="/assets/img/people/JiamingWu.png" class="rounded-image"><br>
+                Jiamin Wu<br>
+                Ph.D from HKU
+            </td>
             <td>
                 <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image"><br>
                 Qingyao Luo<br>
                 M.S. from Northeastern University
-            </td>
-            <td>
-                &nbsp;
             </td>
             <td>
                 &nbsp;
