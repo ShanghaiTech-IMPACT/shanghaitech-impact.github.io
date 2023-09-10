@@ -4,8 +4,6 @@ title: People
 ---
 
 
-
-## Graduate Students
 <!-- <style>
     .rounded-image {
         width: 180px;
@@ -25,6 +23,7 @@ title: People
     }
 </style>
 
+## Graduate Students
 
 <table class="people" id="students">
     <tr>

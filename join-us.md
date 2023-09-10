@@ -5,7 +5,7 @@ title: Join Us
 
 Thanks for your interest in our lab.
 
-We are accepting students of different backgrounds.
+We are accepting students with different backgrounds.
 
 
 ### Prospective Graduate Students
