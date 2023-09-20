@@ -66,6 +66,20 @@ title: People
             B.E. TMU & TJU
         </td>
     </tr>
+    <tr>
+        <td>
+                <img src="/assets/img/people/ZhenyuTao.jpg" class="rounded-image"><br>
+                Zhenyu Tao<br>
+                M.S. since 2023<br>
+                B.E. HFUT
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
 </table>
 
 
@@ -85,7 +99,7 @@ title: People
             <td>
                 <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image"><br>
                 Qingyao Luo<br>
-                M.S. from Northeastern University
+                M.S. from NEU
             </td>
             <td>
                 &nbsp;
@@ -101,6 +115,7 @@ title: People
         <img src="/assets/img/Gallery/20230617_0.jpg">
         <img src="/assets/img/Gallery/20230617_1.jpg">
         <img src="/assets/img/Gallery/20230617_2.jpg">
+        <img src="/assets/img/Gallery/20230919_0.jpg">
     </div>
     <style>
         #slider {
