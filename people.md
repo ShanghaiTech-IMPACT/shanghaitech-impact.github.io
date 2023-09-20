@@ -70,7 +70,7 @@ title: People
         <td>
                 <img src="/assets/img/people/ZhenyuTao.jpg" class="rounded-image"><br>
                 Zhenyu Tao<br>
-                M.S. since 2023<br>
+                M.Eng. since 2023<br>
                 B.E. HFUT
             </td>
             <td>
