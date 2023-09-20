@@ -54,7 +54,7 @@ title: People
             B.E. ShanghaiTech
         </td>
         <td>
-            <img src="/assets/img/people/ChenfanXu.jpg" class="rounded-image"><br>
+            <img src="/assets/img/people/ChenfanXu.png" class="rounded-image"><br>
             Chenfan Xu<br>
             M.S. since 2023<br>
             B.E. SHU
