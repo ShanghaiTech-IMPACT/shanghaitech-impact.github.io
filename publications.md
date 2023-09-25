@@ -8,6 +8,46 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 
 \* indicates equal contribution.
 
+<!-- 
+<style>
+.publication-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.publication-container .image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.publication-container .info {
+    flex: 1 1 auto;
+}
+
+.publication-container .info .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.publication-container .info p {
+    margin-bottom: 5px;
+}
+</style>
+
+<div class="publication-container">
+    <div class="image">
+        <img src="/assets/img/Gallery/20230617_0.jpg" alt="Publication Image" width="180" height="150">
+    </div>
+    <div class="info">
+        <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
+        <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, Zhiming Cui, Dingggang Shen.</p>
+        <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
+        <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow"></p>
+    </div>
+</div> -->
+
+
 
 
 ## 2023
@@ -17,8 +57,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
             <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, Zhiming Cui, Dingggang Shen.</p>
             <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
-            <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow">
-</p>
+            <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow"></p>
     	</li>
         <li>
             <div class="title">Robust Hybrid Learning for Automatic Teeth Segmentation and Labeling on 3D Dental Models</div>
@@ -60,6 +99,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <div class="title">A fully Automatic AI System for Tooth and Alveolar Bone Segmentation from Cone-beam CT Images</div>
             <p>Zhiming Cui, Yu Fang, Lanzhuju Mei, Bojun Zhang, Bo Yu, Jiameng Liu, Caiwen Jiang, Yuhang Sun, Lei Ma, Jiawei Huang, Yang Liu, Yue Zhao, Chunfeng Lian, Zhongxiang Ding, Min Zhu, and Dinggang Shen.</p>
             <p>Nature Communications, 2022.</p>
+            <p>[<a href="https://www.nature.com/articles/s41467-022-29637-2.pdf" >paper</a>] [<a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT?logoColor=greenyellow"></p>
         </li>
         <li>
             <div class="title">Reconstruction of Standard-Dose Pet From Low-Dose Pet Via Dual-Frequency Supervision and Global Aggregation Module</div>
