@@ -54,6 +54,16 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li>
+            <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
+            <p>Lanzhuju Mei, Yu Fang, Yue Zhao, Xiang Sean Zhou, Min Zhu, Zhiming Cui, Dinggang Shen.</p>
+            <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
+    	</li>
+        <li>
+            <div class="title">Breast Fibroglandular Tissue Segmentation for Automated BPE Quantification with Iterative Cycle-consistent Semi-supervised Learning</div>
+            <p>Jiadong Zhang, Zhiming Cui, Luping Zhou, Yiqun Sun, Zhenhui Li, Zaiyi Liu, Dinggang Shen.</p>
+            <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
+    	</li>
+        <li>
             <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
             <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, Zhiming Cui, Dingggang Shen.</p>
             <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
