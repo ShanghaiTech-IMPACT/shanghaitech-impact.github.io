@@ -6,7 +6,7 @@ title: Publications
 <br>
 Full publication list can be referred [here](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=uEd_TroAAAAJ&sortby=pubdate).
 
-\* indicates equal contribution and $^+$ indicates corresponding author.
+\* indicates equal contribution and <sup>+</sup> indicates corresponding author.
 
 
 
