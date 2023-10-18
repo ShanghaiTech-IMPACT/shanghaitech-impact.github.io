@@ -17,6 +17,11 @@ Full publication list can be referred [here](https://scholar.google.com/citation
     <ul class="publications">
         <li>
             <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
+            <p>Jiadong Zhang*, Kaicong Sun*, Junwei Yang*, Yan Hu*, Yuning Gu*, <strong>Zhiming Cui</strong>*, Xiaopeng Zong, Fei Gao, Dinggang Shen<sup>+</sup>.</p>
+            <p>Nature Communications Engineering, 2023.</p>
+    	</li>
+        <li>
+            <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
             <p>Lanzhuju Mei, Yu Fang, Yue Zhao, Xiang Sean Zhou, Min Zhu, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
             <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
     	</li>
