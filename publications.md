@@ -21,11 +21,11 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <p>British Machine Vision Conference (BMVC), 2023.</p>
             <p>[<a href="https://arxiv.org/abs/2310.11106" >paper</a>]</p>
     	</li>
-        <li>
+        <!-- <li>
             <div class="title">A Generalized Dual-domain Generative Framework with Hierarchical Consistency for Medical Image Reconstruction and Synthesis</div>
             <p>Jiadong Zhang*, Kaicong Sun*, Junwei Yang*, Yan Hu*, Yuning Gu*, <strong>Zhiming Cui</strong>*, Xiaopeng Zong, Fei Gao, Dinggang Shen<sup>+</sup>.</p>
             <p>Nature Communications Engineering, 2023.</p>
-    	</li>
+    	</li> -->
         <li>
             <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
             <p>Lanzhuju Mei, Yu Fang, Yue Zhao, Xiang Sean Zhou, Min Zhu, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
