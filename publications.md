@@ -16,7 +16,13 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li>
-            <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
+            <div class="title">3D Structure-guided Network for Tooth Alignment in 2D Photograph</div>
+            <p>Yulong Dou, Lanzhuju Mei, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+            <p>British Machine Vision Conference (BMVC), 2023.</p>
+            <p>[<a href="https://arxiv.org/abs/2310.11106" >paper</a>]</p>
+    	</li>
+        <li>
+            <div class="title">A Generalized Dual-domain Generative Framework with Hierarchical Consistency for Medical Image Reconstruction and Synthesis</div>
             <p>Jiadong Zhang*, Kaicong Sun*, Junwei Yang*, Yan Hu*, Yuning Gu*, <strong>Zhiming Cui</strong>*, Xiaopeng Zong, Fei Gao, Dinggang Shen<sup>+</sup>.</p>
             <p>Nature Communications Engineering, 2023.</p>
     	</li>
