@@ -13,11 +13,11 @@ A: We are looking for self-motivated students with a decent coding foundation an
 
 ### Q: I didn't major in a BME-related field during my undergraduate studies. Can I join the IMPACT Lab?
 
-A: Sure. Our current members come from diverse undergraduate backgrounds, including BME, CS, IE and Communication Engineering ect. We welcome students of all backgrounds to submit their applications.
+A: Sure. Our current members come from diverse undergraduate backgrounds, including CS, BME, IE and Communication Engineering ect. We welcome students of all backgrounds to submit their applications.
 
 ### Q: Can students without research experience join IMPACT Lab?
 
-A: Absolutely. For those without prior research experience, we hope you can have a basic understanding and preference in the ralated area so that we can match you with the most suitable research area. And don't worry,  every member will receive thorough guidance during the initial stages of research.
+A: Absolutely. For those without prior research experience, we hope you can have a basic understanding and preference in the ralated area so that we can match you with the most suitable research topic. And don't worry,  every member will receive thorough guidance during the initial stages of research.
 
 ### Q: What would the training program be like for Master/PhD students at IMPACT lab?
 
