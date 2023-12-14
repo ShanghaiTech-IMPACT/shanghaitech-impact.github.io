@@ -30,6 +30,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
             <p>Lanzhuju Mei, Yu Fang, Yue Zhao, Xiang Sean Zhou, Min Zhu, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
             <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
+            <p>[<a href="https://ieeexplore.ieee.org/abstract/document/10264685" >paper</a>]</p>
     	</li>
         <li>
             <div class="title">Breast Fibroglandular Tissue Segmentation for Automated BPE Quantification with Iterative Cycle-consistent Semi-supervised Learning</div>
@@ -37,14 +38,10 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
     	</li>
         <li>
-            <div class="title">Anatomical-Aware Point-Voxel Network for Couinaud Segmentation in Liver CT</div>
-            <p>Xukun Zhang, Yang Liu, Sharib Ali, Xiao Zhao, Mingyang Sun, Minghao Han, Tao Liu, Peng Zhai, <strong>Zhiming Cui</strong><sup>+</sup>,  Peixuan Zhang, Xiaoying Wang<sup>+</sup>, Lihua Zhang<sup>+</sup>.</p>
-            <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
-    	</li>
-        <li>
             <div class="title">HC-Net: Hybrid Classification Network for Automatic Periodontal Disease Diagnosis</div>
             <p>Lanzhuju Mei, Yu Fang, <strong>Zhiming Cui</strong>, Ke Deng, Nizhuan Wang, Xuming He, Yiqiang Zhan, Xiang Zhou, Maurizio Tonetti<sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
             <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
+            <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_6" >paper</a>]</p>
     	</li>
         <li>
             <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
