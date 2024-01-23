@@ -30,19 +30,19 @@ title: People
         <td>
             <img src="/assets/img/people/HanWu.png" class="rounded-image"><br>
             <a href="http://hanwu.website/">Han Wu</a><br>
-            M.S. since 2022<br>
+            M.Phil since 2022<br>
             B.E. WUT
         </td>
         <td>
             <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image"><br>
-            Zhentao Liu<br>
-            M.S. since 2022<br>
+            <a href="https://github.com/Zhentao-Liu/">Zhentao Liu</a><br>
+            M.Phil since 2022<br>
             B.E. NBU
         </td>
         <td>
             <img src="/assets/img/people/HaoshenWang.jpg" class="rounded-image"><br>
             Haoshen Wang<br>
-            M.S. since 2022<br>
+            M.Phil since 2022<br>
             B.E. DUT
         </td>
     </tr>
@@ -50,19 +50,19 @@ title: People
         <td>
             <img src="/assets/img/people/YulongDou.jpg" class="rounded-image"><br>
             Yulong Dou<br>
-            M.S. since 2023<br>
+            M.Phil since 2023<br>
             B.E. ShanghaiTech
         </td>
         <td>
             <img src="/assets/img/people/ChenfanXu.png" class="rounded-image"><br>
             Chenfan Xu<br>
-            M.S. since 2023<br>
+            M.Phil since 2023<br>
             B.E. SHU
         </td>
         <td>
             <img src="/assets/img/people/XingyueWang.jpg" class="rounded-image"><br>
             Xingyue Wang<br>
-            M.S. since 2023<br>
+            M.Phil since 2023<br>
             B.E. TMU & TJU
         </td>
     </tr>
@@ -99,7 +99,7 @@ title: People
             <td>
                 <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image"><br>
                 Qingyao Luo<br>
-                M.S. from NEU
+                M.Phil from NEU
             </td>
             <td>
                 &nbsp;
