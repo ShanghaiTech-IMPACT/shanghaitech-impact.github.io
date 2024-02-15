@@ -7,6 +7,7 @@ Thanks for your interest in our lab.
 
 Here are some FAQs which may help you learn more about us.
 
+
 ### Q: What kind of members is IMPACT Lab looking for?
 
 A: We are looking for self-motivated students with a decent coding foundation and an interest in our research.
@@ -25,7 +26,9 @@ A: At IMPACT, every member begins with comprehensive hands-on guidance. We will 
 
 ### Q: How to join IMPACT Lab? 
 
-A: If you're an undergraduate student at ShanghaiTech, feel free to directly visit our Lab at 305/308 Room BME Building for a chat. For prospective graduate students from other institutions, we are just an email away. Please send us an <a href="mailto:cuizhm@shanghaitech.edu.cn" >email</a> with your CV for further discussion.
+A: If you're an undergraduate student at ShanghaiTech, feel free to directly visit our Lab at 305/308 Room BME Building for a chat. For prospective graduate students from other institutions, we are just an email away. Please send us an <a href="mailto:cuizhm@shanghaitech.edu.cn" >email</a> with your CV for further discussion. 
+BTW, all appellants are encouraged to watch these talks (<a href="https://www.bilibili.com/video/BV1e3411H7o1/?spm_id_from=333.337.search-card.all.click&vd_source=09195b87c697861bee9d36eac63f3a3c
+">talk@VALSE-Webinar 2022</a>, <a href="https://www.bilibili.com/video/BV1nd4y127HE/?p=23&vd_source=eae45dc1af93c1407ccba0e925fc1f13">talk@MICS 2022</a>) to have a basic understanding of our research before reaching our for us.
 
 
 
