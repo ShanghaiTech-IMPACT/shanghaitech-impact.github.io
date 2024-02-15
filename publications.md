@@ -216,7 +216,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <div class="title">Unsupervised learning of intrinsic structural representation points</div>
             <p>Nenglun Chen, Lingjie Liu, <strong>Zhiming Cui</strong>, Runnan Chen, Changhe Tu, Wenping Wang<sup>+</sup>.</p>
             <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.</p>
-            <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>]</p>
+            <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>] [<a href="https://github.com/NolenChen/3DStructurePoints">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NolenChen/3DStructurePoints"></p>
         </li>
     </ul>
 </html>
