@@ -10,61 +10,78 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 
 
 
-
+<style>
+        .publication-img {
+            float: left; 
+            margin-right: 20px; 
+            margin-bottom: 10px; 
+            width: 200px; 
+            height: 120px;
+        }
+    </style>
+</head>
 
 ## 2023
 <html>
     <ul class="publications">
         <li>
-            <img src="/assets/img/publications/2023_3D_Struture.png" style="float:left; margin-right:20px; margin-bottom:10px; width:100px; height:150px;">
+            <img src="/assets/img/publications/2023_3D_Struture.png" class="publication-img">
             <div class="title">3D Structure-guided Network for Tooth Alignment in 2D Photograph</div>
             <p>Yulong Dou, Lanzhuju Mei, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
             <p>British Machine Vision Conference (BMVC), 2023.</p>
             <p>[<a href="https://arxiv.org/abs/2310.11106" >paper</a>]</p>
         </li>
         <li>
+            <img src="/assets/img/publications/2023_DTRNet.png" style="publication-img">
             <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
             <p>Lanzhuju Mei, Yu Fang, Yue Zhao, Xiang Sean Zhou, Min Zhu, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
             <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
             <p>[<a href="https://ieeexplore.ieee.org/abstract/document/10264685" >paper</a>]</p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_Breast.png" style="publication-img">
             <div class="title">Breast Fibroglandular Tissue Segmentation for Automated BPE Quantification with Iterative Cycle-consistent Semi-supervised Learning</div>
             <p>Jiadong Zhang, <strong>Zhiming Cui</strong>, Luping Zhou, Yiqun Sun, Zhenhui Li, Zaiyi Liu, Dinggang Shen<sup>+</sup>.</p>
             <p>IEEE Transactions on Medical Imaging (TMI), 2023.</p>
             <p>[<a href="https://ieeexplore.ieee.org/abstract/document/10265133/" >paper</a>]</p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_HCNet.png" style="publication-img">
             <div class="title">HC-Net: Hybrid Classification Network for Automatic Periodontal Disease Diagnosis</div>
             <p>Lanzhuju Mei, Yu Fang, <strong>Zhiming Cui</strong>, Ke Deng, Nizhuan Wang, Xuming He, Yiqiang Zhan, Xiang Zhou, Maurizio Tonetti<sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
             <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
             <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_6" >paper</a>]</p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_Multi-View.png" style="publication-img">
             <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
             <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, <strong>Zhiming Cui</strong><sup>+</sup>, Dingggang Shen<sup>+</sup>.</p>
             <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
             <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow"></p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_Rubust.png" style="publication-img">
             <div class="title">Robust Hybrid Learning for Automatic Teeth Segmentation and Labeling on 3D Dental Models</div>
             <p>Shaojie Zhuang, Guangshun Wei, <strong>Zhiming Cui</strong>, Yuanfeng Zhou<sup>+</sup>.</p>
             <p>IEEE Transactions on Multimedia (TMM), 2023.</p>
             <p>[<a href="https://ieeexplore.ieee.org/abstract/document/10169899" >paper</a>]</p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_Dental.png" style="publication-img">
             <div class="title">Dental Anatomy Segmentation from Cone Beam CT Images</div>
             <p>Minhui Tan, Yu Fang, Lei Ma, Yu Zhang, <strong>Zhiming Cui</strong><sup>+</sup>, Dingggang Shen.</p>
             <p>International Symposium on Biomedical Imaging (ISBI), 2023.</p>
             <p>[<a href="https://ieeexplore.ieee.org/abstract/document/10230393/" >paper</a>]</p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_Morphology.png" style="publication-img">
             <div class="title">Morphology and mechanical performance of dental crown designed by 3D-DCGAN</div>
             <p>Hao Ding, <strong>Zhiming Cui</strong>, Ebrahim Maghami, Yanning Chen, Jukka Pekka Matinlinna, Edmond Ho Nang Pow, Alex Siu Lun Fok, Michael Francis Burrow, Wenping Wang, James Kit Hon Tsoi<sup>+</sup>.</p>
             <p>Dental Materials, 2023.</p>
             <p>[<a href="https://www.sciencedirect.com/science/article/pii/S0109564123000416" >paper</a>]</p>
     	</li>
         <li>
+            <img src="/assets/img/publications/2023_Hierarchical.png" style="publication-img">
             <div class="title">Hierarchical Organ-Aware Total-Body Standard-Dose PET Reconstruction From Low-Dose PET and CT Images</div>
             <p>Jiadong Zhang, <strong>Zhiming Cui</strong>, Caiwen Jiang, Shanshan Guo, Fei Gao, Dinggang Shen<sup>+</sup>.</p>
             <p>IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2023.</p>
