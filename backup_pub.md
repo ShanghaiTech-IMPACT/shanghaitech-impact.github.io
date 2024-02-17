@@ -16,12 +16,11 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li>
-            <img src="./assets/img/publications/2023_3D_Struture.png" alt="Paper Image" style="float:left; margin-right:10px;">
             <div class="title">3D Structure-guided Network for Tooth Alignment in 2D Photograph</div>
             <p>Yulong Dou, Lanzhuju Mei, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
             <p>British Machine Vision Conference (BMVC), 2023.</p>
             <p>[<a href="https://arxiv.org/abs/2310.11106" >paper</a>]</p>
-        </li>
+    	</li>
         <li>
             <div class="title">DTR-Net: Dual-space 3D Tooth Model Reconstruction from Panoramic X-ray Images</div>
             <p>Lanzhuju Mei, Yu Fang, Yue Zhao, Xiang Sean Zhou, Min Zhu, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
