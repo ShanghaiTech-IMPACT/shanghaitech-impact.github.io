@@ -16,7 +16,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li>
-            <img src="./assets/img/publications/2023_3D_Struture.png" alt="Paper Image" style="float:left; margin-right:10px;">
+            <img src="/assets/img/publications/2023_3D_Struture.png" alt="Paper Image" style="float:left; margin-right:10px;">
             <div class="title">3D Structure-guided Network for Tooth Alignment in 2D Photograph</div>
             <p>Yulong Dou, Lanzhuju Mei, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
             <p>British Machine Vision Conference (BMVC), 2023.</p>
