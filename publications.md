@@ -15,8 +15,8 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             float: left; 
             margin-right: 20px; 
             margin-bottom: 10px; 
-            width: 200px; 
-            height: 120px;
+            width: 280px; 
+            height: 140px;
         }
     </style>
 </head>
