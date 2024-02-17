@@ -14,16 +14,16 @@ Full publication list can be referred [here](https://scholar.google.com/citation
     <style>
         .publication-item {
             display: flex;
-            align-items: flex-start; /* 确保内容在顶部对齐 */
-            margin-bottom: 20px; /* 每项之间的间距 */
+            align-items: flex-start;  
+            margin-bottom: 10px;  
         }
         .publication-img {
-            margin-right: 20px; /* 图片和文本之间的间距 */
-            width: 200px; 
-            height: 120px;
+            margin-right: 20px;  
+            width: 280px; 
+            height: 150px;
         }
         .publication-content {
-            flex: 1; /* 确保文本内容占据剩余空间 */
+            flex: 1;  
         }
     </style>
 </head>
