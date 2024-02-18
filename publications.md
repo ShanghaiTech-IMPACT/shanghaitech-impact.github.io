@@ -207,7 +207,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
-            <img src="/assets/img/publications/2021_Self-Attention.png" class="publication-img">
+            <img src="/assets/img/publications/2021_Self.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Self-Attention Implicit Function Networks for 3D Dental Data Completion</div>
                 <p>Yuhan Ping, Guodong Wei, Lei Yang, <strong>Zhiming Cui</strong>, Wenping Wang<sup>+</sup>.</p>
