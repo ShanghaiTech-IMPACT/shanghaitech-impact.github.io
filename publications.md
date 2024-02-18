@@ -20,7 +20,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         .publication-img {
             margin-right: 20px;  
             width: 280px; 
-            height: 150px;
+            height: 140px;
         }
         .publication-content {
             flex: 1;  
@@ -146,7 +146,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             </div>
         </li>
         <li class="publication-item">
-            <img src="/assets/img/publications/2022_Curvature-Enhanced.png" class="publication-img">
+            <img src="/assets/img/publications/2022_Curvature.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Curvature-Enhanced Implicit Function Network for High-quality Tooth Model Generation from CBCT Images</div>
                 <p>Yu Fang, <strong>Zhiming Cui</strong>, Lei Ma, Lanzhuju Mei, Bojun Zhang, Yue Zhao, Zhihao Jiang, Yiqiang Zhan, Yongsheng Pan, Min Zhu, Dinggang Shen<sup>+</sup>.</p>
@@ -234,7 +234,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             </div>
         </li>
         <li class="publication-item">
-            <img src="/assets/img/publications/2021_Confidence-aware.png" class="publication-img">
+            <img src="/assets/img/publications/2021_Confidence-Aware.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Confidence-aware Cascaded Network for Fetal Brain Segmentation on MR Images</div>
                 <p>Xukun Zhang*, <strong>Zhiming Cui</strong>*, Jie Wei, Jingjiao Lou, Changan Chen, Wenxin Hu, He Zhang, Tao Zhou, Feng Shi, Dinggang Shen<sup>+</sup>.</p>
