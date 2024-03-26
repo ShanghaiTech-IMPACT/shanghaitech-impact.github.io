@@ -12,7 +12,7 @@ title: People
         border: 5px solid rgb(192, 192, 192);
     }
 </style> -->
-<!-- <style>
+<style>
     .rounded-image {
         width: 180px;
         height: 250px;
@@ -21,20 +21,7 @@ title: People
         object-fit: cover;
         object-position: center;
     }
-</style> -->
-<style>
-    .rounded-image {
-        width: 20vw;  
-        height: auto;  
-        max-width: 180px; 
-        max-height: 250px;  
-        border-radius: 50%;
-        border: 5px solid rgb(192, 192, 192);
-        object-fit: cover;
-        object-position: center;
-    }
 </style>
-
 
 ## Graduate Students
 
