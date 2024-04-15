@@ -4,6 +4,43 @@ title: IMPACT Lab
 subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming Lab
 ---
 
+<style>
+    /* 默认样式，适用于大屏幕 */
+    .flex-container {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .flex-container img {
+        width: 300px;
+        height: 420px;
+    }
+    .info {
+        margin-left: 50px;
+    }
+    .info h3, .info p {
+        line-height: 1.8;
+    }
+
+    /* 媒体查询，针对屏幕宽度小于或等于600px的设备 */
+    @media (max-width: 600px) {
+        .flex-container {
+            flex-direction: column; /* 将flex容器的方向改为垂直堆叠 */
+            align-items: center; /* 居中对齐项目 */
+            padding-top: 20px; /* 调整内边距以适应更小的屏幕 */
+            padding-bottom: 20px;
+        }
+        .flex-container img {
+            width: 80px; /* 减小图片大小以适应小屏幕 */
+            height: 100px;
+        }
+        .info {
+            margin-left: 0; /* 移除左边距，因为项目将垂直堆叠 */
+            margin-top: 20px; /* 在图片和文本信息之间添加一些顶部外边距 */
+        }
+    }
+</style>
 
 <div style="display: flex; align-items:center; padding-top: 30px; padding-bottom: 10px;">
     <img src="/assets/img/people/ZhimingCui.jpg" alt="image" width="300px" height="420px">

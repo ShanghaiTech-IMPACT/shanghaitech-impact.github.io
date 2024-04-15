@@ -12,6 +12,17 @@ title: People
         border: 5px solid rgb(192, 192, 192);
     }
 </style> -->
+<!-- <style>
+    .rounded-image {
+        width: 180px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid rgb(192, 192, 192);
+        object-fit: cover;
+        object-position: center;
+    }
+</style> -->
+
 <style>
     .rounded-image {
         width: 180px;
@@ -21,7 +32,20 @@ title: People
         object-fit: cover;
         object-position: center;
     }
+
+    /* 媒体查询，针对屏幕宽度小于或等于600px的设备 */
+    @media (max-width: 600px) {
+        .rounded-image {
+            width: 100px; /* 小屏幕上减小宽度 */
+            height: 140px; /* 小屏幕上减小高度 */
+            border-radius: 50%;
+            border: 3px solid rgb(192, 192, 192); /* 小屏幕上减小边框宽度 */
+            object-fit: cover;
+            object-position: center;
+        }
+    }
 </style>
+
 
 ## Graduate Students
 
@@ -124,7 +148,7 @@ title: People
                 Class 2022<br>
             </td>
             <td>
-                <img src="/assets/img/people/avatar-icon.png" class="rounded-image"><br>
+                <img src="/assets/img/people/JinzeWu.jpg" class="rounded-image"><br>
                 Jinze Wu<br>
                 Class 2022<br>
             </td>

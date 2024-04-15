@@ -97,7 +97,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2023_Morphology.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">Morphology and mechanical performance of dental crown designed by 3D-DCGAN</div>
+                <div class="title">Morphology and Mechanical Performance of Dental Crown Designed by 3D-DCGAN</div>
                 <p>Hao Ding, <strong>Zhiming Cui</strong>, Ebrahim Maghami, Yanning Chen, Jukka Pekka Matinlinna, Edmond Ho Nang Pow, Alex Siu Lun Fok, Michael Francis Burrow, Wenping Wang, James Kit Hon Tsoi<sup>+</sup>.</p>
                 <p>Dental Materials, 2023.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S0109564123000416" >paper</a>]</p>
@@ -130,7 +130,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2022_Grayscale.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">Grayscale self-adjusting network with weak feature enhancement for 3D lumbar anatomy segmentation</div>
+                <div class="title">Grayscale Self-adjusting Network with Weak Feature Enhancement for 3D Lumbar Anatomy Segmentation</div>
                 <p>Jinhua Liu, <strong>Zhiming Cui</strong>, Christian Desrosiers, Shuyi Lu, Yuanfeng Zhou<sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2022.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S1361841522002092" >paper</a>]</p>
@@ -193,7 +193,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2022_Dense.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">Dense Representative Tooth Landmark/axis Detection Network on 3D Model</div>
+                <div class="title">Dense Representative Tooth Landmark/Axis Detection Network on 3D Model</div>
                 <p>Guangshun Wei, <strong>Zhiming Cui</strong>, Jie Zhu, Lei Yang, Yuanfeng Zhou, P Singh, Min Gu, Wenping Wang<sup>+</sup>.</p>
                 <p>Computer Aided Geometric Design (CAGD), 2022.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S0167839622000139" >paper</a>]</p>
@@ -296,7 +296,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2020_TSegNet.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">TSegNet: An efficient and accurate tooth segmentation network on 3D dental model</div>
+                <div class="title">TSegNet: An Efficient and Accurate Tooth Segmentation Network on 3D Dental Model</div>
                 <p><strong>Zhiming Cui</strong>, Changjian Li, Nenglun Chen, Guodong Wei, Runnan Chen, Yuanfeng Zhou, Dinggang Shen, Wenping Wang<sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2020.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S1361841520303133" >paper</a>]</p>
@@ -323,7 +323,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2020_Unsupervised.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">Unsupervised learning of intrinsic structural representation points</div>
+                <div class="title">Unsupervised Learning of Intrinsic Structural Representation Points</div>
                 <p>Nenglun Chen, Lingjie Liu, <strong>Zhiming Cui</strong>, Runnan Chen, Changhe Tu, Wenping Wang<sup>+</sup>.</p>
                 <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.</p>
                 <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>] [<a href="https://github.com/NolenChen/3DStructurePoints">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NolenChen/3DStructurePoints?logoColor=greenyellow"></p>
