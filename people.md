@@ -143,7 +143,7 @@ title: People
                 Class 2021<br>
             </td>
             <td>
-                 <img src="/assets/img/people/avatar-icon.png" class="rounded-image"><br>
+                 <img src="/assets/img/people/WeiJia.png" class="rounded-image"><br>
                 Wei Jia<br>
                 Class 2022<br>
             </td>
