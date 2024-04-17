@@ -174,7 +174,7 @@ title: People
         #image-container {
             position: relative; 
             width: 100%; 
-            height: 600px;
+            height: 500px;
             overflow: hidden; 
         }
         #image-container img {
