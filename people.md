@@ -172,9 +172,9 @@ title: People
 
 <div id="slider">
     <div id="image-container">
-        <img src="/assets/img/Gallery/20230617_2.jpg">
-        <img src="/assets/img/Gallery/20230919_0.jpg">
         <img src="/assets/img/Gallery/20240328.jpg">
+        <img src="/assets/img/Gallery/20230919_0.jpg">
+        <img src="/assets/img/Gallery/20230617_2.jpg">
     </div>
     <script>
     var slider = document.getElementById("slider"); 
