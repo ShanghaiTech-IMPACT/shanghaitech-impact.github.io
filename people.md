@@ -3,56 +3,80 @@ layout: page
 title: People
 ---
 
-
 <style>
     .rounded-image {
-        width: 180px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         border: 5px solid rgb(192, 192, 192);
-        object-fit: cover;
+        object-fit: cover; 
         object-position: center;
     }
 
-    /* 媒体查询，针对屏幕宽度小于或等于600px的设备 */
+    
     @media (max-width: 600px) {
         .rounded-image {
-            width: 100px; /* 小屏幕上减小宽度 */
-            height: 140px; /* 小屏幕上减小高度 */
+            width: 100px;  
+            height: 100px;  
             border-radius: 50%;
-            border: 3px solid rgb(192, 192, 192); /* 小屏幕上减小边框宽度 */
+            border: 3px solid rgb(192, 192, 192);  
             object-fit: cover;
             object-position: center;
         }
     }
+
+    table {
+        width: 100%;
+        table-layout: fixed;
+        border-collapse: collapse; 
+    }
+
+    td {
+        width: 25%;
+        text-align: center;
+        vertical-align: top;
+        border: none;
+    }
 </style>
 
 
+## Ph.D. Students
+
+<html>
+    <table class="people" id="students">
+        <tr>
+            <td>
+                <img src="/assets/img/people/HanWu.png" class="rounded-image"><br>
+                <a href="http://hanwu.website/">Han Wu</a><br>
+                Ph.D. since 2022<br>
+                B.E. WUT
+            </td>
+            <td>
+                <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image"><br>
+                <a href="https://github.com/Zhentao-Liu/">Zhentao Liu</a><br>
+                Ph.D. since 2022<br>
+                B.E. NBU
+            </td>
+            <td>
+                &nbsp;
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+</html>
 
 ## Graduate Students
 
 <table class="people" id="students">
     <tr>
         <td>
-            <img src="/assets/img/people/HanWu.png" class="rounded-image"><br>
-            <a href="http://hanwu.website/">Han Wu</a><br>
-            M.S. since 2022<br>
-            B.E. WUT
-        </td>
-        <td>
-            <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image"><br>
-            <a href="https://github.com/Zhentao-Liu/">Zhentao Liu</a><br>
-            M.S. since 2022<br>
-            B.E. NBU
-        </td>
-        <td>
             <img src="/assets/img/people/HaoshenWang.jpg" class="rounded-image"><br>
             Haoshen Wang<br>
             M.S. since 2022<br>
             B.E. DUT
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="/assets/img/people/YulongDou.jpg" class="rounded-image"><br>
             Yulong Dou<br>
@@ -74,22 +98,22 @@ title: People
     </tr>
     <tr>
         <td>
-                <img src="/assets/img/people/ZhenyuTao.jpg" class="rounded-image"><br>
-                Zhenyu Tao<br>
-                M.Eng. since 2023<br>
-                B.E. HFUT
-            </td>
-            <td>
-                &nbsp;
-            </td>
-            <td>
-                &nbsp;
-            </td>
-        </tr>
+            <img src="/assets/img/people/ZhenyuTao.jpg" class="rounded-image"><br>
+            Zhenyu Tao<br>
+            M.Eng. since 2023<br>
+            B.E. HFUT
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
 </table>
-
-
-
 
 
 
@@ -97,7 +121,7 @@ title: People
 <html>
     <table class="people" id="students">
         <tr>
-        <td>
+            <td>
                 <img src="/assets/img/people/JiaminWu.png" class="rounded-image"><br>
                 Jiamin Wu<br>
                 Ph.D. from HKU
@@ -106,6 +130,11 @@ title: People
                 <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image"><br>
                 Qingyao Luo<br>
                 M.S. from NEU
+            </td>
+            <td>
+                <img src="/assets/img/people/ZichenZhang.jpg" class="rounded-image"><br>
+                Zichen Zhang<br>
+                M.S. from TUM
             </td>
             <td>
                 &nbsp;
@@ -133,6 +162,9 @@ title: People
                 <img src="/assets/img/people/JinzeWu.jpg" class="rounded-image"><br>
                 Jinze Wu<br>
                 Class 2022<br>
+            </td>
+            <td>
+                &nbsp;
             </td>
         </tr>
     </table>
