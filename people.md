@@ -104,11 +104,11 @@ title: People
             B.E. HFUT
         </td>
         <td>
-            &nbsp;
-        </td>
+                &nbsp;
+            </td>
         <td>
-            &nbsp;
-        </td>
+                &nbsp;
+            </td>
         <td>
             &nbsp;
         </td>
