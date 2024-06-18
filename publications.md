@@ -28,6 +28,38 @@ Full publication list can be referred [here](https://scholar.google.com/citation
     </style>
 </head>
 
+## 2024
+<html>
+    <ul class="publications">
+        <li class="publication-item">
+            <img src="/assets/img/publications/2024_teethdreamer.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">TeethDreamer: 3D Teeth Reconstruction from Five Intra-oral Photographs</div>
+                <p>Chenfan Xu, Zhentao Liu, Yuan Liu, Yulong Dou, Jiamin Wu, Jiepeng Wang, Minjiao Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024.</p>
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2024_celda.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">Cephalometric Landmark Detection across Ages with Prototypical Network</div>
+                <p>Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024.</p>
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2024_chatcad+.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">ChatCAD+: Towards a Universal and Reliable Interactive CAD using LLMs</div>
+                <p>Zihao Zhao, Sheng Wang, Jinchen Gu, Yitao Zhu, Lanzhuju Mei, Zixu Zhuang, <strong>Zhiming Cui</strong>, Qian Wang, Dinggang Shen<sup>+</sup>.</p>
+                <p>IEEE Transactions on Medical Imaging (TMI), 2024.</p>
+                <p>[<a href="https://arxiv.org/abs/2305.15964" >paper</a>] [<a href="https://github.com/zhaozh10/ChatCAD" >code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/ChatCAD?logoColor=greenyellow"></p>
+            </div>
+        </li>
+    </ul>
+</html>
+
+
 ## 2023
 <html>
     <ul class="publications">
