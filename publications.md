@@ -45,6 +45,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Cephalometric Landmark Detection across Ages with Prototypical Network</div>
                 <p>Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024.</p>
+                <p>[<a href="https://arxiv.org/abs/2406.12577" >paper</a>] [<a href="https://shanghaitech-impact.github.io/CeLDA/">project page</a>]</p>
             </div>
         </li>
         <li class="publication-item">
