@@ -79,7 +79,7 @@ title: People
         </td>
         <td>
             <img src="/assets/img/people/YulongDou.jpg" class="rounded-image"><br>
-            Yulong Dou<br>
+            <a href="https://douyl.github.io/">Yulong Dou</a><br>  
             M.S. since 2023<br>
             B.E. ShanghaiTech
         </td>
