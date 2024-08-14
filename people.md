@@ -53,7 +53,7 @@ title: People
             </td>
             <td>
                 <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image"><br>
-                <a href="https://github.com/Zhentao-Liu/">Zhentao Liu</a><br>
+                <a href="https://zhentao-liu.github.io/">Zhentao Liu</a><br>
                 Ph.D. since 2022<br>
                 B.E. NBU
             </td>
