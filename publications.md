@@ -19,14 +19,23 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         }
         .publication-img {
             margin-right: 20px;  
-            width: 280px; 
-            height: 140px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border-radius: 10px;  
+            /* padding: 1px; */
+            box-shadow: 2px 4px 6px rgba(0, 0, 0.5, 0.1);
+            position: relative;
+            max-width: 300px;  
+            overflow: hidden; 
         }
         .publication-content {
             flex: 1;  
         }
     </style>
 </head>
+
 
 ## 2024
 <html>
@@ -45,7 +54,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Cephalometric Landmark Detection across Ages with Prototypical Network</div>
                 <p>Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024.</p>
-                <p>[<a href="https://arxiv.org/abs/2406.12577" >paper</a>] [<a href="https://shanghaitech-impact.github.io/CeLDA/">project page</a>]</p>
+                <p>[<a href="https://arxiv.org/abs/2406.12577" >paper</a>] [<a href="https://shanghaitech-impact.github.io/CeLDA/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/CeLDA/" >code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/CeLDA?logoColor=greenyellow"></p>
             </div>
         </li>
         <li class="publication-item">
