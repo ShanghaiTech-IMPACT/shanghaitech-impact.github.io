@@ -58,7 +58,10 @@ title: People
                 B.E. NBU
             </td>
             <td>
-                &nbsp;
+                <img src="/assets/img/people/RuochenPi.jpg" class="rounded-image"><br>
+                Ruochen Pi<br>
+                Eng.D. since 2024<br>
+                M.S. USYD
             </td>
             <td>
                 &nbsp;
@@ -104,11 +107,37 @@ title: People
             B.E. HFUT
         </td>
         <td>
-                &nbsp;
-            </td>
+            <img src="/assets/img/people/TaoLuo.jpg" class="rounded-image"><br>
+            Tao Luo<br>
+            M.S. since 2024<br>
+            B.E. SWU
+        </td>
         <td>
-                &nbsp;
-            </td>
+            <img src="/assets/img/people/avatar.jpg" class="rounded-image"><br>
+            Zihuan Li<br>
+            M.S. since 2024<br>
+            B.E. HIT
+        </td>
+        <td>
+            <img src="/assets/img/people/ZhihaoZhang.jpg" class="rounded-image"><br>
+            Zhihao Zhang<br>
+            M.S. since 2024<br>
+            B.E. NJUPT
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/assets/img/people/avatar.jpg" class="rounded-image"><br>
+            Luqi Yang<br>
+            M.Eng. since 2024<br>
+            B.E. DUT
+        </td>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            &nbsp;
+        </td>
         <td>
             &nbsp;
         </td>
@@ -137,7 +166,9 @@ title: People
                 M.S. from TUM
             </td>
             <td>
-                &nbsp;
+                <img src="/assets/img/people/JiaweiWang.jpg" class="rounded-image"><br>
+                <a href="https://jiawei22.github.io//">Jiawei Wang</a><br>
+                UG from SDU
             </td>
         </tr>
     </table>
@@ -164,7 +195,9 @@ title: People
                 Class 2022<br>
             </td>
             <td>
-                &nbsp;
+                <img src="/assets/img/people/GuoChen.jpg" class="rounded-image"><br>
+                Guo Chen<br>
+                Class 2022<br>
             </td>
         </tr>
     </table>
