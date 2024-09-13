@@ -113,7 +113,7 @@ title: People
             B.E. SWU
         </td>
         <td>
-            <img src="/assets/img/people/avatar.jpg" class="rounded-image"><br>
+            <img src="/assets/img/people/ZihuanLi.jpg" class="rounded-image"><br>
             Zihuan Li<br>
             M.S. since 2024<br>
             B.E. HIT
@@ -127,7 +127,7 @@ title: People
     </tr>
     <tr>
         <td>
-            <img src="/assets/img/people/avatar.jpg" class="rounded-image"><br>
+            <img src="/assets/img/people/LuqiYang.jpg" class="rounded-image"><br>
             Luqi Yang<br>
             M.Eng. since 2024<br>
             B.E. DUT
