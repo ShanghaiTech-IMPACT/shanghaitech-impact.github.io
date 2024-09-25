@@ -8,100 +8,87 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
     .flex-container {
         display: flex;
         align-items: center;
-        padding-top: 30px;
-        padding-bottom: 10px;
+        padding: 30px 0;
+        border-bottom: 1px solid #ddd;
     }
     .flex-container img {
-        width: 300px;
-        height: 420px;
+        width: 200px;
+        height: 280px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     .info {
         margin-left: 50px;
+        font-size: 1.1em;
     }
-    .info h3, .info p {
-        line-height: 1.8;
+    .info h3 {
+        margin-bottom: 15px;
+        font-size: 1.8em;
+        color: #333;
+    }
+    .info p {
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+    .info a {
+        color: #008AFF;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .info a:hover {
+        color: #0056b3;
     }
 
     @media (max-width: 600px) {
         .flex-container {
             flex-direction: column; 
             align-items: center; 
-            padding-top: 20px; 
-            padding-bottom: 20px;
+            padding: 20px 0;
         }
         .flex-container img {
-            width: 80px; 
-            height: 100px;
+            width: 120px; 
+            height: 160px;
+            margin-bottom: 20px;
         }
         .info {
             margin-left: 0; 
-            margin-top: 20px;
+            text-align: center;
         }
     }
 </style>
 
-<div style="display: flex; align-items:center; padding-top: 30px; padding-bottom: 10px;">
-    <img src="/assets/img/people/ZhimingCui.jpg" alt="image" width="300px" height="420px">
-    <div style="margin-left: 50px;">
+<div class="flex-container">
+    <img src="/assets/img/people/ZhimingCui.jpg" alt="Zhiming Cui">
+    <div class="info">
         <h3>Zhiming Cui</h3>
-        <p style="display: inline-block; line-height: 1.8;">
+        <p>
             Assistant Professor<br>
-            School of Biomedical Engieering<br>
+            School of Biomedical Engineering<br>
             ShanghaiTech University<br><br>
-            Email: <a href="mailto:cuizhm@shanghaitech.edu.cn">cuizhm@shanghaitech.edu.cn</a> <br>
+            Email: <a href="mailto:cuizhm@shanghaitech.edu.cn">cuizhm@shanghaitech.edu.cn</a><br>
             Address: Office 308, BME building, ShanghaiTech University, Pudong, Shanghai<br>
-            <a href="https://github.com/ShanghaiTech-IMPACT/">[Github]</a> <a href="https://scholar.google.com/citations?hl=zh-CN&user=uEd_TroAAAAJ">[Google Scholar]</a> <img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3DuEd_TroAAAAJ&logo=googlescholar&style=social" alt="Google Scholar">
+            <a href="https://github.com/ShanghaiTech-IMPACT/">[Github]</a> 
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=uEd_TroAAAAJ">[Google Scholar]</a> 
+            <img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3DuEd_TroAAAAJ&logo=googlescholar&style=social" alt="Google Scholar" style="height: 20px; width: auto;">
         </p>   
     </div>
 </div>
 
-
-<!-- 
-
-<html>
-    <table class="people">
-        <tr>
-            <td valign="top" style="width: 35%;">
-                <img src="/assets/img/people/ZhimingCui.jpg">
-            </td>
-            <td style="padding-left: 50px;">
-                <h3>Zhiming Cui</h3>
-                <p>
-                    Assistant Professor<br>
-                    School of Biomedical Engieering<br>
-                    ShanghaiTech University<br><br>
-                    Email: <a href="mailto:cuizhm@shanghaitech.edu.cn">cuizhm@shanghaitech.edu.cn</a> <br>
-                    Address: Office 308, BME building, ShanghaiTech University, Pudong, Shanghai
-                </p>
-                <p style="font-size: 15px;">
-                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=uEd_TroAAAAJ">[Google Scholar]</a>
-                </p>       
-            </td>
-        </tr>
-    </table>
-</html> -->
-
-
 <div class="intro">
     <p> 
-        Dr. Zhiming Cui is a tenure-track Assistant Professor in School of Biomedical Engieering, ShanghaiTech University. He received his Ph.D. degree in Computer vision and graphics Group at the University of Hong Kong(HKU) supervised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>.
-        Before that, he obtained his B.Eng and M.Eng degrees from Northeastern University in 2014 and 2017, respectively. 
-        During his Ph.D. study, he also visited United Imaging Intelligence(UII) and ShanghaiTech University advised by Prof. <a href="http://idea.bme.shanghaitech.edu.cn/">Dinggang Shen</a>.
-        Dr. Cui's work has been published in prestigious journals and conferences including Nature Communications, TMI, MedIA, TNNLS, MICCAI, CVPR, and ECCV, etc. 
+        Dr. Zhiming Cui is a tenure-track Assistant Professor in the School of Biomedical Engineering at ShanghaiTech University. He received his Ph.D. degree in the Computer Vision and Graphics Group at the University of Hong Kong (HKU), supervised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>. Before that, he obtained his B.Eng and M.Eng degrees from Northeastern University in 2014 and 2017, respectively. During his Ph.D. study, he also visited United Imaging Intelligence (UII) and ShanghaiTech University, advised by Prof. <a href="http://idea.bme.shanghaitech.edu.cn/">Dinggang Shen</a>. Dr. Cui's work has been published in prestigious journals and conferences including Nature Communications, TMI, MedIA, TNNLS, MICCAI, CVPR, and ECCV, etc.
     </p> 
     <p> 
-        IMPACT Lab was founded and directed by Dr. Cui since 2022 when he joined ShanghaiTech BME School.
-        At the IMPACT Lab, we dedicate to fuse artificial intelligence and computer graphic into medical image, especially in the intersection of medical imaging computing, image reconstruction (e.g., CBCT, DSA, and PET/CT), and digital dentistry.  
+        IMPACT Lab was founded and directed by Dr. Cui since 2022 when he joined ShanghaiTech BME School. At the IMPACT Lab, we dedicate to fusing artificial intelligence and computer graphics into medical imaging, especially in the intersection of medical imaging computing, image reconstruction (e.g., CBCT, DSA, and PET/CT), and digital dentistry.
     </p> 
     <p>
-        More details about our research can be referred at <a href="research">Research</a> page or visit our <a href="https://github.com/ShanghaiTech-IMPACT">Github</a> page.
+        More details about our research can be referred to on our <a href="research">Research</a> page or visit our <a href="https://github.com/ShanghaiTech-IMPACT">Github</a> page.
     </p>
 </div>
 
-
 <div class="notice">
-    <p>We are looking for interns and 2025 graduate students who are self-motivated and passionate about our research, <a href="mailto:cuizhm@shanghaitech.edu.cn">email me</a> directly with your CV if interested.</p>
-    <p>Please see <a href="join-us">join-us page</a> for more details.</p>
+    <p>We are looking for interns and 2025 graduate students who are self-motivated and passionate about our research. If interested, please <a href="mailto:cuizhm@shanghaitech.edu.cn">email me</a> directly with your CV.</p>
+    <p>For more details, see our <a href="join-us">join-us page</a>.</p>
 </div>
 
 <hr>
@@ -109,23 +96,24 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 <div class="News">
     <h3>News</h3>
     <ul> 
-        <li>[09/2024] Welcome Ruochen Pi, Tao Luo, Zihuan Li, Zhihao Zhang and Luqi Yang to join our lab!</li>
-        <li>[07/2024] Team from IMPACT Lab won the <strong><em>1st National Prize</em></strong> in The 9th National Biomedical Engineering Innovation Design Competition for College Students, congrats to Wei Jia and Jinze! [<a href="https://mp.weixin.qq.com/s/bL4JcUvBJJKhfFIHR-NHXw">Report</a>]</li>
-        <li>[06/2024] Four papers are accepted by <strong><em>MICCAI 2024</em></strong>, congrats to Han Wu and Chenfan!</li>
+        <li>[09/2024] Welcome Ruochen Pi, Tao Luo, Zihuan Li, Zhihao Zhang, and Luqi Yang to join our lab!</li>
+        <li>[07/2024] Team from IMPACT Lab won the <strong><em>1st National Prize</em></strong> in The 9th National Biomedical Engineering Innovation Design Competition for College Students. Congrats to Wei Jia and Jinze! [<a href="https://mp.weixin.qq.com/s/bL4JcUvBJJKhfFIHR-NHXw">Report</a>]</li>
+        <li>[06/2024] Four papers are accepted by <strong><em>MICCAI 2024</em></strong>. Congrats to Han Wu and Chenfan!</li>
         <li>[06/2024] Congrats to Han Wu and Zhentao Liu on passing their PQE and officially becoming Ph.D. candidates!</li>
         <li>[04/2024] One paper is accepted by <strong><em>TMI</em></strong>.</li>
         <li>[04/2024] I will continue to serve as Co-Chair for <strong><em>MLMI 2024</em></strong>.</li>
         <li>[04/2024] I will serve as Associate Editor for <strong><em>Computerized Medical Imaging and Graphics</em></strong> (Q1, IF=5.7).</li>
         <li>[02/2024] I will serve as Area Chair for <strong><em>MICCAI 2024</em></strong>.</li>
         <li>[12/2023] Our survey paper on <a href="https://arxiv.org/abs/2312.07353">CLIP in medical imaging</a> is now available online.</li>
+        <li>[10/2023] Congrats to Yulong for winning the <strong><em>National Scholarship</em></strong>!</li>
         <li>[10/2023] Two papers are accepted by <strong><em>TMI</em></strong>.</li>
-        <li>[09/2023] Welcome Yulong Dou, Chenfan Xu, Xingyue Wang and Zhenyu Tao to join our lab!</li>
-        <li>[08/2023] Yulong's paper is accepted by <strong><em>BMVC 2023</em></strong>, congrats!</li>
+        <li>[09/2023] Welcome Yulong Dou, Chenfan Xu, Xingyue Wang, and Zhenyu Tao to join our lab!</li>
+        <li>[08/2023] Yulong's paper is accepted by <strong><em>BMVC 2023</em></strong>. Congrats!</li>
         <li>[06/2023] Three papers are finally accepted by <strong><em>MICCAI 2023</em></strong>.</li>
-        <li>[06/2023] Han Wu's paper is accepted by <strong><em>MICCAI 2023</em></strong>, congrats!</li>
+        <li>[06/2023] Han Wu's paper is accepted by <strong><em>MICCAI 2023</em></strong>. Congrats!</li>
         <li>[06/2023] Our website is now online! Thanks to Yu Fang and Han Wu :)</li>
         <li>[11/2022] One paper is accepted by <strong><em>TMI</em></strong>.</li>
-        <li>[09/2022] Welcome Han Wu, Zhentao Liu and Haoshen Wang to join our lab as the first members!</li>
+        <li>[09/2022] Welcome Han Wu, Zhentao Liu, and Haoshen Wang to join our lab as the first members!</li>
         <li>[09/2022] IMPACT Lab @ ShanghaiTech has been officially established!</li>
         <li>[08/2022] One paper is accepted by <strong><em>MedIA</em></strong>.</li>
         <li>[06/2022] Four papers are accepted by <strong><em>MICCAI 2022</em></strong>.</li>
@@ -158,18 +146,17 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 <div class="teaching">
     <h3>Teaching</h3>
     <ul>
-        <li>2024 Spring: Data Structure and Algorithm Design</li>
-        <li>2023 Fall: Algorithms Design And Analysis (Python)</li>
-        <li>2022 Fall: Algorithms Design And Analysis (Python)</li>
+        <li>Data Structure and Algorithm Design: 2024 Spring</li>
+        <li>Algorithms Design And Analysis (Python): 2022 Fall, 2023 Fall, 2024 Fall</li>
     </ul>
 </div>
 
 <div class="talks">
     <h3>Invited Talk</h3>
     <ul>
-        <li> 3D vessel reconstruction based on implicit neural representation @ UMI 2024, Jinhua, China. </li>
-        <li> Learning-based tooth segmentation and analysis in digital dentistry @ MICS 2022, Nanjing, China. [<a href="https://www.bilibili.com/video/BV1nd4y127HE?p=23">video</a>] </li>
-        <li> Shape-aware tooth segmentation in digital dentistry @ VLASE Webinar 2022. [<a href="https://www.bilibili.com/video/BV1e3411H7o1/">video</a>] </li>
+        <li>3D vessel reconstruction based on implicit neural representation @ UMI 2024, Jinhua, China.</li>
+        <li>Learning-based tooth segmentation and analysis in digital dentistry @ MICS 2022, Nanjing, China. [<a href="https://www.bilibili.com/video/BV1nd4y127HE?p=23">video</a>]</li>
+        <li>Shape-aware tooth segmentation in digital dentistry @ VLASE Webinar 2022. [<a href="https://www.bilibili.com/video/BV1e3411H7o1/">video</a>]</li>
     </ul>
 </div>
 
@@ -178,7 +165,7 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
     .centered {
       text-align: center;
     }
-  </style>
+</style>
   
 <div class="centered">
     <p>Since 2023-07</p>

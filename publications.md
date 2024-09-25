@@ -8,34 +8,45 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 
 \* indicates equal contribution and <sup>+</sup> indicates corresponding author.
 
-
-
 <head>
     <style>
         .publication-item {
             display: flex;
             align-items: flex-start;  
-            margin-bottom: 10px;  
+            margin-bottom: 20px;  
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 20px;
         }
         .publication-img {
             margin-right: 20px;  
             display: flex;
             align-items: center;
-            margin-bottom: 10px;
             background-color: #f8f9fa;
             border-radius: 10px;  
-            /* padding: 1px; */
-            box-shadow: 2px 4px 6px rgba(0, 0, 0.5, 0.1);
-            position: relative;
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
             max-width: 300px;  
             overflow: hidden; 
         }
         .publication-content {
             flex: 1;  
         }
+        .publication-content .title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .publication-content p {
+            margin: 5px 0;
+        }
+        .publication-content a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        .publication-content a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
-
 
 ## 2024
 <html>
@@ -68,7 +79,6 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         </li>
     </ul>
 </html>
-
 
 ## 2023
 <html>

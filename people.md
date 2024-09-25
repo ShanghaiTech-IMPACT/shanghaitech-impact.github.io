@@ -11,9 +11,9 @@ title: People
         border: 5px solid rgb(192, 192, 192);
         object-fit: cover; 
         object-position: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    
     @media (max-width: 600px) {
         .rounded-image {
             width: 100px;  
@@ -22,6 +22,7 @@ title: People
             border: 3px solid rgb(192, 192, 192);  
             object-fit: cover;
             object-position: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
     }
 
@@ -29,6 +30,8 @@ title: People
         width: 100%;
         table-layout: fixed;
         border-collapse: collapse; 
+        margin: 20px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     td {
@@ -36,9 +39,33 @@ title: People
         text-align: center;
         vertical-align: top;
         border: none;
+        padding: 20px;
+        background-color: #f9f9f9;
+        transition: background-color 0.3s ease;
+    }
+
+    td:hover {
+        background-color: #e9e9e9;
+    }
+
+    h2 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+    }
+
+    a {
+        color: #008AFF;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    a:hover {
+        color: #0056b3;
     }
 </style>
-
 
 ## Ph.D. Students
 
@@ -61,7 +88,7 @@ title: People
                 <img src="/assets/img/people/RuochenPi.jpg" class="rounded-image"><br>
                 Ruochen Pi<br>
                 Eng.D. since 2024<br>
-                M.S. USYD
+                M.S. USYD, B.E. SHNU
             </td>
             <td>
                 &nbsp;
@@ -144,8 +171,6 @@ title: People
     </tr>
 </table>
 
-
-
 ## Visiting Students
 <html>
     <table class="people" id="students">
@@ -173,7 +198,6 @@ title: People
         </tr>
     </table>
 </html>
-
 
 ## Undergraduate Students
 <html>
@@ -203,13 +227,12 @@ title: People
     </table>
 </html>
 
-
-<!-- <h3>Gallery </h3> -->
 ## Gallery
 <style>
     #slider {
         display: flex;
         justify-content: center;
+        margin-top: 40px;
     }
     #image-container {
         position: relative; 
@@ -217,6 +240,7 @@ title: People
         padding-top: 56.25%; /* 16:9 Aspect Ratio */
         height: 0; /* Height is now controlled by padding */
         overflow: hidden; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     #image-container img {
         position: absolute; 
@@ -233,7 +257,6 @@ title: People
         opacity: 1; 
     }
 </style>
-
 
 <div id="slider">
     <div id="image-container">
@@ -259,6 +282,4 @@ title: People
     slide();  
     </script>
 </div>
-
-
 
