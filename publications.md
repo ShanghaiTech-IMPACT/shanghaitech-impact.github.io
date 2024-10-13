@@ -52,6 +52,14 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
+            <img src="/assets/img/publications/2024_cbct_reconstruction.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">Geometry-Aware Attenuation Field Learning for Sparse-View CBCT Reconstruction</div>
+                <p>Zhentao Liu, Yu Fang, Changjian Li, Han Wu, Yuan Liu, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>IEEE Transactions on Medical Imaging (TMI), 2024.</p>
+            </div>
+        </li>
+        <li class="publication-item">
             <img src="/assets/img/publications/2024_teethdreamer.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">TeethDreamer: 3D Teeth Reconstruction from Five Intra-oral Photographs</div>

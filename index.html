@@ -5,54 +5,103 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 ---
 
 <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
     .flex-container {
         display: flex;
         align-items: center;
-        padding: 30px 0;
-        border-bottom: 1px solid #ddd;
+        padding: 40px 0;
+        border-bottom: 2px solid #eaeaea;
     }
     .flex-container img {
-        width: 200px;
-        height: 280px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 220px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .flex-container img:hover {
+        transform: scale(1.05);
     }
     .info {
-        margin-left: 50px;
+        margin-left: 60px;
         font-size: 1.1em;
     }
     .info h3 {
-        margin-bottom: 15px;
-        font-size: 1.8em;
-        color: #333;
+        margin-bottom: 20px;
+        font-size: 2em;
+        color: #2c3e50;
     }
     .info p {
-        line-height: 1.6;
-        margin-bottom: 10px;
+        line-height: 1.8;
+        margin-bottom: 15px;
     }
     .info a {
-        color: #008AFF;
+        color: #3498db;
         text-decoration: none;
         transition: color 0.3s ease;
     }
     .info a:hover {
-        color: #0056b3;
+        color: #2980b9;
+    }
+    .section-title {
+        font-size: 2.2em;
+        color: #2c3e50;
+        margin: 40px 0 30px;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 10px;
+    }
+    .intro, .notice, .News, .services, .teaching, .talks {
+        background-color: #f9f9f9;
+        padding: 25px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    li {
+        margin-bottom: 15px;
+        position: relative;
+        padding-left: 25px;
+    }
+    li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+    .notice {
+        background-color: #e8f4f8;
+        border-left: 5px solid #3498db;
+    }
+    .centered {
+        text-align: center;
+        margin-top: 40px;
+        color: #7f8c8d;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
         .flex-container {
             flex-direction: column; 
             align-items: center; 
-            padding: 20px 0;
+            padding: 30px 0;
         }
         .flex-container img {
-            width: 120px; 
-            height: 160px;
-            margin-bottom: 20px;
+            width: 180px; 
+            height: 240px;
+            margin-bottom: 30px;
         }
         .info {
             margin-left: 0; 
             text-align: center;
+        }
+        .section-title {
+            font-size: 1.8em;
         }
     }
 </style>
@@ -87,64 +136,84 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 </div>
 
 <div class="notice">
+    <h2 class="section-title">Join Us</h2>
     <p>We are looking for interns and 2025 graduate students who are self-motivated and passionate about our research. If interested, please <a href="mailto:cuizhm@shanghaitech.edu.cn">email me</a> directly with your CV.</p>
     <p>For more details, see our <a href="join-us">join-us page</a>.</p>
 </div>
 
-<hr>
-
 <div class="News">
-    <h3>News</h3>
-    <ul> 
-        <li>[09/2024] Welcome Ruochen Pi, Tao Luo, Zihuan Li, Zhihao Zhang, and Luqi Yang to join our lab!</li>
-        <li>[07/2024] Team from IMPACT Lab won the <strong><em>1st National Prize</em></strong> in The 9th National Biomedical Engineering Innovation Design Competition for College Students. Congrats to Wei Jia and Jinze! [<a href="https://mp.weixin.qq.com/s/bL4JcUvBJJKhfFIHR-NHXw">Report</a>]</li>
-        <li>[06/2024] Four papers are accepted by <strong><em>MICCAI 2024</em></strong>. Congrats to Han Wu and Chenfan!</li>
-        <li>[06/2024] Congrats to Han Wu and Zhentao Liu on passing their PQE and officially becoming Ph.D. candidates!</li>
-        <li>[04/2024] One paper is accepted by <strong><em>TMI</em></strong>.</li>
-        <li>[04/2024] I will continue to serve as Co-Chair for <strong><em>MLMI 2024</em></strong>.</li>
-        <li>[04/2024] I will serve as Associate Editor for <strong><em>Computerized Medical Imaging and Graphics</em></strong> (Q1, IF=5.7).</li>
-        <li>[02/2024] I will serve as Area Chair for <strong><em>MICCAI 2024</em></strong>.</li>
-        <li>[12/2023] Our survey paper on <a href="https://arxiv.org/abs/2312.07353">CLIP in medical imaging</a> is now available online.</li>
-        <li>[10/2023] Congrats to Yulong for winning the <strong><em>National Scholarship</em></strong>!</li>
-        <li>[10/2023] Two papers are accepted by <strong><em>TMI</em></strong>.</li>
-        <li>[09/2023] Welcome Yulong Dou, Chenfan Xu, Xingyue Wang, and Zhenyu Tao to join our lab!</li>
-        <li>[08/2023] Yulong's paper is accepted by <strong><em>BMVC 2023</em></strong>. Congrats!</li>
-        <li>[06/2023] Three papers are finally accepted by <strong><em>MICCAI 2023</em></strong>.</li>
-        <li>[06/2023] Han Wu's paper is accepted by <strong><em>MICCAI 2023</em></strong>. Congrats!</li>
-        <li>[06/2023] Our website is now online! Thanks to Yu Fang and Han Wu :)</li>
-        <li>[11/2022] One paper is accepted by <strong><em>TMI</em></strong>.</li>
-        <li>[09/2022] Welcome Han Wu, Zhentao Liu, and Haoshen Wang to join our lab as the first members!</li>
-        <li>[09/2022] IMPACT Lab @ ShanghaiTech has been officially established!</li>
-        <li>[08/2022] One paper is accepted by <strong><em>MedIA</em></strong>.</li>
-        <li>[06/2022] Four papers are accepted by <strong><em>MICCAI 2022</em></strong>.</li>
-        <li>[02/2022] One paper is accepted by <strong><em>Nature Communications</em></strong>.</li>
-    </ul>
+    <h2 class="section-title">News</h2>
+    <div class="news-container" id="news-container">
+        <ul>
+            <li>[10/2024] One paper accepted by <strong><em>TMI</em></strong>. Congrats to Zhentao!</li>
+            <li>[09/2024] Welcome Ruochen Pi, Tao Luo, Zihuan Li, Zhihao Zhang, and Luqi Yang to join our lab!</li>
+            <li>[07/2024] Team from IMPACT Lab won the <strong><em>1st National Prize</em></strong> in The 9th National Biomedical Engineering Innovation Design Competition for College Students. Congrats to Wei Jia and Jinze! [<a href="https://mp.weixin.qq.com/s/bL4JcUvBJJKhfFIHR-NHXw">Report</a>]</li>
+            <li>[06/2024] Four papers are accepted by <strong><em>MICCAI 2024</em></strong>. Two of them are from our lab, congrats to Han Wu and Chenfan!</li>
+            <li>[06/2024] Congrats to Han Wu and Zhentao Liu on passing their PQE and officially becoming Ph.D. candidates!</li>
+            <li>[04/2024] One paper is accepted by <strong><em>TMI</em></strong>.</li>
+            <li>[04/2024] I will continue to serve as Co-Chair for <strong><em>MLMI 2024</em></strong>.</li>
+            <li>[04/2024] I will serve as Associate Editor for <strong><em>Computerized Medical Imaging and Graphics</em></strong> (Q1, IF=5.7).</li>
+            <li>[02/2024] I will serve as Area Chair for <strong><em>MICCAI 2024</em></strong>.</li>
+            <li>[12/2023] Our survey paper on <a href="https://arxiv.org/abs/2312.07353">CLIP in medical imaging</a> is now available online.</li>
+            <li>[10/2023] Congrats to Yulong for winning the <strong><em>National Scholarship (Master)</em></strong>!</li>
+            <li>[10/2023] Two papers are accepted by <strong><em>TMI</em></strong>.</li>
+            <li>[09/2023] Welcome Yulong Dou, Chenfan Xu, Xingyue Wang, and Zhenyu Tao to join our lab!</li>
+            <li>[08/2023] Yulong's paper is accepted by <strong><em>BMVC 2023</em></strong>. Congrats!</li>
+            <li>[06/2023] Three papers are finally accepted by <strong><em>MICCAI 2023</em></strong>.</li>
+            <li>[06/2023] Han Wu's paper is accepted by <strong><em>MICCAI 2023</em></strong>. Congrats!</li>
+            <li>[06/2023] Our website is now online! Thanks to Yu Fang and Han Wu :)</li>
+            <li>[11/2022] One paper is accepted by <strong><em>TMI</em></strong>.</li>
+            <li>[09/2022] Welcome Han Wu, Zhentao Liu, and Haoshen Wang to join our lab as the first members!</li>
+            <li>[09/2022] IMPACT Lab @ ShanghaiTech has been officially established!</li>
+            <li>[08/2022] One paper is accepted by <strong><em>MedIA</em></strong>.</li>
+            <li>[06/2022] Four papers are accepted by <strong><em>MICCAI 2022</em></strong>.</li>
+            <li>[02/2022] One paper is accepted by <strong><em>Nature Communications</em></strong>.</li>
+        </ul>
+    </div>
 </div>
 
+<script>
+    const newsContainer = document.getElementById('news-container');
+    const newsItems = newsContainer.querySelectorAll('li');
+    
+    if (newsItems.length > 18) {
+        let isDragging = false;
+        let startY;
+        let scrollTop;
+
+        newsContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startY = e.pageY - newsContainer.offsetTop;
+            scrollTop = newsContainer.scrollTop;
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            const y = e.pageY - newsContainer.offsetTop;
+            const walk = (y - startY) * 2;
+            newsContainer.scrollTop = scrollTop - walk;
+        });
+
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+    }
+</script>
+
 <div class="services">
-    <h3>Recent Services</h3>
+    <h2 class="section-title">Recent Services</h2>
     <ul>
-        <!-- 2024 -->
         <li>Associate Editor, Computerized Medical Imaging and Graphics, 2024</li>
         <li>Area Chair, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024</li>
-        <!-- 2024 -->        
-        <!-- 2023 -->
         <li>Co-Chair, International Conference on Machine Learning in Medical Imaging (MLMI), 2022, 2023, 2024</li>
-        <li>Reviewer, IEEE Transactions on Medical Imaging (TMI), 2020, 2021, 2022, 2023</li>
+        <li>Reviewer, IEEE Transactions on Medical Imaging (TMI), 2020, 2021, 2022, 2023, 2024</li>
         <li>Reviewer, IEEE Transactions on Visualization and Computer Graphics (TVCG), 2021, 2022, 2023, 2024</li>
         <li>Reviewer, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2019, 2020, 2021, 2022, 2023</li>
-        <!-- 2022 -->
-        <li>Reviewer, IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022</li>
-        <!-- 2021 -->
-        <li>Reviewer, International Conference on Computer Vision (ICCV), 2021</li>
-        <!-- 2020 -->
-        <li>Reviewer, Pacific Graphics (PG), 2020</li>
-        <li>Reviewer, Computer Graphics Forum (CGF), 2020</li>
     </ul>
 </div>
 
 <div class="teaching">
-    <h3>Teaching</h3>
+    <h2 class="section-title">Teaching</h2>
     <ul>
         <li>Data Structure and Algorithm Design: 2024 Spring</li>
         <li>Algorithms Design And Analysis (Python): 2022 Fall, 2023 Fall, 2024 Fall</li>
@@ -152,7 +221,7 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 </div>
 
 <div class="talks">
-    <h3>Invited Talk</h3>
+    <h2 class="section-title">Invited Talks</h2>
     <ul>
         <li>3D vessel reconstruction based on implicit neural representation @ UMI 2024, Jinhua, China.</li>
         <li>Learning-based tooth segmentation and analysis in digital dentistry @ MICS 2022, Nanjing, China. [<a href="https://www.bilibili.com/video/BV1nd4y127HE?p=23">video</a>]</li>
@@ -161,12 +230,7 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 </div>
 
 <hr>
-<style>
-    .centered {
-      text-align: center;
-    }
-</style>
-  
+
 <div class="centered">
     <p>Since 2023-07</p>
 </div>
