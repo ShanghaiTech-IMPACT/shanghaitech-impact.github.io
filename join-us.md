@@ -53,15 +53,15 @@ title: Join Us
 <div class="join-us-container">
     <div class="intro">
         <h2>Thank you for your interest in IMPACT Lab</h2>
-        <p>We've compiled some frequently asked questions to help you learn more about us and our research opportunities.</p>
+        <p>Here are some frequently asked questions to help you learn more about us and our research opportunities.</p>
     </div>
     <div class="faq">
         <h3>Q: What kind of members is IMPACT Lab looking for?</h3>
-        <p>A: We seek self-motivated students with a strong coding foundation and a genuine interest in our research areas. Passion for innovation and a willingness to tackle challenging problems are key qualities we value.</p>
+        <p>A: We are looking for self-motivated students with a decent coding foundation and an interest in our research.</p>
     </div>
     <div class="faq">
         <h3>Q: I didn't major in a BME-related field during my undergraduate studies. Can I join the IMPACT Lab?</h3>
-        <p>A: Absolutely! We embrace diversity and welcome students from various academic backgrounds. Our current members come from diverse fields, including Computer Science, Biomedical Engineering, Industrial Engineering, and Communication Engineering. We believe that diverse perspectives foster innovation and creativity in our research.</p>
+        <p>A: Absolutely! We embrace diversity and welcome students from various academic backgrounds. Our current members come from diverse fields, including Computer Science, Biomedical Engineering, Information Engineering, and Communication Engineering. We believe that diverse perspectives encourage innovation and creativity in our research.</p>
     </div>
     <div class="faq">
         <h3>Q: Can students without research experience join IMPACT Lab?</h3>
@@ -69,12 +69,12 @@ title: Join Us
     </div>
     <div class="faq">
         <h3>Q: What would the training program be like for Master/PhD students at IMPACT Lab?</h3>
-        <p>A: At IMPACT, we believe in personalized growth. Every member starts with comprehensive hands-on guidance. As you progress, we'll tailor your research path based on your capabilities, achievements, and interests. Our goal is to nurture independent researchers, regardless of whether you're pursuing a Master's or a PhD degree. We're committed to helping you develop a unique research mindset and skillset that will serve you well in your future career.</p>
+        <p>A: At IMPACT, we believe in personalized growth. Every member starts with comprehensive hands-on guidance. As you progress, we'll tailor your research path based on your capabilities, achievements, and interests. Our goal is to make each member grow into an independent researcher, regardless of whether you're pursuing a Master's or a PhD degree. We're committed to helping you develop a unique research mindset and skillset.</p>
     </div>
     <div class="faq">
         <h3>Q: How can I join IMPACT Lab?</h3>
-        <p>A: If you're an undergraduate student at ShanghaiTech, we encourage you to visit our Lab at Room 305/308 in the BME Building for an informal chat. For prospective graduate students from other institutions, please reach out to us via <a href="mailto:cuizhm@shanghaitech.edu.cn">email</a> with your CV attached. We're always excited to discuss potential opportunities with passionate researchers.</p>
-        <p><strong>Pro Tip:</strong> To get a better understanding of our research before contacting us, we highly recommend watching these insightful talks:</p>
+        <p>A: If you're an undergraduate student at ShanghaiTech, we encourage you to visit our Lab at Room 305/308 in the BME Building for an informal chat before dropping ab email for arrangements. For prospective graduate students from other institutions, please reach out to us via <a href="mailto:cuizhm@shanghaitech.edu.cn">email</a> with your CV attached. We're always excited to discuss potential opportunities with passionate researchers.</p>
+        <p><strong>Pro Tip:</strong> To get a better understanding of our research before contacting us, we highly recommend watching these talks:</p>
         <ul>
             <li><a href="https://www.bilibili.com/video/BV1e3411H7o1/?spm_id_from=333.337.search-card.all.click&vd_source=09195b87c697861bee9d36eac63f3a3c">VALSE-Webinar 2022 Talk</a></li>
             <li><a href="https://www.bilibili.com/video/BV1nd4y127HE/?p=23&vd_source=eae45dc1af93c1407ccba0e925fc1f13">MICS 2022 Talk</a></li>

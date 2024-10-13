@@ -188,7 +188,7 @@ title: People
             <img src="/assets/img/people/HanWu.png" class="rounded-image" alt="Han Wu">
             <div class="name"><a href="http://hanwu.website/">Han Wu</a></div>
             <div class="info">Ph.D. since 2022<br>B.E. WUT</div>
-            <div class="info">(with Prof. Dinggang Shen)</div>
+            <!-- <div class="info">(with Prof. Dinggang Shen)</div> -->
         </td>
         <td>
             <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image" alt="Zhentao Liu">
