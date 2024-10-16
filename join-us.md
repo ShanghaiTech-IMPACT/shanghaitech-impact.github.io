@@ -73,7 +73,7 @@ title: Join Us
     </div>
     <div class="faq">
         <h3>Q: How can I join IMPACT Lab?</h3>
-        <p>A: If you're an undergraduate student at ShanghaiTech, we encourage you to visit our Lab at Room 305/308 in the BME Building for an informal chat before dropping ab email for arrangements. For prospective graduate students from other institutions, please reach out to us via <a href="mailto:cuizhm@shanghaitech.edu.cn">email</a> with your CV attached. We're always excited to discuss potential opportunities with passionate researchers.</p>
+        <p>A: If you're an undergraduate student at ShanghaiTech, we encourage you to visit our Lab at Room 305/308 in the BME Building for an informal chat after dropping an email for arrangements. For prospective graduate students from other institutions, please reach out to us via <a href="mailto:cuizhm@shanghaitech.edu.cn">email</a> with your CV attached. We're always excited to discuss potential opportunities with passionate researchers.</p>
         <p><strong>Pro Tip:</strong> To get a better understanding of our research before contacting us, we highly recommend watching these talks:</p>
         <ul>
             <li><a href="https://www.bilibili.com/video/BV1e3411H7o1/?spm_id_from=333.337.search-card.all.click&vd_source=09195b87c697861bee9d36eac63f3a3c">VALSE-Webinar 2022 Talk</a></li>

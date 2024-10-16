@@ -54,9 +54,10 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2024_cbct_reconstruction.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">Geometry-Aware Attenuation Field Learning for Sparse-View CBCT Reconstruction</div>
+                <div class="title">Geometry-Aware Attenuation Learning for Sparse-View CBCT Reconstruction</div>
                 <p>Zhentao Liu, Yu Fang, Changjian Li, Han Wu, Yuan Liu, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2024.</p>
+                <p>[<a href="https://ieeexplore.ieee.org/abstract/document/10705334" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/https://shanghaitech-impact.github.io/Geometry-Aware-Attenuation-Learning-for-Sparse-View-CBCT-Reconstruction/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Geometry-Aware-Attenuation-Learning-for-Sparse-View-CBCT-Reconstruction">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Geometry-Aware-Attenuation-Learning-for-Sparse-View-CBCT-Reconstruction"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -65,6 +66,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">TeethDreamer: 3D Teeth Reconstruction from Five Intra-oral Photographs</div>
                 <p>Chenfan Xu, Zhentao Liu, Yuan Liu, Yulong Dou, Jiamin Wu, Jiepeng Wang, Minjiao Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024.</p>
+                <p>[<a href="https://arxiv.org/abs/2407.11419" >paper</a>] [<a href="https://shanghaitech-impact.github.io/TeethDreamer/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/TeethDreamer">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/TeethDreamer"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -73,7 +75,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Cephalometric Landmark Detection across Ages with Prototypical Network</div>
                 <p>Han Wu, Chong Wang, Lanzhuju Mei, Tong Yang, Min Zhu, Dingggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024.</p>
-                <p>[<a href="https://arxiv.org/abs/2406.12577" >paper</a>] [<a href="https://shanghaitech-impact.github.io/CeLDA/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/CeLDA/" >code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/CeLDA?logoColor=greenyellow"></p>
+                <p>[<a href="https://arxiv.org/abs/2406.12577" >paper</a>] [<a href="https://shanghaitech-impact.github.io/CeLDA/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/CeLDA/" >code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/CeLDA"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -82,7 +84,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">ChatCAD+: Towards a Universal and Reliable Interactive CAD using LLMs</div>
                 <p>Zihao Zhao, Sheng Wang, Jinchen Gu, Yitao Zhu, Lanzhuju Mei, Zixu Zhuang, <strong>Zhiming Cui</strong>, Qian Wang, Dinggang Shen<sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2024.</p>
-                <p>[<a href="https://arxiv.org/abs/2305.15964" >paper</a>] [<a href="https://github.com/zhaozh10/ChatCAD" >code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/ChatCAD?logoColor=greenyellow"></p>
+                <p>[<a href="https://arxiv.org/abs/2305.15964" >paper</a>] [<a href="https://github.com/zhaozh10/ChatCAD" >code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/ChatCAD"></p>
             </div>
         </li>
     </ul>
@@ -97,7 +99,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">3D Structure-guided Network for Tooth Alignment in 2D Photograph</div>
                 <p>Yulong Dou, Lanzhuju Mei, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>British Machine Vision Conference (BMVC), 2023.</p>
-                <p>[<a href="https://arxiv.org/abs/2310.11106" >paper</a>]</p>
+                <p>[<a href="https://arxiv.org/abs/2310.11106" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-Structure-guided-Network-for-Tooth-Alignment-in-2D-Photograph">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-Structure-guided-Network-for-Tooth-Alignment-in-2D-Photograph"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -133,7 +135,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
                 <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, <strong>Zhiming Cui</strong><sup>+</sup>, Dingggang Shen<sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
-                <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?logoColor=greenyellow"></p>
+                <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -220,7 +222,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">A fully Automatic AI System for Tooth and Alveolar Bone Segmentation from Cone-beam CT Images</div>
                 <p><strong>Zhiming Cui</strong>, Yu Fang, Lanzhuju Mei, Bojun Zhang, Bo Yu, Jiameng Liu, Caiwen Jiang, Yuhang Sun, Lei Ma, Jiawei Huang, Yang Liu, Yue Zhao<sup>+</sup>, Chunfeng Lian<sup>+</sup>, Zhongxiang Ding<sup>+</sup>, Min Zhu<sup>+</sup>, and Dinggang Shen<sup>+</sup>.</p>
                 <p>Nature Communications, 2022.</p>
-                <p>[<a href="https://www.nature.com/articles/s41467-022-29637-2.pdf" >paper</a>] [<a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT?logoColor=greenyellow"></p>
+                <p>[<a href="https://www.nature.com/articles/s41467-022-29637-2.pdf" >paper</a>] [<a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT?"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -386,7 +388,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Unsupervised Learning of Intrinsic Structural Representation Points</div>
                 <p>Nenglun Chen, Lingjie Liu, <strong>Zhiming Cui</strong>, Runnan Chen, Changhe Tu, Wenping Wang<sup>+</sup>.</p>
                 <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.</p>
-                <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>] [<a href="https://github.com/NolenChen/3DStructurePoints">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NolenChen/3DStructurePoints?logoColor=greenyellow"></p>
+                <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>] [<a href="https://github.com/NolenChen/3DStructurePoints">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NolenChen/3DStructurePoints?"></p>
             </div>
         </li>
     </ul>

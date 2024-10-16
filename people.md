@@ -282,12 +282,7 @@ title: People
             <div class="name">Zichen Zhang</div>
             <div class="info">M.S. from TUM</div>
         </td>
-        <td>
-            <img src="/assets/img/people/JiaweiWang.jpg" class="rounded-image" alt="Jiawei Wang">
-            <div class="name"><a href="https://jiawei22.github.io/">Jiawei Wang</a></div>
-            <div class="info">UG from SDU</div>
-        </td>
-        <!-- <td></td> -->
+        <td></td>
     </tr>
 </table>
 
