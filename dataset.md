@@ -64,7 +64,6 @@ title: Dataset
 
 <div class="dataset-container">
     <div class="intro">
-        <h1>Public Datasets of IMPACT Lab</h1>
         <p>Welcome to our dataset repository. Here, you'll find a collection of high-quality datasets that we've carefully collected and annotated. Please cite our paper if you use our dataset.</p>
         <p><strong>Please note:</strong> Our datasets are <em>only available for non-commercial use and academic research purposes</em>. Any commercial use is strictly prohibited.</p>
     </div>
