@@ -23,8 +23,8 @@ navbar-links:
   Research: "/research/"
   Publications: "/publications/"
   Join us: "/join-us/"
-  # Milestones: "/milestones/"
   Dataset: "/dataset/"
+  # Milestones: "/milestones/"
 ################
 # --- Logo --- #
 ################

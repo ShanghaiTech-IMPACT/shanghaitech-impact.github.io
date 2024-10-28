@@ -236,6 +236,11 @@ title: People
             <div class="info">M.Eng. since 2023<br>B.E. HFUT</div>
         </td>
         <td>
+            <img src="/assets/img/people/YunjieTan.png" class="rounded-image" alt="Yunjie Tan">
+            <div class="name">Yunjie Tan</div>
+            <div class="info">M.Eng. since 2023<br>B.E. SHU</div>
+        </td>
+        <td>
             <img src="/assets/img/people/TaoLuo.jpg" class="rounded-image" alt="Tao Luo">
             <div class="name">Tao Luo</div>
             <div class="info">M.S. since 2024<br>B.E. SWU</div>
@@ -245,13 +250,13 @@ title: People
             <div class="name">Zihuan Li</div>
             <div class="info">M.S. since 2024<br>B.E. HIT</div>
         </td>
+    </tr>
+    <tr>
         <td>
             <img src="/assets/img/people/ZhihaoZhang.jpg" class="rounded-image" alt="Zhihao Zhang">
             <div class="name">Zhihao Zhang</div>
             <div class="info">M.S. since 2024<br>B.E. NJUPT</div>
         </td>
-    </tr>
-    <tr>
         <td>
             <img src="/assets/img/people/LuqiYang.jpg" class="rounded-image" alt="Luqi Yang">
             <div class="name">Luqi Yang</div>
@@ -310,6 +315,16 @@ title: People
             <div class="name">Guo Chen</div>
             <div class="info">Class 2022</div>
         </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="/assets/img/people/HuatongGao.png" class="rounded-image" alt="Huatong Gao">
+            <div class="name">Huatong Gao</div>
+            <div class="info">Class 2021</div>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
 </table>
 
