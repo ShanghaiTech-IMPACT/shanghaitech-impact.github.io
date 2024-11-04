@@ -277,16 +277,17 @@ title: People
             <div class="name">Jiamin Wu</div>
             <div class="info">Ph.D. from HKU</div>
         </td>
-        <td>
+        <!-- <td>
             <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image" alt="Qingyao Luo">
             <div class="name">Qingyao Luo</div>
             <div class="info">M.S. from NEU</div>
-        </td>
+        </td> -->
         <td>
             <img src="/assets/img/people/ZichenZhang.jpg" class="rounded-image" alt="Zichen Zhang">
             <div class="name">Zichen Zhang</div>
             <div class="info">M.S. from TUM</div>
         </td>
+        <td></td>
         <td></td>
     </tr>
 </table>
@@ -328,18 +329,18 @@ title: People
     </tr>
 </table>
 
-<!-- 
+
 <h2>Alumni</h2>
 
 <table class="people" id="alumni">
     <tr>
-        <td>
+        <!-- <td>
             <img src="/assets/img/people/HaoshenWang.jpg" class="rounded-image" alt="Haoshen Wang">
             <div class="name">Haoshen Wang</div>
             <div class="info">M.S. 2022.09 - 2024.06</div>
             <div class="info">B.E. DUT</div>
             <div class="info">Current: PhD @ HKPolyU</div>
-        </td>
+        </td> -->
         <td>
             <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image" alt="Qingyao Luo">
             <div class="name">Qingyao Luo</div>
@@ -351,4 +352,4 @@ title: People
         <td></td>
     </tr>
 </table> 
- -->
+
