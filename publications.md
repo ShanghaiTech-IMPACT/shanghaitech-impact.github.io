@@ -52,6 +52,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
+            <img src="/assets/img/publications/2024_3DMedDiffusion.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">3D MedDiffusion: A 3D Medical Diffusion Model for Controllable and High-quality Medical Image Generation</div>
+                <p>Haoshen Wang, Zhentao Liu, Kaicong Sun, Xiaodong Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>arXiv, 2024.</p> 
+                <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p>
+            </div>
+        </li>
+        <li class="publication-item">
             <img src="/assets/img/publications/2024_cbct_reconstruction.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Geometry-Aware Attenuation Learning for Sparse-View CBCT Reconstruction</div>
