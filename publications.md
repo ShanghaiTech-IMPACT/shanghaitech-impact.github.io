@@ -61,6 +61,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             </div>
         </li>
         <li class="publication-item">
+            <img src="/assets/img/publications/2024_4DRGS.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">4DRGS: 4D Radiative Gaussian Splatting for Efficient 3D Vessel Reconstruction from Sparse-View Dynamic DSA Images</div>
+                <p>Zhentao Liu<sup>*</sup>, Ruyi Zha<sup>*</sup>, Huangxuan Zhao, Hongdong Li, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>arXiv, 2024.</p> 
+                <p>[<a href="https://arxiv.org/abs/2412.12919" >paper</a>] [<a href="https://shanghaitech-impact.github.io/4DRGS/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/4DRGS">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/4DRGS"></p>
+            </div>
+        </li>
+        <li class="publication-item">
             <img src="/assets/img/publications/2024_cbct_reconstruction.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Geometry-Aware Attenuation Learning for Sparse-View CBCT Reconstruction</div>
