@@ -13,40 +13,81 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         .publication-item {
             display: flex;
             align-items: flex-start;  
-            margin-bottom: 20px;  
+            margin-bottom: 30px;  /* Increased margin for better spacing */
             border-bottom: 1px solid #eaecef;
-            padding-bottom: 20px;
+            padding-bottom: 25px;  /* Increased padding */
+            transition: transform 0.2s ease; /* Add smooth hover effect */
+        }
+        .publication-item:hover {
+            transform: translateX(10px); /* Slight shift on hover */
         }
         .publication-img {
-            margin-right: 20px;  
+            margin-right: 25px;  /* Increased margin */
             display: flex;
             align-items: center;
             background-color: #f8f9fa;
-            border-radius: 10px;  
-            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;  /* Increased border radius */
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.12); /* Enhanced shadow */
             max-width: 300px;  
-            overflow: hidden; 
+            overflow: hidden;
+            transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+        }
+        .publication-img:hover {
+            box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.18); /* Enhanced shadow on hover */
         }
         .publication-content {
             flex: 1;  
         }
         .publication-content .title {
-            font-size: 1.2em;
+            font-size: 1.25em; /* Slightly larger */
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            color: #24292e; /* GitHub-style dark color */
+            line-height: 1.4;
         }
         .publication-content p {
-            margin: 5px 0;
+            margin: 8px 0;
+            line-height: 1.5;
+            color: #586069; /* GitHub-style text color */
         }
         .publication-content a {
             color: #0366d6;
             text-decoration: none;
+            padding: 2px 4px;
+            border-radius: 3px;
+            transition: background-color 0.2s ease;
         }
         .publication-content a:hover {
-            text-decoration: underline;
+            background-color: #f1f8ff; /* Light blue background on hover */
+            text-decoration: none;
+        }
+        /* Year headers styling */
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 25px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #0366d6;
+            color: #24292e;
         }
     </style>
 </head>
+
+## 2025
+<html>
+    <ul class="publications">
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_4DRGS.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">4DRGS: 4D Radiative Gaussian Splatting for Efficient 3D Vessel Reconstruction from Sparse-View Dynamic DSA Images</div>
+                <p>Zhentao Liu, Ruyi Zha, Huangxuan Zhao, Hongdong Li, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>Information Processing in Medical Imaging (IPMI), 2025.</p> 
+                <p>[<a href="https://arxiv.org/abs/2412.12919" >paper</a>] [<a href="https://shanghaitech-impact.github.io/4DRGS/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/4DRGS">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/4DRGS"></p>
+            </div>
+        </li>
+    </ul>
+</html>
+
+
 
 ## 2024
 <html>
@@ -58,15 +99,6 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <p>Haoshen Wang, Zhentao Liu, Kaicong Sun, Xiaodong Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>arXiv, 2024.</p> 
                 <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p>
-            </div>
-        </li>
-        <li class="publication-item">
-            <img src="/assets/img/publications/2024_4DRGS.png" class="publication-img">
-            <div class="publication-content">
-                <div class="title">4DRGS: 4D Radiative Gaussian Splatting for Efficient 3D Vessel Reconstruction from Sparse-View Dynamic DSA Images</div>
-                <p>Zhentao Liu<sup>*</sup>, Ruyi Zha<sup>*</sup>, Huangxuan Zhao, Hongdong Li, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
-                <p>arXiv, 2024.</p> 
-                <p>[<a href="https://arxiv.org/abs/2412.12919" >paper</a>] [<a href="https://shanghaitech-impact.github.io/4DRGS/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/4DRGS">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/4DRGS"></p>
             </div>
         </li>
         <li class="publication-item">

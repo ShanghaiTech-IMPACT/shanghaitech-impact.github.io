@@ -42,7 +42,7 @@ title: Milestones
     <div class="timeline-item">
         <div class="timeline-date">July 2024</div>
         <div class="timeline-content">
-            <h3>PhD and new EngD Students</h3>
+            <h3>PhD and EngD Students</h3>
             <p>We celebrate Han Wu and Zhentao Liu's success in passing their PhD Qualifying Exams (PQE), officially becoming PhD candidates. Additionally, we warmly welcome Ruochen Pi, our new EngD student, to the IMPACT Lab family.</p>
         </div>
     </div>
@@ -53,6 +53,13 @@ title: Milestones
             <p>Zhentao Liu leads the publication of our lab's first paper in the IEEE Transactions on Medical Imaging (TMI) journal.</p>
         </div>
     </div>
+    <div class="timeline-item">
+        <div class="timeline-date">February 2025</div>
+        <div class="timeline-content">
+            <h3>First IPMI Paper</h3>
+            <p>Zhentao Liu presents our lab's first paper in the Information Processing in Medical Imaging (IPMI) conference.</p>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -60,44 +67,46 @@ title: Milestones
         position: relative;
         max-width: 1200px;
         margin: 0 auto;
-        padding: 40px 0;
-        font-family: 'Arial', sans-serif;
+        padding: 60px 0;
+        font-family: 'Roboto', 'Arial', sans-serif;
     }
     .timeline::after {
         content: '';
         position: absolute;
-        width: 4px;
-        background-color: #3498db;
+        width: 3px;
+        background: linear-gradient(to bottom, #2196F3, #03A9F4);
         top: 0;
         bottom: 0;
         left: 50%;
-        margin-left: -2px;
-        box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+        margin-left: -1.5px;
+        box-shadow: 0 0 15px rgba(33, 150, 243, 0.3);
     }
     .timeline-item {
-        padding: 20px 40px;
+        padding: 30px 50px;
         position: relative;
         background-color: inherit;
         width: 50%;
         box-sizing: border-box;
+        transition: all 0.4s ease;
     }
     .timeline-item::after {
         content: '';
         position: absolute;
-        width: 20px;
-        height: 20px;
-        right: -10px;
+        width: 24px;
+        height: 24px;
+        right: -12px;
         background-color: #fff;
-        border: 4px solid #3498db;
-        top: 20px;
+        border: 4px solid #2196F3;
+        top: 30px;
         border-radius: 50%;
         z-index: 1;
-        transition: all 0.3s ease;
-        box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.2);
+        transition: all 0.4s ease;
+        box-shadow: 0 0 0 4px rgba(33, 150, 243, 0.2);
     }
     .timeline-item:hover::after {
-        background-color: #3498db;
-        transform: scale(1.2);
+        background-color: #2196F3;
+        transform: scale(1.3);
+        box-shadow: 0 0 0 6px rgba(33, 150, 243, 0.3);
     }
     .timeline-item:nth-child(odd) {
         left: 0;
@@ -109,35 +118,47 @@ title: Milestones
         left: -10px;
     }
     .timeline-content {
-        padding: 20px;
-        background-color: white;
+        padding: 25px;
+        background: linear-gradient(145deg, #ffffff, #f5f5f5);
         position: relative;
-        border-radius: 10px;
-        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-        transition: all 0.3s ease;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+        transition: all 0.4s ease;
     }
     .timeline-content:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
     }
     .timeline-date {
-        font-weight: bold;
-        color: #3498db;
-        margin-bottom: 10px;
-        font-size: 1.2em;
+        font-weight: 600;
+        color: #2196F3;
+        margin-bottom: 12px;
+        font-size: 1.1em;
         text-transform: uppercase;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
+        position: relative;
+        display: inline-block;
+    }
+    .timeline-date::after {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 40%;
+        height: 2px;
+        background-color: #2196F3;
     }
     .timeline-content h3 {
         margin-top: 0;
-        color: #2c3e50;
-        font-size: 1.6em;
-        margin-bottom: 10px;
+        color: #1a1a1a;
+        font-size: 1.7em;
+        margin-bottom: 15px;
+        font-weight: 600;
     }
     .timeline-content p {
         margin-bottom: 0;
-        line-height: 1.8;
-        color: #34495e;
+        line-height: 1.9;
+        color: #424242;
         font-size: 1.1em;
     }
     @media screen and (max-width: 768px) {

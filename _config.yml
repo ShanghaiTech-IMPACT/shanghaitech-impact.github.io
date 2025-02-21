@@ -24,7 +24,7 @@ navbar-links:
   Publications: "/publications/"
   Join us: "/join-us/"
   Dataset: "/dataset/"
-  # Milestones: "/milestones/"
+  Milestones: "/milestones/"
 ################
 # --- Logo --- #
 ################
@@ -125,17 +125,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+navbar-col: "#2C3E50"  # 深蓝灰色提升专业感
+navbar-text-col: "#FFFFFF"  # 白色文字提高对比度
+navbar-border-col: "#E0E0E0"  # 浅灰色边框
+page-col: "#F8F9FA"  # 极浅灰背景提升可读性
+text-col: "#37474F"  # 深灰蓝色文字
+link-col: "#2E86AB"  # 质感蓝绿色
+hover-col: "#265C7F"  # 深蓝绿色悬停效果
+footer-col: "#2C3E50"  # 与导航栏统一
+footer-text-col: "#B0BEC5"  # 浅灰蓝色
+footer-link-col: "#CFD8DC"  # 浅灰色链接
+footer-hover-col: "#2E86AB"  # 与主色统一
 
 # navbar-col: "#EEEDFF"
 # navbar-text-col: "#0046AE"
