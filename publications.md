@@ -80,7 +80,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <div class="publication-content">
                 <div class="title">4DRGS: 4D Radiative Gaussian Splatting for Efficient 3D Vessel Reconstruction from Sparse-View Dynamic DSA Images</div>
                 <p>Zhentao Liu, Ruyi Zha, Huangxuan Zhao, Hongdong Li, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
-                <p>Information Processing in Medical Imaging (IPMI), 2025.</p> 
+                <p>Information Processing in Medical Imaging (IPMI Oral), 2025.</p> 
                 <p>[<a href="https://arxiv.org/abs/2412.12919" >paper</a>] [<a href="https://shanghaitech-impact.github.io/4DRGS/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/4DRGS">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/4DRGS"></p>
             </div>
         </li>
