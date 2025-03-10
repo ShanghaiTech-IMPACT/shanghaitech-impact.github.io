@@ -72,15 +72,25 @@ Full publication list can be referred [here](https://scholar.google.com/citation
     </style>
 </head>
 
+
 ## 2025
 <html>
     <ul class="publications">
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_clip_review.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">CLIP in Medical Imaging: A Comprehensive Survey</div>
+                <p>Zihao Zhao*, Yuxiao Liu*, Han Wu*, Mei Wang, Yonghao Li, Sheng Wang, Lin Teng, Disheng Liu, <strong>Zhiming Cui</strong><sup>+</sup>, Qian Wang<sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
+                <p>Medical Image Analysis (MedIA), 2025.</p> 
+                <p>[<a href="https://arxiv.org/abs/2312.07353" >paper</a>] [<a href="https://github.com/zhaozh10/Awesome-CLIP-in-Medical-Imaging">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/Awesome-CLIP-in-Medical-Imaging?style=social&label=Stars"></p>
+            </div>
+        </li>
         <li class="publication-item">
             <img src="/assets/img/publications/2025_4DRGS.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">4DRGS: 4D Radiative Gaussian Splatting for Efficient 3D Vessel Reconstruction from Sparse-View Dynamic DSA Images</div>
                 <p>Zhentao Liu, Ruyi Zha, Huangxuan Zhao, Hongdong Li, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
-                <p>Information Processing in Medical Imaging (IPMI Oral), 2025.</p> 
+                <p>Information Processing in Medical Imaging (IPMI), 2025. <span style="color: red;">oral</span></p> 
                 <p>[<a href="https://arxiv.org/abs/2412.12919" >paper</a>] [<a href="https://shanghaitech-impact.github.io/4DRGS/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/4DRGS">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/4DRGS"></p>
             </div>
         </li>

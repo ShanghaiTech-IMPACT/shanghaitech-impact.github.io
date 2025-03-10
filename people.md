@@ -273,7 +273,7 @@ title: People
         <!-- <td>
             <img src="/assets/img/people/HaoshenWang.jpg" class="rounded-image" alt="Haoshen Wang">
             <div class="name">Haoshen Wang</div>
-            <div class="info">M.S. 2022.09 - 2024.06</div>
+            <div class="info">M.S. 2022.09 - 2025.06</div>
             <div class="info">B.E. DUT</div>
             <div class="info">Current: PhD @ HKPolyU</div>
         </td> -->
