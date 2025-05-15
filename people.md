@@ -235,29 +235,29 @@ title: People
         <td>
             <img src="/assets/img/people/SiyuChen.jpeg" class="rounded-image" alt="Siyu Chen">
             <div class="name">Siyu Chen</div>
-            <div class="info">Class 2021</div>
+            <div class="info">CS, Class 2021</div>
         </td>
         <td>
             <img src="/assets/img/people/WeiJia.png" class="rounded-image" alt="Wei Jia">
             <div class="name">Wei Jia</div>
-            <div class="info">Class 2022</div>
+            <div class="info">BME, Class 2022</div>
         </td>
         <td>
             <img src="/assets/img/people/JinzeWu.jpg" class="rounded-image" alt="Jinze Wu">
             <div class="name">Jinze Wu</div>
-            <div class="info">Class 2022</div>
+            <div class="info">BME, Class 2022</div>
         </td>
         <td>
             <img src="/assets/img/people/GuoChen.jpg" class="rounded-image" alt="Guo Chen">
             <div class="name">Guo Chen</div>
-            <div class="info">Class 2022</div>
+            <div class="info">CS, Class 2022</div>
         </td>
     </tr>
     <tr>
         <td>
             <img src="/assets/img/people/HuatongGao.png" class="rounded-image" alt="Huatong Gao">
             <div class="name">Huatong Gao</div>
-            <div class="info">Class 2021</div>
+            <div class="info">BME, Class 2021</div>
         </td>
         <td></td>
         <td></td>
@@ -275,7 +275,7 @@ title: People
             <div class="name">Haoshen Wang</div>
             <div class="info">M.S. 2022.09 - 2025.06</div>
             <div class="info">B.E. DUT</div>
-            <div class="info">Current: PhD @ HKPolyU</div>
+            <div class="info">First Placement: PhD @ HKPolyU</div>
         </td> -->
         <td>
             <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image" alt="Qingyao Luo">
