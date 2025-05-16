@@ -235,7 +235,7 @@ title: People
         <td>
             <img src="/assets/img/people/SiyuChen.jpeg" class="rounded-image" alt="Siyu Chen">
             <div class="name">Siyu Chen</div>
-            <div class="info">CS, Class 2021</div>
+            <div class="info">BME, Class 2021</div>
         </td>
         <td>
             <img src="/assets/img/people/WeiJia.png" class="rounded-image" alt="Wei Jia">
