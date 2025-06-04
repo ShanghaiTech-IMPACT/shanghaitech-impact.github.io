@@ -116,179 +116,50 @@ title: People
     }
 </style>
 
+{% assign categories = "phd_students,graduate_students,visiting_students,undergraduate_students,alumni" | split: "," %}
+{% assign titles = "Ph.D. Students,Graduate Students,Visiting Students,Undergraduate Students,Alumni" | split: "," %}
 
-<h2>Ph.D. Students</h2>
+{% for category in categories %}
+<h2>{{ titles[forloop.index0] }}</h2>
 
-<table class="people" id="phd-students">
+<table class="people" id="{{ category }}">
     <tr>
-        <td>
-            <img src="/assets/img/people/HanWu.png" class="rounded-image" alt="Han Wu">
-            <div class="name"><a href="http://hanwu.website/">Han Wu</a></div>
-            <div class="info">Ph.D. since 2022<br>B.E. WUT</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/ZhentaoLiu.jpg" class="rounded-image" alt="Zhentao Liu">
-            <div class="name"><a href="https://zhentao-liu.github.io/">Zhentao Liu</a></div>
-            <div class="info">Ph.D. since 2022<br>B.E. NBU</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/RuochenPi.jpg" class="rounded-image" alt="Ruochen Pi">
-            <div class="name">Ruochen Pi</div>
-            <div class="info">Eng.D. since 2024<br>M.S. USYD, B.E. SHNU</div>
-        </td>
-        <td></td>
+        {% assign people = site.data.people[category] %}
+        {% for person in people %}
+            <td>
+                <img src="{{ person.image }}" class="rounded-image" alt="{{ person.name }}">
+                <div class="name">
+                    {% if person.url %}
+                        <a href="{{ person.url }}">{{ person.name }}</a>
+                    {% else %}
+                        {{ person.name }}
+                    {% endif %}
+                </div>
+                <div class="info">{{ person.info }}</div>
+                {% if person.education %}
+                    <div class="info">{{ person.education }}</div>
+                {% endif %}
+                {% if person.period %}
+                    <div class="info">{{ person.period }}</div>
+                {% endif %}
+                {% if person.note != "" %}
+                    <div class="info">{{ person.note }}</div>
+                {% endif %}
+            </td>
+            {% assign remainder = forloop.index | modulo: 4 %}
+            {% if remainder == 0 and forloop.index != forloop.length %}
+                </tr><tr>
+            {% endif %}
+        {% endfor %}
+        {% assign empty_cells = 4 | minus: remainder %}
+        {% if remainder != 0 %}
+            {% for i in (1..empty_cells) %}
+                <td></td>
+            {% endfor %}
+        {% endif %}
     </tr>
 </table>
-
-<h2>Graduate Students</h2>
-
-<table class="people" id="graduate-students">
-    <tr>
-        <td>
-            <img src="/assets/img/people/HaoshenWang.jpg" class="rounded-image" alt="Haoshen Wang">
-            <div class="name">Haoshen Wang</div>
-            <div class="info">M.S. since 2022<br>B.E. DUT</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/YulongDou.jpg" class="rounded-image" alt="Yulong Dou">
-            <div class="name"><a href="https://douyl.github.io/">Yulong Dou</a></div>
-            <div class="info">M.S. since 2023<br>B.E. ShanghaiTech</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/ChenfanXu.png" class="rounded-image" alt="Chenfan Xu">
-            <div class="name">Chenfan Xu</div>
-            <div class="info">M.S. since 2023<br>B.E. SHU</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/XingyueWang.jpg" class="rounded-image" alt="Xingyue Wang">
-            <div class="name">Xingyue Wang</div>
-            <div class="info">M.S. since 2023<br>B.E. TMU & TJU</div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="/assets/img/people/ZhenyuTao.jpg" class="rounded-image" alt="Zhenyu Tao">
-            <div class="name">Zhenyu Tao</div>
-            <div class="info">M.Eng. since 2023<br>B.E. HFUT</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/YunjieTan.png" class="rounded-image" alt="Yunjie Tan">
-            <div class="name">Yunjie Tan</div>
-            <div class="info">M.Eng. since 2023<br>B.E. SHU</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/TaoLuo.jpg" class="rounded-image" alt="Tao Luo">
-            <div class="name">Tao Luo</div>
-            <div class="info">M.S. since 2024<br>B.E. SWU</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/ZihuanLi.jpg" class="rounded-image" alt="Zihuan Li">
-            <div class="name">Zihuan Li</div>
-            <div class="info">M.S. since 2024<br>B.E. HIT</div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="/assets/img/people/ZhihaoZhang.jpg" class="rounded-image" alt="Zhihao Zhang">
-            <div class="name">Zhihao Zhang</div>
-            <div class="info">M.S. since 2024<br>B.E. NJUPT</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/LuqiYang.jpg" class="rounded-image" alt="Luqi Yang">
-            <div class="name">Luqi Yang</div>
-            <div class="info">M.Eng. since 2024<br>B.E. DUT</div>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-
-<h2>Visiting Students</h2>
-
-<table class="people" id="visiting-students">
-    <tr>
-        <td>
-            <img src="/assets/img/people/JiaminWu.png" class="rounded-image" alt="Jiamin Wu">
-            <div class="name">Jiamin Wu</div>
-            <div class="info">Ph.D. from HKU</div>
-        </td>
-        <!-- <td>
-            <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image" alt="Qingyao Luo">
-            <div class="name">Qingyao Luo</div>
-            <div class="info">M.S. from NEU</div>
-        </td> -->
-        <td>
-            <img src="/assets/img/people/ZichenZhang.jpg" class="rounded-image" alt="Zichen Zhang">
-            <div class="name">Zichen Zhang</div>
-            <div class="info">M.S. from TUM</div>
-        </td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-
-<h2>Undergraduate Students</h2>
-
-<table class="people" id="undergraduate-students">
-    <tr>
-        <td>
-            <img src="/assets/img/people/SiyuChen.jpeg" class="rounded-image" alt="Siyu Chen">
-            <div class="name">Siyu Chen</div>
-            <div class="info">BME, Class 2021</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/WeiJia.png" class="rounded-image" alt="Wei Jia">
-            <div class="name">Wei Jia</div>
-            <div class="info">BME, Class 2022</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/JinzeWu.jpg" class="rounded-image" alt="Jinze Wu">
-            <div class="name">Jinze Wu</div>
-            <div class="info">BME, Class 2022</div>
-        </td>
-        <td>
-            <img src="/assets/img/people/GuoChen.jpg" class="rounded-image" alt="Guo Chen">
-            <div class="name">Guo Chen</div>
-            <div class="info">CS, Class 2022</div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <img src="/assets/img/people/HuatongGao.png" class="rounded-image" alt="Huatong Gao">
-            <div class="name">Huatong Gao</div>
-            <div class="info">BME, Class 2021</div>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-
-
-<h2>Alumni</h2>
-
-<table class="people" id="alumni">
-    <tr>
-        <!-- <td>
-            <img src="/assets/img/people/HaoshenWang.jpg" class="rounded-image" alt="Haoshen Wang">
-            <div class="name">Haoshen Wang</div>
-            <div class="info">M.S. 2022.09 - 2025.06</div>
-            <div class="info">B.E. DUT</div>
-            <div class="info">First Placement: PhD @ HKPolyU</div>
-        </td> -->
-        <td>
-            <img src="/assets/img/people/QingyaoLuo.jpg" class="rounded-image" alt="Qingyao Luo">
-            <div class="name">Qingyao Luo</div>
-            <div class="info">Visiting M.S. from NEU</div>
-            <div class="info">2023.07 - 2024.10</div>
-        </td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table> 
-
+{% endfor %}
 
 <h2>Gallery</h2>
 

@@ -1,0 +1,124 @@
+phd_students:
+  - name: Han Wu
+    image: /assets/img/people/HanWu.png
+    url: http://hanwu.website/
+    info: Ph.D. since 2022
+    education: B.E. WUT
+
+  - name: Zhentao Liu
+    image: /assets/img/people/ZhentaoLiu.jpg
+    url: https://zhentao-liu.github.io/
+    info: Ph.D. since 2022
+    education: B.E. NBU
+    note: ""
+
+  - name: Ruochen Pi
+    image: /assets/img/people/RuochenPi.jpg
+    info: Eng.D. since 2024
+    education: M.S. USYD, B.E. SHNU
+    note: ""
+
+  - name: Yulong Dou
+    image: /assets/img/people/YulongDou.jpg
+    url: https://douyl.github.io/
+    info: Ph.D. since 2023
+    education: B.E. ShanghaiTech
+
+  - name: Chenfan Xu
+    image: /assets/img/people/ChenfanXu.png
+    info: Ph.D. since 2023
+    education: B.E. SHU
+    note: ""
+  
+  - name: Xingyue Wang
+    image: /assets/img/people/XingyueWang.jpg
+    info: Ph.D. since 2023
+    education: B.E. TMU & TJU
+    note: ""
+
+  
+
+
+
+graduate_students:
+
+  - name: Zhenyu Tao
+    image: /assets/img/people/ZhenyuTao.jpg
+    info: M.Eng. since 2023
+    education: B.E. HFUT
+    note: ""
+
+  - name: Yunjie Tan
+    image: /assets/img/people/YunjieTan.png
+    info: M.Eng. since 2023
+    education: B.E. SHU
+    note: ""
+
+  - name: Tao Luo
+    image: /assets/img/people/TaoLuo.jpg
+    info: M.S. since 2024
+    education: B.E. SWU
+    note: ""
+
+  - name: Zihuan Li
+    image: /assets/img/people/ZihuanLi.jpg
+    info: M.S. since 2024
+    education: B.E. HIT
+    note: ""
+
+  - name: Zhihao Zhang
+    image: /assets/img/people/ZhihaoZhang.jpg
+    info: M.S. since 2024
+    education: B.E. NJUPT
+    note: ""
+
+  - name: Luqi Yang
+    image: /assets/img/people/LuqiYang.jpg
+    info: M.Eng. since 2024
+    education: B.E. DUT
+    note: ""
+
+visiting_students:
+  - name: Jiamin Wu
+    image: /assets/img/people/JiaminWu.png
+    info: Ph.D. from HKU
+    note: ""
+
+  - name: Zichen Zhang
+    image: /assets/img/people/ZichenZhang.jpg
+    info: M.S. from TUM
+    note: ""
+
+undergraduate_students:
+  - name: Siyu Chen
+    image: /assets/img/people/SiyuChen.jpeg
+    info: BME, Class 2021
+    note: ""
+
+  - name: Wei Jia
+    image: /assets/img/people/WeiJia.png
+    info: BME, Class 2022
+    note: ""
+
+  - name: Jinze Wu
+    image: /assets/img/people/JinzeWu.jpg
+    info: BME, Class 2022
+    note: ""
+
+  - name: Guo Chen
+    image: /assets/img/people/GuoChen.jpg
+    info: CS, Class 2022
+    note: ""
+
+alumni:
+  - name: Haoshen Wang
+    image: /assets/img/people/HaoshenWang.jpg
+    info: M.S. 2022.09 - 2025.06
+    period: B.E. DUT
+    note: "First Placement: PhD@HKPolyU"
+
+  - name: Qingyao Luo
+    image: /assets/img/people/QingyaoLuo.jpg
+    info: Visiting M.S. from NEU
+    period: 2023.07 - 2024.10
+    note: "" 
