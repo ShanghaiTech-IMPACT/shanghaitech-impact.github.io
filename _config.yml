@@ -125,17 +125,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#2C3E50"  # 深蓝灰色提升专业感
+navbar-col: "#000000"  # 深蓝灰色提升专业感
 navbar-text-col: "#FFFFFF"  # 白色文字提高对比度
-navbar-border-col: "#E0E0E0"  # 浅灰色边框
-page-col: "#F8F9FA"  # 极浅灰背景提升可读性
-text-col: "#37474F"  # 深灰蓝色文字
-link-col: "#2E86AB"  # 质感蓝绿色
-hover-col: "#265C7F"  # 深蓝绿色悬停效果
-footer-col: "#2C3E50"  # 与导航栏统一
-footer-text-col: "#B0BEC5"  # 浅灰蓝色
-footer-link-col: "#CFD8DC"  # 浅灰色链接
-footer-hover-col: "#2E86AB"  # 与主色统一
+navbar-border-col: "#000000"  # 浅灰色边框
+page-col: "#FFFFFF"  # 极浅灰背景提升可读性
+text-col: "#000000"  # 深灰蓝色文字
+link-col: "#000000"  # 质感蓝绿色
+hover-col: "#000000"  # 深蓝绿色悬停效果
+footer-col: "#000000"  # 与导航栏统一
+footer-text-col: "#FFFFFF"  # 浅灰蓝色
+footer-link-col: "#FFFFFF"  # 浅灰色链接
+footer-hover-col: "#FFFFFF"  # 与主色统一
 
 # navbar-col: "#EEEDFF"
 # navbar-text-col: "#0046AE"
