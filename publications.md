@@ -51,7 +51,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             color: #586069; /* GitHub-style text color */
         }
         .publication-content a {
-            color: #0366d6;
+            color: #2c3e50;
             text-decoration: none;
             padding: 2px 4px;
             border-radius: 3px;
@@ -66,7 +66,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             margin-top: 40px;
             margin-bottom: 25px;
             padding-bottom: 8px;
-            border-bottom: 2px solid #0366d6;
+            border-bottom: 2px solid #2c3e50;
             color: #24292e;
         }
     </style>

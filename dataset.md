@@ -25,7 +25,7 @@ title: Dataset
         color: #2c3e50;
         margin-top: 0;
         font-size: 1.8em;
-        border-bottom: 2px solid #3498db;
+        border-bottom: 2px solid #2c3e50;;
         padding-bottom: 10px;
         margin-bottom: 15px;
     }
@@ -35,7 +35,7 @@ title: Dataset
         font-size: 1.1em;
     }
     .dataset-item a {
-        color: #3498db;
+        color: #2c3e50;;
         text-decoration: none;
         font-weight: bold;
         transition: color 0.3s ease;

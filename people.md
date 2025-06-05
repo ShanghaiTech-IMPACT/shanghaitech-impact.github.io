@@ -18,7 +18,7 @@ title: People
     .rounded-image:hover {
         transform: scale(1.05) translateY(-5px);
         box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-        border-color: #3498db;
+        border-color:rgb(0, 0, 0);
     }
 
     @media (max-width: 600px) {
@@ -71,11 +71,29 @@ title: People
         transform: translateX(100%);
     }
 
+    /* Add this new style for empty cells */
+    .people td.empty-cell {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+        pointer-events: none;
+    }
+    
+    /* Disable all hover effects for empty cells */
+    .people td.empty-cell:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    .people td.empty-cell::after {
+        content: none;
+    }
+
     h2 {
         font-size: 2.4em;
         color: #2c3e50;
         margin: 50px 0 35px;
-        border-bottom: 3px solid #3498db;
+        border-bottom: 3px solid #2c3e50;
         padding-bottom: 12px;
         text-align: center;
         position: relative;
@@ -92,14 +110,14 @@ title: People
     }
 
     a {
-        color: #3498db;
+        color: #2c3e50;
         text-decoration: none;
         font-weight: bold;
         transition: color 0.3s ease;
     }
 
     a:hover {
-        color: #2980b9;
+        color: #2c3e50;
     }
 
     .name {
@@ -154,7 +172,7 @@ title: People
         {% assign empty_cells = 4 | minus: remainder %}
         {% if remainder != 0 %}
             {% for i in (1..empty_cells) %}
-                <td></td>
+                <td class="empty-cell"></td>
             {% endfor %}
         {% endif %}
     </tr>

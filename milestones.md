@@ -74,12 +74,12 @@ title: Milestones
         content: '';
         position: absolute;
         width: 3px;
-        background: linear-gradient(to bottom, #2196F3, #03A9F4);
+        background: linear-gradient(to bottom, #333, #000);
         top: 0;
         bottom: 0;
         left: 50%;
         margin-left: -1.5px;
-        box-shadow: 0 0 15px rgba(33, 150, 243, 0.3);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     }
     .timeline-item {
         padding: 30px 50px;
@@ -96,17 +96,17 @@ title: Milestones
         height: 24px;
         right: -12px;
         background-color: #fff;
-        border: 4px solid #2196F3;
+        border: 4px solid #000;
         top: 30px;
         border-radius: 50%;
         z-index: 1;
         transition: all 0.4s ease;
-        box-shadow: 0 0 0 4px rgba(33, 150, 243, 0.2);
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.2);
     }
     .timeline-item:hover::after {
-        background-color: #2196F3;
+        background-color: #000;
         transform: scale(1.3);
-        box-shadow: 0 0 0 6px rgba(33, 150, 243, 0.3);
+        box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);
     }
     .timeline-item:nth-child(odd) {
         left: 0;
@@ -131,7 +131,7 @@ title: Milestones
     }
     .timeline-date {
         font-weight: 600;
-        color: #2196F3;
+        color: #000;
         margin-bottom: 12px;
         font-size: 1.1em;
         text-transform: uppercase;
@@ -146,11 +146,11 @@ title: Milestones
         left: 0;
         width: 40%;
         height: 2px;
-        background-color: #2196F3;
+        background-color: #000;
     }
     .timeline-content h3 {
         margin-top: 0;
-        color: #1a1a1a;
+        color: #000;
         font-size: 1.7em;
         margin-bottom: 15px;
         font-weight: 600;
@@ -158,7 +158,7 @@ title: Milestones
     .timeline-content p {
         margin-bottom: 0;
         line-height: 1.9;
-        color: #424242;
+        color: #333;
         font-size: 1.1em;
     }
     @media screen and (max-width: 768px) {

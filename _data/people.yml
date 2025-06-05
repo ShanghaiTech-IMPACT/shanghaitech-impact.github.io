@@ -77,6 +77,13 @@ graduate_students:
     info: M.Eng. since 2024
     education: B.E. DUT
     note: ""
+  
+  - name: Lei Luo
+    image: /assets/img/people/LeiLuo.jpg
+    info: M.S. since 2025
+    education: B.E. AHU
+    note: ""
+  
 
 visiting_students:
   - name: Jiamin Wu

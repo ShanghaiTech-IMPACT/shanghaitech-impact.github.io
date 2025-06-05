@@ -31,7 +31,7 @@ title: Join Us
         font-size: 1.6em;
         color: #2c3e50;
         margin-bottom: 20px;
-        border-bottom: 2px solid #3498db;
+        border-bottom: 2px solid #2c3e50;;
         padding-bottom: 10px;
     }
     .faq p {
@@ -40,7 +40,7 @@ title: Join Us
         color: #34495e;
     }
     .faq a {
-        color: #3498db;
+        color: #2c3e50;;
         text-decoration: none;
         transition: color 0.3s ease;
     }

@@ -20,7 +20,7 @@ title: Research
         font-size: 2.2em;
         color: #2c3e50;
         margin-bottom: 25px;
-        border-bottom: 3px solid #3498db;
+        border-bottom: 3px solid #2c3e50;;
         padding-bottom: 15px;
     }
     .research-section p {
@@ -29,7 +29,7 @@ title: Research
         color: #34495e;
     }
     .research-section a {
-        color: #3498db;
+        color: #2c3e50;;
         text-decoration: none;
         transition: color 0.3s ease;
     }
@@ -38,7 +38,7 @@ title: Research
     }
     .icon {
         font-size: 2.5em;
-        color: #3498db;
+        color: #2c3e50;;
         margin-bottom: 20px;
     }
 </style>
