@@ -83,6 +83,12 @@ graduate_students:
     info: M.S. since 2025
     education: B.E. AHU
     note: ""
+
+  - name: Leyuan Wang
+    image: /assets/img/people/LeyuanWang.jpg
+    info: M.S. since 2025
+    education: B.E. SDU
+    note: ""
   
 
 visiting_students:
