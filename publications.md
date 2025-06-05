@@ -51,7 +51,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             color: #586069; /* GitHub-style text color */
         }
         .publication-content a {
-            color: #2c3e50;
+            color: #0066cc; /* Change to blue */
             text-decoration: none;
             padding: 2px 4px;
             border-radius: 3px;
@@ -59,6 +59,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         }
         .publication-content a:hover {
             background-color: #f1f8ff; /* Light blue background on hover */
+            color: #4db8ff;
             text-decoration: none;
         }
         /* Year headers styling */
@@ -71,7 +72,6 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         }
     </style>
 </head>
-
 
 ## 2025
 <html>

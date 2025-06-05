@@ -110,7 +110,7 @@ title: People
     }
 
     a {
-        color: #2c3e50;
+        color: #4db8ff;
         text-decoration: none;
         font-weight: bold;
         transition: color 0.3s ease;
