@@ -4,6 +4,7 @@ phd_students:
     url: http://hanwu.website/
     info: Ph.D. since 2022
     education: B.E. WUT
+    note: "(with Prof. Dinggang Shen)"
 
   - name: Zhentao Liu
     image: /assets/img/people/ZhentaoLiu.jpg
@@ -23,7 +24,7 @@ phd_students:
     url: https://douyl.github.io/
     info: Ph.D. since 2023
     education: B.E. ShanghaiTech
-
+    note: "(with Prof. Dinggang Shen)"
   - name: Chenfan Xu
     image: /assets/img/people/ChenfanXu.png
     info: Ph.D. since 2023

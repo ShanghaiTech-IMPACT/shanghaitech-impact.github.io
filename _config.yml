@@ -131,7 +131,7 @@ navbar-border-col: "#000000"  # 浅灰色边框
 page-col: "#FFFFFF"  # 极浅灰背景提升可读性
 text-col: "#000000"  # 深灰蓝色文字
 link-col: "#000000"  # 质感蓝绿色
-hover-col: "#000000"  # 深蓝绿色悬停效果
+hover-col: "#CCCCCC"  # 深蓝绿色悬停效果
 footer-col: "#000000"  # 与导航栏统一
 footer-text-col: "#FFFFFF"  # 浅灰蓝色
 footer-link-col: "#FFFFFF"  # 浅灰色链接

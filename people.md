@@ -237,6 +237,7 @@ title: People
         <img src="/assets/img/Gallery/20230617_2.jpg" alt="Gallery Image 3">
         <img src="/assets/img/Gallery/UMI2024.png" alt="Gallery Image 4">
         <img src="/assets/img/Gallery/MLMI2024.jpg" alt="Gallery Image 5">
+        <img src="/assets/img/Gallery/whs.png" alt="Gallery Image 6">
     </div>
     <div class="slider-nav">
         <button onclick="prevSlide()">Previous</button>
