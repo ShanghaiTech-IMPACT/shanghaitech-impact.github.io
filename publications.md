@@ -77,12 +77,30 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
-            <img src="/assets/img/publications/2024_3DMedDiffusion.png" class="publication-img">
+            <img src="/assets/img/publications/2025_DuCiSC.png" class="publication-img">
             <div class="publication-content">
-                <div class="title">3D MedDiffusion: A 3D Medical Diffusion Model for Controllable and High-quality Medical Image Generation</div>
-                <p>Haoshen Wang, Zhentao Liu, Kaicong Sun, Xiaodong Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <div class="title">Dual Cross-image Semantic Consistency with Self-aware Pseudo Labeling for Semi-supervised Medical Image Segmentation</div>
+                <p>Han Wu, Chong Wang, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
-                <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p>
+                <!-- <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p> -->
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_tooth_alignment.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">CLIK-Diffusion: Clinical Knowledge-informed Diffusion Model for Tooth Alignment</div>
+                <p>Yulong Dou, Han Wu, Changjian Li, Chen Wang, Tong Yang, Min Zhu, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>Meidical Image Analysis (MedIA), 2025.</p>
+                <!-- <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p> -->
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_FACE.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">Fully Automated Evaluation of Condylar Remodeling After Orthognathic Surgery in Skeletal Class II Patients Using Deep Learning and Landmarks</div>
+                <p>Wei Jia, Han Wu, Lanzhuju Mei, Jiamin Wu, Minjiao Wang, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>Journal of Dentistry (JoD), 2025.</p>
+                <!-- <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p> -->
             </div>
         </li>
         <li class="publication-item">
