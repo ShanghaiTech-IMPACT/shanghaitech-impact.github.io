@@ -1,10 +1,4 @@
 phd_students:
-  - name: Han Wu
-    image: /assets/img/people/HanWu.png
-    url: http://hanwu.website/
-    info: Ph.D. since 2022
-    education: B.E. WUT
-    note: "(with Prof. Dinggang Shen)"
 
   - name: Zhentao Liu
     image: /assets/img/people/ZhentaoLiu.jpg
@@ -19,12 +13,7 @@ phd_students:
     education: M.S. USYD, B.E. SHNU
     note: ""
 
-  - name: Yulong Dou
-    image: /assets/img/people/YulongDou.jpg
-    url: https://douyl.github.io/
-    info: Ph.D. since 2023
-    education: B.E. ShanghaiTech
-    note: "(with Prof. Dinggang Shen)"
+  
     
   - name: Chenfan Xu
     image: /assets/img/people/ChenfanXu.png
@@ -38,8 +27,19 @@ phd_students:
     education: B.E. TMU & TJU
     note: ""
 
+  - name: Han Wu
+    image: /assets/img/people/HanWu.png
+    url: http://hanwu.website/
+    info: Ph.D. since 2022
+    education: B.E. WUT
+    note: "(with Prof. Dinggang Shen)"
   
-
+  - name: Yulong Dou
+    image: /assets/img/people/YulongDou.jpg
+    url: https://douyl.github.io/
+    info: Ph.D. since 2023
+    education: B.E. ShanghaiTech
+    note: "(with Prof. Dinggang Shen)"
 
 
 graduate_students:

@@ -34,14 +34,14 @@ title: People
         table-layout: fixed;
         border-collapse: separate; 
         border-spacing: 15px;
-        margin: 30px 0;
+        margin: 20px 0;
     }
 
     .people td {
         width: 25%;
         text-align: center;
         vertical-align: top;
-        padding: 25px;
+        padding: 15px;
         background-color: #ffffff;
         border-radius: 15px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -130,7 +130,7 @@ title: People
     .info {
         font-size: 0.95em;
         color: #7f8c8d;
-        line-height: 1.6;
+        line-height: 1.4;
     }
 </style>
 

@@ -13,9 +13,9 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         .publication-item {
             display: flex;
             align-items: flex-start;  
-            margin-bottom: 30px;  /* Increased margin for better spacing */
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 25px;  /* Increased padding */
+            margin-bottom: 5px;  /* Increased margin for better spacing */
+            /* border-bottom: 1px solid #eaecef; */
+            padding-bottom: 5px;  /* Increased padding */
             transition: transform 0.2s ease; /* Add smooth hover effect */
         }
         .publication-item:hover {
@@ -28,7 +28,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             background-color: #f8f9fa;
             border-radius: 12px;  /* Increased border radius */
             box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.12); /* Enhanced shadow */
-            max-width: 300px;  
+            max-width: 270px;  
             overflow: hidden;
             transition: box-shadow 0.3s ease; /* Smooth shadow transition */
         }
@@ -39,15 +39,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             flex: 1;  
         }
         .publication-content .title {
-            font-size: 1.25em; /* Slightly larger */
+            font-size: 1.2em; /* Slightly larger */
             font-weight: bold;
-            margin-bottom: 12px;
+            margin-bottom: 2px;
             color: #24292e; /* GitHub-style dark color */
-            line-height: 1.4;
+            line-height: 1.3;
         }
         .publication-content p {
-            margin: 8px 0;
-            line-height: 1.5;
+            margin: 3px 0;
+            line-height: 1.2;
             color: #586069; /* GitHub-style text color */
         }
         .publication-content a {
@@ -64,9 +64,9 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         }
         /* Year headers styling */
         h2 {
-            margin-top: 40px;
-            margin-bottom: 25px;
-            padding-bottom: 8px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
             border-bottom: 2px solid #2c3e50;
             color: #24292e;
         }
@@ -82,7 +82,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Dual Cross-image Semantic Consistency with Self-aware Pseudo Labeling for Semi-supervised Medical Image Segmentation</div>
                 <p>Han Wu, Chong Wang, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
-                <!-- <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p> -->
+                <p>[<a href="https://ieeexplore.ieee.org/abstract/document/11104231" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/DuCiSC/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/DuCiSC"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -91,7 +91,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">CLIK-Diffusion: Clinical Knowledge-informed Diffusion Model for Tooth Alignment</div>
                 <p>Yulong Dou, Han Wu, Changjian Li, Chen Wang, Tong Yang, Min Zhu, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>Meidical Image Analysis (MedIA), 2025.</p>
-                <!-- <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p> -->
+                <p>[<a href="https://www.sciencedirect.com/science/article/pii/S1361841525002932?dgcid=author" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/CLIK-Diffusion">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/CLIK-Diffusion"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -100,7 +100,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Fully Automated Evaluation of Condylar Remodeling After Orthognathic Surgery in Skeletal Class II Patients Using Deep Learning and Landmarks</div>
                 <p>Wei Jia, Han Wu, Lanzhuju Mei, Jiamin Wu, Minjiao Wang, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>Journal of Dentistry (JoD), 2025.</p>
-                <!-- <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p> -->
+                <p>[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0300571225002635" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/FACE/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/FACE"></p>
             </div>
         </li>
         <li class="publication-item">
