@@ -51,7 +51,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             color: #586069; /* GitHub-style text color */
         }
         .publication-content a {
-            color: #0066cc; /* Change to blue */
+            color: #256bec; /* Change to blue */
             text-decoration: none;
             padding: 2px 4px;
             border-radius: 3px;
@@ -95,15 +95,6 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             </div>
         </li>
         <li class="publication-item">
-            <img src="/assets/img/publications/2025_FACE.png" class="publication-img">
-            <div class="publication-content">
-                <div class="title">Fully Automated Evaluation of Condylar Remodeling After Orthognathic Surgery in Skeletal Class II Patients Using Deep Learning and Landmarks</div>
-                <p>Wei Jia, Han Wu, Lanzhuju Mei, Jiamin Wu, Minjiao Wang, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
-                <p>Journal of Dentistry (JoD), 2025.</p>
-                <p>[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0300571225002635" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/FACE/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/FACE"></p>
-            </div>
-        </li>
-        <li class="publication-item">
             <img src="/assets/img/publications/2024_3DMedDiffusion.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">3D MedDiffusion: A 3D Medical Diffusion Model for Controllable and High-quality Medical Image Generation</div>
@@ -119,6 +110,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <p>Zihao Zhao*, Yuxiao Liu*, Han Wu*, Mei Wang, Yonghao Li, Sheng Wang, Lin Teng, Disheng Liu, <strong>Zhiming Cui</strong><sup>+</sup>, Qian Wang<sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2025.</p> 
                 <p>[<a href="https://arxiv.org/abs/2312.07353" >paper</a>] [<a href="https://github.com/zhaozh10/Awesome-CLIP-in-Medical-Imaging">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/Awesome-CLIP-in-Medical-Imaging?style=social&label=Stars"></p>
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_FACE.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">Fully Automated Evaluation of Condylar Remodeling After Orthognathic Surgery in Skeletal Class II Patients Using Deep Learning and Landmarks</div>
+                <p>Wei Jia, Han Wu, Lanzhuju Mei, Jiamin Wu, Minjiao Wang, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>Journal of Dentistry (JoD), 2025.</p>
+                <p>[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0300571225002635" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/FACE/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/FACE"></p>
             </div>
         </li>
         <li class="publication-item">
