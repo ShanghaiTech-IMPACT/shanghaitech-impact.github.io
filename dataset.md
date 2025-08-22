@@ -154,7 +154,7 @@ title: Dataset
             <div class="notice-content">
                 <ul>
                     <li>Our datasets are <span class="highlight-text">available only for non-commercial and academic research purposes</span>. Any form of commercial use is strictly prohibited.</li>
-                    <li>Access to all datasets is granted through an application and review process. To request access, please complete the <a href="./assets/data-request-form.pdf">Data Access Application Form</a> and email it to the first author of the corresponding paper and Dr. Zhiming Cui, while also cc your supervisor. Upon approval, you will receive the download link.</li>
+                    <li>Access to all datasets is granted through an application and review process. To request access, please complete the <a href="./assets/dataset_application.pdf">Data Access Application Form</a> and email it to the first author of the corresponding paper and Dr. Zhiming Cui, while also cc your supervisor. Upon approval, you will receive the download link.</li>
                 </ul>
             </div>
         </div>
