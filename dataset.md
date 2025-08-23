@@ -154,13 +154,13 @@ title: Dataset
             <div class="notice-content">
                 <ul>
                     <li>Our datasets are <span class="highlight-text">available only for non-commercial and academic research purposes</span>. Any form of commercial use is strictly prohibited.</li>
-                    <li>Access to all datasets is granted through an application and review process. To request access, please complete the <a href="./assets/dataset_application.pdf">Data Access Application Form</a> and email it to the first author of the corresponding paper and Dr. Zhiming Cui, while also cc your supervisor. Upon approval, you will receive the download link.</li>
+                    <li>Access to all datasets is granted through an application and review process. To request access, please complete the <a href="/assets/dataset_application.pdf">Data Access Application Form</a> and email it to the first author of the corresponding paper and Dr. Zhiming Cui, while also cc your supervisor. Upon approval, you will receive the download link.</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="dataset-item">
-        <h2>CBCT Dataset</h2>
+        <h2>01 CBCT Dataset</h2>
         <p>This is the dataset for our 'A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images' paper in  Nature Communication 2022. We released partial data (50 raw data of CBCT scans collected from dental clinics) to support the results in this study with permission from respective data centers. The full datasets are protected because of privacy issues and regulation policies in hospitals. </p>
         <p><a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">Download Link</a></p>
         <p><strong>Reference:</strong></p>
@@ -176,7 +176,7 @@ publisher={Nature Publishing Group UK London}
 }</code></pre>
     </div>
     <div class="dataset-item">
-        <h2>CephAdoAdu Dataset</h2>
+        <h2>02 CephAdoAdu Dataset</h2>
         <p>We collected a new benchmark dataset, named CephAdoAdu, with both adolescent and adult cases, distinguishing it from existing datasets that solely consist of either adolescent or most adult cases. CephAdoAdu has a total of 1000 (500 adult cases, 500 adolescent cases) cephalometric X-ray images, acquired from eight clinical centers. Every cephalometric image underwent manual annotations to mark 10 typical landmarks, by an experienced dental radiologist with over ten years of expertise.</p>
         <p><a href="https://github.com/ShanghaiTech-IMPACT/CeLDA/">Download Link</a></p>
         <p><strong>Reference:</strong></p>
@@ -190,7 +190,7 @@ organization={Springer}
 }</code></pre>
     </div>
     <div class="dataset-item">
-        <h2>Tooth Alignment Dataset</h2>
+        <h2>03 Tooth Alignment Dataset</h2>
         <p>We acquire 2,224 CBCT scans from Shanghai NinthPeople’s Hospital under consistent acquisition parameters (100 kVsource voltage, 0.3 mm voxel size, 468 × 468 × 250 resolution). Eachscan undergoes rigid registration to align it to a standardized jawcoordinate system for uniform orientation and field of view, and weapply stringent quality control to remove scans with metal or motionartifacts and incomplete dentition coverage. The resulting dataset comprises1,955 clinically validated high-quality sets of 3D tooth models.</p>
         <p><a href="https://github.com/ShanghaiTech-IMPACT/CLIK-Diffusion">Download Link</a></p>
         <p><strong>Reference:</strong></p>
