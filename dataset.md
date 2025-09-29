@@ -206,4 +206,20 @@ url = {https://www.sciencedirect.com/science/article/pii/S1361841525002932},
 author = {Yulong Dou and Han Wu and Changjian Li and Chen Wang and Tong Yang and Min Zhu and Dinggang Shen and Zhiming Cui}
 }</code></pre>
     </div>
+    <div class="dataset-item">
+        <h2>04 DVCT Dataset</h2>
+        <p>We release DVCT, an open benchmark dataset consisting of 2,000 panoramic dental X-ray images with high-precision annotations of dental caries. The dataset is established as a gold standard, with annotations dual-verified using both panoramic X-rays and intra-oral images, and further cross-checked by experienced dental radiologists. DVCT covers subjects across different age groups and includes caries at various stages of dentition, providing a reliable resource for advancing automated dental analysis.</p>
+        <p><a href="https://github.com/ShanghaiTech-IMPACT/DVCTNet">Download Link</a></p>
+        <p><strong>Reference:</strong></p>
+        <pre><code>@InProceedings{LuoTao_Adapting_MICCAI2025,
+        author = { Luo, Tao and Wu, Han and Yang, Tong and Shen, Dinggang and Cui, Zhiming},
+        title = { { Adapting Foundation Model for Dental Caries Detection with Dual-View Co-Training } },
+        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+        year = {2025},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 15975},
+        month = {September},
+        page = {44 -- 53}
+}</code></pre>
+    </div>
 </div>
