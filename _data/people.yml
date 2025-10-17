@@ -91,7 +91,12 @@ graduate_students:
     info: M.S. since 2025
     education: B.E. SDU
     note: ""
-  
+
+  - name: Bo Wang
+    image: /assets/img/people/BoWang.jpg
+    info: M.Eng. since 2025
+    education: B.E. SJTU
+    note: ""
 
 visiting_students:
   - name: Jiamin Wu
