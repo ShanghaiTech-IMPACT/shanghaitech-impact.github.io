@@ -80,6 +80,12 @@ graduate_students:
     education: B.E. DUT
     note: ""
   
+  - name: Weizhen Wang
+    image: /assets/img/people/WeizhenWang.jpg
+    info: M.S. since 2025
+    education: B.E. Shanghaitech
+    note: ""
+
   - name: Lei Luo
     image: /assets/img/people/LeiLuo.jpg
     info: M.S. since 2025
