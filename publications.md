@@ -77,6 +77,14 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
+            <img src="/assets/img/publications/2025_CBCT.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">Structure-Preserving Two-Stage Diffusion Model for CBCT Metal Artifact Reduction</div>
+                <p>Xingyue Wang, Zhentao Liu, Haoshen Wang, Minhui Tan, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
+            </div>
+        </li>
+        <li class="publication-item">
             <img src="/assets/img/publications/2025_DuCiSC.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Dual Cross-image Semantic Consistency with Self-aware Pseudo Labeling for Semi-supervised Medical Image Segmentation</div>
