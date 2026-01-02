@@ -73,6 +73,25 @@ Full publication list can be referred [here](https://scholar.google.com/citation
     </style>
 </head>
 
+## 2026
+<html>
+    <ul class="publications">
+        <li class="publication-item">
+            <img src="/assets/img/publications/2026_SemiEchoTracker.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">Semi-Supervised Landmark Tracking in Echocardiography Video via Spatial-Temporal Co-Training and Perception-Aware Attention</div>
+                <p>Han Wu, Haoyuan Chen, Lin Zhou<sup>+</sup>, Qi Xu<sup>+</sup>, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
+                <p>IEEE Transactions on Medical Imaging (TMI), 2026.</p>
+                <p>[<a href="" >paper</a>] [<a href="">code</a>]</p>
+            </div>
+        </li>
+    </ul>
+</html>
+
+
+
+
+
 ## 2025
 <html>
     <ul class="publications">
@@ -82,6 +101,16 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Structure-Preserving Two-Stage Diffusion Model for CBCT Metal Artifact Reduction</div>
                 <p>Xingyue Wang, Zhentao Liu, Haoshen Wang, Minhui Tan, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
+                <p>[<a href="" >paper</a>] [<a href="">code</a>]</p>
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_npj.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">A Novel AI-Powered Radiographic Analysis Surpasses Specialists in Stage II–IV Periodontitis Detection: A Multicenter Diagnostic Study</div>
+                <p>Yuan Li<sup>*</sup>, <strong>Zhiming Cui</strong><sup>*</sup>, Lanzhuju Mei<sup>*</sup>, Yu Xie<sup>*</sup>, Lorenzo Marini, George Pelekos, Wen Gu, Xiaoyu Yu, Xinyu Wu, Xindi Wei, Leran Tao, Ke Deng, Andrea Pilloni, Dinggang Shen, Maurizio S. Tonetti.</p>
+                <p>npj Digital Medicine, 2025.</p>
+                <p>[<a href="https://www.nature.com/articles/s41746-025-02077-0" >paper</a>]</p>
             </div>
         </li>
         <li class="publication-item">
@@ -109,6 +138,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <p>Haoshen Wang, Zhentao Liu, Kaicong Sun, Xiaodong Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
                 <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p>
+            </div>
+        </li>
+        <li class="publication-item">
+            <img src="/assets/img/publications/2025_CRM.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">PerioAI: A digital system for periodontal disease diagnosis from an intra-oral scan and cone-beam CT image</div>
+                <p>Minhui Tan<sup>*</sup>, Zhiming Cui<sup>*</sup>, Yuan Li<sup>*</sup>, Yu Fang, Lanzhuju Mei, Yue Zhao, Xinyu Wu, Hongchang Lai, Maurizio S. Tonetti, Dinggang Shen.</p>
+                <p>Cell Reports Medicine, 2025.</p>
+                <p>[<a href="https://www.sciencedirect.com/science/article/pii/S2666379125002599" >paper</a>]</p>
             </div>
         </li>
         <li class="publication-item">
