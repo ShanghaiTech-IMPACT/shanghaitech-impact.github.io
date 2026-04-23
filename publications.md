@@ -82,7 +82,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning</div>
                 <p>Zhentao Liu, Huangxuan Zhao, Wenhui Qin, Zhenghong Zhou, Xinggang Wang, Wenping Wang, Xiaochun Lai, Chuansheng Zheng, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup></p>
                 <p>Meidical Image Analysis (MedIA), 2026.</p>
-                <p>[<a href="https://www.sciencedirect.com/science/article/pii/S136184152600157X?via=ihub" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/VPAL">code</a>]</p>
+                <p>[<a href="https://www.sciencedirect.com/science/article/pii/S136184152600157X?via=ihub" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/VPAL">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/VPAL"></p>
             </div>
         </li>
         <li class="publication-item">
