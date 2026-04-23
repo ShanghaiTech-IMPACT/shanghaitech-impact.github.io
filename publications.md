@@ -77,6 +77,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
+            <img src="/assets/img/publications/2026_VPAL.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning</div>
+                <p>Zhentao Liu, Huangxuan Zhao, Wenhui Qin, Zhenghong Zhou, Xinggang Wang, Wenping Wang, Xiaochun Lai, Chuansheng Zheng, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup></p>
+                <p>Meidical Image Analysis (MedIA), 2026.</p>
+                <p>[<a href="https://www.sciencedirect.com/science/article/pii/S136184152600157X?via=ihub" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/VPAL">code</a>]</p>
+            </div>
+        </li>
+        <li class="publication-item">
             <img src="/assets/img/publications/2026_SemiEchoTracker.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">Semi-Supervised Landmark Tracking in Echocardiography Video via Spatial-Temporal Co-Training and Perception-Aware Attention</div>
