@@ -76,7 +76,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 ## 2026
 <html>
     <ul class="publications">
-        <li class="publication-item">
+        <!-- <li class="publication-item">
             <img src="/assets/img/publications/2026_SurgicalPlanning.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">3D Craniofacial Generative Model for Surgical Planning in Mandibular Reconstruction</div>
@@ -84,7 +84,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <p></p>
                 <p></p>
             </div>
-        </li>
+        </li> -->
         <li class="publication-item">
             <img src="/assets/img/publications/2026_VPAL.png" class="publication-img">
             <div class="publication-content">
