@@ -77,6 +77,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
 <html>
     <ul class="publications">
         <li class="publication-item">
+            <img src="/assets/img/publications/2026_SurgicalPlanning.png" class="publication-img">
+            <div class="publication-content">
+                <div class="title">3D Craniofacial Generative Model for Surgical Planning in Mandibular Reconstruction</div>
+                <p>Chenfan Xu, Zhentao Liu, Jiamin Wu, Haoshen Wang, Jiepeng Wang, Hao Wang, Wen Du, Xin Peng, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <p></p>
+                <p></p>
+            </div>
+        </li>
+        <li class="publication-item">
             <img src="/assets/img/publications/2026_VPAL.png" class="publication-img">
             <div class="publication-content">
                 <div class="title">3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning</div>

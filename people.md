@@ -134,50 +134,38 @@ title: People
     }
 </style>
 
-{% assign categories = "phd_students,graduate_students,visiting_students,undergraduate_students,alumni" | split: "," %}
-{% assign titles = "Ph.D. Students,Graduate Students,Visiting Students,Undergraduate Students,Alumni" | split: "," %}
+{% assign categories = "phd_students,graduate_students,visiting_students,undergraduate_students" | split: "," %}
+{% assign titles = "Ph.D. Students,Graduate Students,Visiting Students,Undergraduate Students" | split: "," %}
 
 {% for category in categories %}
+{% assign people = site.data.people[category] %}
+{% if people and people.size > 0 %}
 <h2>{{ titles[forloop.index0] }}</h2>
-
-<table class="people" id="{{ category }}">
-    <tr>
-        {% assign people = site.data.people[category] %}
-        {% for person in people %}
-            <td>
-                <img src="{{ person.image }}" class="rounded-image" alt="{{ person.name }}">
-                <div class="name">
-                    {% if person.url %}
-                        <a href="{{ person.url }}">{{ person.name }}</a>
-                    {% else %}
-                        {{ person.name }}
-                    {% endif %}
-                </div>
-                <div class="info">{{ person.info }}</div>
-                {% if person.education %}
-                    <div class="info">{{ person.education }}</div>
-                {% endif %}
-                {% if person.period %}
-                    <div class="info">{{ person.period }}</div>
-                {% endif %}
-                {% if person.note != "" %}
-                    <div class="info">{{ person.note }}</div>
-                {% endif %}
-            </td>
-            {% assign remainder = forloop.index | modulo: 4 %}
-            {% if remainder == 0 and forloop.index != forloop.length %}
-                </tr><tr>
-            {% endif %}
-        {% endfor %}
-        {% assign empty_cells = 4 | minus: remainder %}
-        {% if remainder != 0 %}
-            {% for i in (1..empty_cells) %}
-                <td class="empty-cell"></td>
-            {% endfor %}
-        {% endif %}
-    </tr>
-</table>
+{% include people_table.html people=people id=category %}
+{% endif %}
 {% endfor %}
+
+{% assign alumni = site.data.people.alumni %}
+{% assign alumni_categories = "graduate_students,undergraduate_students,visiting_students" | split: "," %}
+{% assign alumni_titles = "Graduate Students,Undergraduate Students,Visiting Students" | split: "," %}
+{% assign has_alumni = false %}
+{% for subcategory in alumni_categories %}
+{% assign alumni_people = alumni[subcategory] %}
+{% if alumni_people and alumni_people.size > 0 %}
+{% assign has_alumni = true %}
+{% endif %}
+{% endfor %}
+{% if has_alumni %}
+<h2>Alumni</h2>
+{% for subcategory in alumni_categories %}
+{% assign alumni_people = alumni[subcategory] %}
+{% if alumni_people and alumni_people.size > 0 %}
+<h3>{{ alumni_titles[forloop.index0] }}</h3>
+{% assign alumni_table_id = "alumni_" | append: subcategory %}
+{% include people_table.html people=alumni_people id=alumni_table_id %}
+{% endif %}
+{% endfor %}
+{% endif %}
 
 <h2>Gallery</h2>
 
