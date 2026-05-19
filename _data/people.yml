@@ -110,6 +110,18 @@ graduate_students:
     education: B.E. SJTU
     note: ""
 
+  - name: Zhiyu Zhang
+    image: /assets/img/people/ZhiyuZhang.jpg
+    info: M.S. since 2026
+    education: B.E. TJUT
+    note: ""
+
+  - name: Mengxiang Quan
+    image: /assets/img/people/MengxiangQuan.jpg
+    info: M.S. since 2026
+    education: B.E. UPC
+    note: ""
+
 visiting_students: []
 
 undergraduate_students: []
@@ -140,6 +152,11 @@ alumni:
       info: BME, Class 2022
       period: 2024.03 - 2026.06
       note: "First Placement: ByteDance"
+
+    - name: Guo Chen
+      image: /assets/img/people/GuoChen.jpg
+      info: CS, Class 2022
+      note: "First Placement: Ph.D.@ShanghaiTech"
 
     
 
