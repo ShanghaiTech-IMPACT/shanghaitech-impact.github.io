@@ -44,7 +44,6 @@ phd_students:
     url: http://hanwu.website/
     info: Ph.D. since 2022
     education: B.E. WUT
-    new_row: true
     note: "(with Prof. Dinggang Shen)"
   
   - name: Yulong Dou
