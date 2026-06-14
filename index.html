@@ -5,161 +5,259 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 ---
 
 <style>
-    a {
-        color: #256bec;
-    }
-    body {
-        font-family: 'Arial', sans-serif;
-        line-height: 1.6;
-        color: #333;
-        background-color: #FFFFFF;
-    }
     .flex-container {
-        display: flex;
+        display: grid;
+        grid-template-columns: 220px minmax(0, 1fr);
+        gap: 42px;
         align-items: center;
-        padding: 40px 0;
-        border-bottom: 2px solid #eaeaea;
-        /* background: linear-gradient(145deg, #FFFFFF 0%, #F8F9FA 100%); */
-        background-color: #FFFFFF;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        padding: 36px 0 30px;
+        border-bottom: 1px solid #d8e0e8;
     }
-    .flex-container img {
+
+    .profile-photo {
         width: 220px;
         height: 300px;
-        border-radius: 15px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease;
+        object-fit: cover;
+        border-radius: 6px;
+        border: 1px solid #d8e0e8;
+        box-shadow: 0 10px 24px rgba(24, 43, 62, 0.10);
     }
-    .flex-container img:hover {
-        transform: scale(1.05);
-    }
+
     .info {
-        margin-left: 60px;
-        font-size: 1.1em;
+        font-size: 1.02rem;
+        color: #26313d;
     }
+
     .info h3 {
-        margin-bottom: 20px;
-        font-size: 2em;
-        color: #2c3e50;
+        margin: 0 0 14px;
+        font-size: 2rem;
+        color: #1f2d3a;
+        letter-spacing: 0;
     }
-    .info p {
-        line-height: 1.8;
-        margin-bottom: 15px;
+
+    .profile-meta {
+        line-height: 1.75;
+        margin: 0;
     }
-    .info a {
+
+    .profile-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px 14px;
+        margin-top: 12px;
+    }
+
+    .profile-links a,
+    .intro a,
+    .notice a,
+    .talks a {
+        color: #1f63b5;
         text-decoration: none;
-        transition: color 0.3s ease;
-        font-weight: 500;
+        font-weight: 600;
     }
-    .info a:hover {
-        /* color: #265C7F; */ /* Remove or comment out this line */
-        color: #0052a3; /* Change to darker blue for hover */
+
+    .profile-links a:hover,
+    .intro a:hover,
+    .notice a:hover,
+    .talks a:hover {
+        color: #0f3d73;
         text-decoration: underline;
     }
+
+    .citation-badge {
+        height: 20px;
+        width: auto;
+    }
+
     .section-title {
-        font-size: 2.2em;
-        color: #2C3E50;
-        margin: 20px 0 15px;
-        border-bottom: 3px solid #2c3e50;;
-        padding-bottom: 10px;
+        font-size: 1.55rem;
+        color: #1f2d3a;
+        margin: 0 0 16px;
+        border-bottom: 1px solid #d8e0e8;
+        padding-bottom: 9px;
+        letter-spacing: 0;
     }
-    .intro, .notice, .News, .services, .teaching, .talks {
-        /* background-color: #f9f9f9; */ /* Remove or comment out this line */
-        background-color: #FFFFFF; /* Change to white */
-        padding: 10px;
-        border-radius: 10px;
-        margin-bottom: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+
+    .intro,
+    .research-focus,
+    .News,
+    .services,
+    .teaching,
+    .talks {
+        padding: 26px 0;
+        border-bottom: 1px solid #e6ebf0;
     }
-    ul {
-        list-style-type: none;
+
+    .intro p,
+    .notice p {
+        margin: 0.75rem 0;
+        line-height: 1.7;
+    }
+
+    .focus-list,
+    .News ul,
+    .services ul,
+    .teaching ul,
+    .talks ul {
+        list-style: none;
         padding-left: 0;
+        margin: 0;
     }
-    li {
-        margin-bottom: 5px;
+
+    .focus-list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .focus-list li {
+        border-left: 3px solid #2f6fa7;
+        padding: 2px 0 2px 14px;
+    }
+
+    .focus-list strong {
+        display: block;
+        color: #1f2d3a;
+        margin-bottom: 6px;
+    }
+
+    .focus-list span {
+        color: #4f5f6f;
+        line-height: 1.55;
+    }
+
+    .notice {
+        background: #f7fbff;
+        border: 1px solid #dce8f3;
+        border-left: 4px solid #2f6fa7;
+        border-radius: 6px;
+        padding: 20px 22px;
+        margin: 28px 0;
+    }
+
+    .news-container {
+        max-height: 560px;
+        overflow-y: auto;
+        padding-right: 8px;
+    }
+
+    .News li,
+    .services li,
+    .teaching li,
+    .talks li {
         position: relative;
-        padding-left: 25px;
+        margin-bottom: 9px;
+        padding-left: 22px;
+        line-height: 1.55;
+        color: #344454;
     }
-    li:before {
+
+    .News li::before,
+    .services li::before,
+    .teaching li::before,
+    .talks li::before {
         content: '';
         position: absolute;
-        left: 0;
+        left: 3px;
+        top: 0.7em;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #7893aa;
     }
-    .notice {
-        /* background-color: #E8F4F8; */ /* Remove or comment out this line */
-        background-color: #FFFFFF; /* Change to white */
-        border-left: 5px solid #2c3e50;; /* You can keep this border or remove it if desired */
+
+    .News .news-summary {
+        background: #fff8e6;
+        border-left: 4px solid #d9a21b;
+        border-radius: 4px;
+        padding: 12px 14px;
+        color: #39424c;
     }
+
+    .News .news-summary::before {
+        content: none;
+    }
+
     .centered {
         text-align: center;
-        margin-top: 40px;
-        color: #78909C;
+        margin-top: 32px;
+        color: #7a8793;
+        font-size: 0.95rem;
     }
 
     @media (max-width: 768px) {
         .flex-container {
-            flex-direction: column; 
-            align-items: center; 
-            padding: 30px 0;
-        }
-        .flex-container img {
-            width: 180px; 
-            height: 240px;
-            margin-bottom: 30px;
-        }
-        .info {
-            margin-left: 0; 
+            grid-template-columns: 1fr;
+            gap: 22px;
+            padding: 28px 0;
             text-align: center;
         }
-        .section-title {
-            font-size: 1.8em;
+
+        .profile-photo {
+            width: 180px;
+            height: 240px;
+            margin: 0 auto;
         }
-    }
 
-    .News li {
-        color: #546E7A;
-    }
+        .profile-links {
+            justify-content: center;
+        }
 
-    .News li time {
-        color: #78909C;
-        font-weight: 500;
-        margin-right: 8px;
+        .section-title {
+            font-size: 1.35rem;
+        }
+
+        .focus-list {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 
 <div class="flex-container">
-    <img src="/assets/img/people/ZhimingCui.jpg" alt="Zhiming Cui">
+    <img class="profile-photo" src="/assets/img/people/ZhimingCui.jpg" alt="Zhiming Cui" width="220" height="300">
     <div class="info">
         <h3>Zhiming Cui</h3>
-        <p>
+        <p class="profile-meta">
             Assistant Professor<br>
             School of Biomedical Engineering<br>
             ShanghaiTech University<br><br>
             Email: <a href="mailto:cuizhm@shanghaitech.edu.cn">cuizhm@shanghaitech.edu.cn</a><br>
-            Address: Office 308, BME building, ShanghaiTech University, Pudong, Shanghai<br>
-            <a href="https://github.com/ShanghaiTech-IMPACT/">[Github]</a> 
-            <a href="https://scholar.google.com/citations?hl=zh-CN&user=uEd_TroAAAAJ">[Google Scholar]</a> 
-            <img src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3DuEd_TroAAAAJ&logo=googlescholar&style=social" alt="Google Scholar" style="height: 20px; width: auto;">
-        </p>   
+            Address: Office 308, BME Building, ShanghaiTech University, Pudong, Shanghai
+        </p>
+        <div class="profile-links" aria-label="Profile links">
+            <a href="https://github.com/ShanghaiTech-IMPACT/">GitHub</a>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=uEd_TroAAAAJ">Google Scholar</a>
+            <img class="citation-badge" src="https://img.shields.io/badge/dynamic/json?label=Paper%20Citations&query=total_citations&url=https%3A%2F%2Fcse.bth.se%2F~fer%2Fgooglescholar-api%2Fgooglescholar.php%3Fuser%3DuEd_TroAAAAJ&logo=googlescholar&style=social" alt="Google Scholar citation badge" loading="lazy">
+        </div>
     </div>
 </div>
 
 <div class="intro">
-    <p> 
-        Dr. Zhiming Cui is a tenure-track Assistant Professor in the School of Biomedical Engineering at ShanghaiTech University. He received his Ph.D. degree in the Computer Vision and Graphics Group at the University of Hong Kong (HKU), supervised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>. Before that, he obtained his B.Eng and M.Eng degrees from Northeastern University in 2014 and 2017, respectively. During his Ph.D. study, he also visited United Imaging Intelligence (UII) and ShanghaiTech University, advised by Prof. <a href="http://idea.bme.shanghaitech.edu.cn/">Dinggang Shen</a>. Dr. Cui's work has been published in prestigious journals and conferences including Nature Communications, Cell Reports Medicine, NPJ Digital Medicine, TMI, MedIA, TNNLS, MICCAI, CVPR, and ECCV, etc.
-    </p> 
-    <p> 
-        IMPACT Lab was founded and directed by Dr. Cui since 2022 when he joined ShanghaiTech BME School. At the IMPACT Lab, we dedicate to fusing artificial intelligence and computer graphics into medical imaging, especially in the intersection of medical imaging computing, image reconstruction (e.g., CBCT, DSA, and PET/CT), and digital dentistry.
-    </p> 
     <p>
-        More details about our research can be referred to on our <a href="research">Research</a> page or visit our <a href="https://github.com/ShanghaiTech-IMPACT">Github</a> page.
+        Dr. Zhiming Cui is a tenure-track Assistant Professor in the School of Biomedical Engineering at ShanghaiTech University. He received his Ph.D. from the Computer Vision and Graphics Group at the University of Hong Kong (HKU), where he was supervised by Prof. <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Wenping Wang</a>. He received his B.Eng. and M.Eng. degrees from Northeastern University in 2014 and 2017. During his Ph.D. study, he also visited United Imaging Intelligence (UII) and ShanghaiTech University, advised by Prof. <a href="http://idea.bme.shanghaitech.edu.cn/">Dinggang Shen</a>. His work has been published in leading journals and conferences, including Nature Communications, Cell Reports Medicine, NPJ Digital Medicine, TMI, MedIA, TNNLS, MICCAI, CVPR, and ECCV.
     </p>
+    <p>
+        IMPACT Lab was founded by Dr. Cui in 2022 after he joined ShanghaiTech BME. The lab integrates artificial intelligence and computer graphics for medical imaging, with a focus on medical image computing, image reconstruction (e.g., CBCT, DSA, and PET/CT), and digital dentistry.
+    </p>
+    <p>
+        For more details, see our <a href="/research/">Research</a> page or visit the IMPACT Lab <a href="https://github.com/ShanghaiTech-IMPACT">GitHub</a> page.
+    </p>
+</div>
+
+<div class="research-focus">
+    <h2 class="section-title">Research Focus</h2>
+    <ul class="focus-list">
+        <li><strong>Medical Image Computing</strong><span>AI methods for robust analysis, segmentation, registration, and clinical image understanding.</span></li>
+        <li><strong>Image Reconstruction</strong><span>Learning-based reconstruction for CBCT, DSA, PET/CT, and related medical imaging systems.</span></li>
+        <li><strong>Digital Dentistry</strong><span>Full-stack dental AI, 3D modeling, shape analysis, and computer-assisted treatment workflows.</span></li>
+    </ul>
 </div>
 
 <div class="notice">
     <h2 class="section-title">Join Us</h2>
-    <p>We are looking for interns and 2026 graduate students who are self-motivated and passionate about our research. If interested, please <a href="mailto:cuizhm@shanghaitech.edu.cn">email me</a> directly with your CV.</p>
-    <p>For more details, see our <a href="join-us">join-us page</a>.</p>
+    <p>We welcome self-motivated research interns and prospective graduate students who are passionate about medical AI, medical imaging, computer graphics, and digital dentistry. If interested, please <a href="mailto:cuizhm@shanghaitech.edu.cn">email Dr. Cui</a> with your CV.</p>
+    <p>For more details, see our <a href="/join-us/">Join Us page</a>.</p>
 </div>
 
 <div class="News">
@@ -167,27 +265,28 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
     <div class="news-container" id="news-container">
         <ul>
             <!-- ========== 2025 Year Summary (Update when new papers are accepted) ========== -->
-            <li style="background-color: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin-bottom: 10px;">
-                <strong>🎉 [2025 Summary]</strong> In 2025, our lab has published  <strong style="color: #d9534f;">1 Cell Reports Medicine</strong>,<strong style="color: #d9534f;">1 NPJ Digital Medicine</strong>, <strong style="color: #d9534f;">4 TMI</strong>, <strong style="color: #d9534f;">1 MedIA</strong>, <strong style="color: #d9534f;">4 MICCAI</strong>, and <strong style="color: #d9534f;">1 IPMI (oral)</strong> papers!
+            <li class="news-summary">
+                <strong>[2025 Summary]</strong> In 2025, our lab published <strong>1 Cell Reports Medicine</strong>, <strong>1 NPJ Digital Medicine</strong>, <strong>4 TMI</strong>, <strong>1 MedIA</strong>, <strong>4 MICCAI</strong>, and <strong>1 IPMI (oral)</strong> papers.
             </li>
             <!-- ========================================================================== -->
-            <li>[05/2026] One paper is accepted by <strong><em>MedIA</em></strong>, congrats to Chenfan!</li>
-            <li>[04/2026] One paper is accepted by <strong><em>MedIA</em></strong>, congrats to Zhentao!</li>
-            <li>[01/2026] One paper is accepted by <strong><em>IEEE TMI</em></strong>, congrats to Han Wu!</li>
-            <li>[10/2025] I will serve as Associate Editor for <strong><em>Neural Networks (Q1, IF=6.3)</em></strong>!</li>
-            <li>[10/2025] One paper is accepted by <strong><em>IEEE TMI</em></strong>, congrats to Xingyue!</li>
-            <li>[10/2025] One paper is accepted by <strong><em>NPJ Digital Medicine</em></strong>!</li>
-            <li>[07/2025] One paper is accepted by <strong><em>IEEE TMI</em></strong>, congrats to Han Wu!</li>
-            <li>[07/2025] One paper is accepted by <strong><em>MedIA</em></strong>, congrats to Yulong!</li>
+            <li>[06/2026] Three papers have been accepted by <strong><em>MICCAI 2026</em></strong>. Congrats to Xingyue, Chenfan, and Leyuan!</li>
+            <li>[05/2026] One paper has been accepted by <strong><em>MedIA</em></strong>. Congrats to Chenfan!</li>
+            <li>[04/2026] One paper has been accepted by <strong><em>MedIA</em></strong>. Congrats to Zhentao!</li>
+            <li>[01/2026] One paper has been accepted by <strong><em>IEEE TMI</em></strong>. Congrats to Han Wu!</li>
+            <li>[10/2025] Dr. Cui was appointed Associate Editor for <strong><em>Neural Networks</em></strong> (Q1, IF=6.3).</li>
+            <li>[10/2025] One paper has been accepted by <strong><em>IEEE TMI</em></strong>. Congrats to Xingyue!</li>
+            <li>[10/2025] One paper has been accepted by <strong><em>NPJ Digital Medicine</em></strong>.</li>
+            <li>[07/2025] One paper has been accepted by <strong><em>IEEE TMI</em></strong>. Congrats to Han Wu!</li>
+            <li>[07/2025] One paper has been accepted by <strong><em>MedIA</em></strong>. Congrats to Yulong!</li>
             <li>[06/2025] Congrats to Haoshen Wang for finishing his master study (next stop: Ph.D. student @ HKPolyU)!</li>
-            <li>[06/2025] One paper (3D-MedDiffusion) is accepted by <strong><em>IEEE TMI</em></strong>, congrats to Haoshen!</li>
-            <li>[06/2025] One paper is accepted by <strong><em>Cell Reports Medicine</em></strong>!</li>
+            <li>[06/2025] One paper (3D-MedDiffusion) has been accepted by <strong><em>IEEE TMI</em></strong>. Congrats to Haoshen!</li>
+            <li>[06/2025] One paper has been accepted by <strong><em>Cell Reports Medicine</em></strong>.</li>
             <li>[06/2025] Congrats to Yulong Dou, Chenfan Xu and Xingyue Wang on passing their PQE and officially becoming Ph.D. candidates!</li>
-            <li>[05/2025] One paper is accepted by <strong><em>JoD</em></strong> (Q1, IF=4.8), congrats to Wei Jia (undergraduate)!</li>
-            <li>[05/2025] Two papers are early accepted by <strong><em>MICCAI 2025</em></strong> (Top 9%), congrats to Tao Luo and Zichen!</li>
-            <li>[03/2025] One paper is accepted by <strong><em>MedIA</em></strong>, congrats to Han Wu and other co-authors!</li>
+            <li>[05/2025] One paper has been accepted by <strong><em>Journal of Dentistry</em></strong> (Q1, IF=4.8). Congrats to Wei Jia (undergraduate)!</li>
+            <li>[05/2025] Two papers were early accepted by <strong><em>MICCAI 2025</em></strong> (Top 9%). Congrats to Tao Luo and Zichen!</li>
+            <li>[03/2025] One paper has been accepted by <strong><em>MedIA</em></strong>. Congrats to Han Wu and all co-authors!</li>
             <li>[02/2025] Congrats to Zhentao Liu for his paper accepted by <strong><em>IPMI 2025</em></strong> (oral)!</li>
-            <li>[01/2025] I will serve as Chair for <strong><em>MLMI 2025</em></strong>.</li>
+            <li>[01/2025] Dr. Cui will serve as Chair for <strong><em>MLMI 2025</em></strong>.</li>
             <!-- <li>[12/2024] Our 3D MedDiffusion is now available online! See <a href="https://arxiv.org/abs/2412.13059">paper</a> and <a href="https://shanghaitech-impact.github.io/3D-MedDiffusion/">project page</a>.</li>
             <li>[12/2024] I will serve as Area Chair for <strong><em>MICCAI 2025</em></strong>.</li>
             <li>[11/2024] Congrats to Jia Wei (undergradute) for winning the <strong><em>Shanghai Scholarship</em></strong>!</li>
@@ -262,8 +361,8 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
 <div class="teaching">
     <h2 class="section-title">Teaching</h2>
     <ul>
-        <li>Data Structure and Algorithm Design: 2024 Spring, 2025 Spring</li>
-        <li>Algorithms Design And Analysis (Python): 2022 Fall, 2023 Fall, 2024 Fall</li>
+        <li>Data Structures and Algorithm Design: Spring 2024, Spring 2025</li>
+        <li>Algorithm Design and Analysis (Python): Fall 2022, Fall 2023, Fall 2024</li>
     </ul>
 </div>
 
@@ -283,4 +382,4 @@ subtitle: Intelligent Medical Procedure Analyzing, Computing and Transforming La
     <p>Since 2023-07</p>
 </div>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d=kE6zjFmvVEfo9ZlrXMDj91AXehVp8y0ky-5WJq37dN4'></script>
+<script type='text/javascript' id='clustrmaps' src='https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d=kE6zjFmvVEfo9ZlrXMDj91AXehVp8y0ky-5WJq37dN4' async defer></script>

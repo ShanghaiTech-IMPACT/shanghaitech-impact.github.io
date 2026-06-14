@@ -12,8 +12,6 @@ phd_students:
     info: Eng.D. since 2024
     education: M.S. USYD, B.E. SHNU
     note: ""
-
-  
     
   - name: Chenfan Xu
     image: /assets/img/people/ChenfanXu.png
@@ -33,11 +31,30 @@ phd_students:
     education: B.E. SWU
     note: ""
 
+  - name: Zihuan Li
+    image: /assets/img/people/ZihuanLi.jpg
+    info: Ph.D. since 2024
+    education: B.E. HIT
+    note: ""
+
+  - name: Zhihao Zhang
+    image: /assets/img/people/ZhihaoZhang.jpg
+    info: Ph.D. since 2024
+    education: B.E. NJUPT
+    note: ""
+
   - name: Guo Chen
     image: /assets/img/people/GuoChen.jpg
     info: Ph.D. since 2026
     education: B.E. ShanghaiTech
     note: ""
+
+  - name: Lanzhuju Mei
+    image: /assets/img/people/LanzhujuMei.jpg
+    info: Ph.D. since 2023
+    education: M.S. ShanghaiTech, B.E. BJTU
+    note: "(with Prof. Dinggang Shen)"
+    new_row: true
 
   - name: Han Wu
     image: /assets/img/people/HanWu.png
@@ -54,30 +71,6 @@ phd_students:
     note: "(with Prof. Dinggang Shen)"
 
 graduate_students:
-
-  - name: Zhenyu Tao
-    image: /assets/img/people/ZhenyuTao.jpg
-    info: M.Eng. since 2023
-    education: B.E. HFUT
-    note: ""
-
-  - name: Yunjie Tan
-    image: /assets/img/people/YunjieTan.png
-    info: M.Eng. since 2023
-    education: B.E. SHU
-    note: ""
-
-  - name: Zihuan Li
-    image: /assets/img/people/ZihuanLi.jpg
-    info: M.S. since 2024
-    education: B.E. HIT
-    note: ""
-
-  - name: Zhihao Zhang
-    image: /assets/img/people/ZhihaoZhang.jpg
-    info: M.S. since 2024
-    education: B.E. NJUPT
-    note: ""
 
   - name: Luqi Yang
     image: /assets/img/people/LuqiYang.jpg
@@ -123,7 +116,12 @@ graduate_students:
 
 visiting_students: []
 
-undergraduate_students: []
+undergraduate_students:
+
+  - name: Yudi Cao
+    image: /assets/img/people/avatar.jpg
+    info: BME, Class 2024
+    note: ""
 
 alumni:
   graduate_students:
@@ -131,7 +129,19 @@ alumni:
       image: /assets/img/people/HaoshenWang.jpg
       info: M.S. 2022.09 - 2025.06
       period: B.E. DUT
-      note: "First Placement: PhD@HKPolyU"
+      note: "First Placement: Ph.D.@HKPolyU"
+
+    - name: Zhenyu Tao
+      image: /assets/img/people/ZhenyuTao.jpg
+      info: M.Eng. since 2023
+      period: B.E. HFUT
+      note: "First Placement: Yangtze Memory Technologies"
+
+    - name: Yunjie Tan
+      image: /assets/img/people/YunjieTan.png
+      info: M.Eng. since 2023
+      period: B.E. SHU
+      note: "First Placement: Startup Company"
 
   undergraduate_students:
     - name: Siyu Chen
@@ -144,7 +154,7 @@ alumni:
       image: /assets/img/people/WeiJia.png
       info: BME, Class 2022
       period: 2024.03 - 2026.06
-      note: "First Placement: PhD@FDU"
+      note: "First Placement: Ph.D.@FDU"
 
     - name: Jinze Wu
       image: /assets/img/people/JinzeWu.jpg
@@ -155,6 +165,7 @@ alumni:
     - name: Guo Chen
       image: /assets/img/people/GuoChen.jpg
       info: CS, Class 2022
+      period: 2024.07 - 2026.06
       note: "First Placement: Ph.D.@ShanghaiTech"
 
     

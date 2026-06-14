@@ -100,7 +100,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Semi-Supervised Landmark Tracking in Echocardiography Video via Spatial-Temporal Co-Training and Perception-Aware Attention</div>
                 <p>Han Wu, Haoyuan Chen, Lin Zhou<sup>+</sup>, Qi Xu<sup>+</sup>, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2026.</p>
-                <p>[<a href="" >paper</a>] [<a href="">code</a>]</p>
+                <p>[<a href="" >paper</a>] [<a href="https://github.com/Fitz-Fitz/SemiEchoTracker">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Fitz-Fitz/SemiEchoTracker"></p>
             </div>
         </li>
     </ul>
@@ -119,7 +119,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Structure-Preserving Two-Stage Diffusion Model for CBCT Metal Artifact Reduction</div>
                 <p>Xingyue Wang, Zhentao Liu, Haoshen Wang, Minhui Tan, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
-                <p>[<a href="" >paper</a>] [<a href="">code</a>]</p>
+                <p>[<a href="" >paper</a>]</p>
             </div>
         </li>
         <li class="publication-item">
@@ -559,5 +559,3 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         </li>
     </ul>
 </html>
-
-

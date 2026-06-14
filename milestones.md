@@ -42,8 +42,8 @@ title: Milestones
     <div class="timeline-item">
         <div class="timeline-date">July 2024</div>
         <div class="timeline-content">
-            <h3>PhD and EngD Students</h3>
-            <p>We celebrate Han Wu and Zhentao Liu's success in passing their PhD Qualifying Exams (PQE), officially becoming PhD candidates. Additionally, we warmly welcome Ruochen Pi, our new EngD student, to the IMPACT Lab family.</p>
+            <h3>Ph.D. and Eng.D. Students</h3>
+            <p>We celebrate Han Wu and Zhentao Liu's success in passing their Ph.D. Qualifying Exams (PQE), officially becoming Ph.D. candidates. Additionally, we warmly welcome Ruochen Pi, our new Eng.D. student, to the IMPACT Lab family.</p>
         </div>
     </div>
     <div class="timeline-item">

@@ -68,8 +68,8 @@ title: Join Us
         <p>A: Certainly! While prior research experience is beneficial, it's not a prerequisite. We value enthusiasm and a willingness to learn. If you have a basic understanding and interest in our research areas, we'll work together to find a suitable research topic for you. Rest assured, every new member receives comprehensive guidance during the initial stages of their research journey.</p>
     </div>
     <div class="faq">
-        <h3>Q: What would the training program be like for Master/PhD students at IMPACT Lab?</h3>
-        <p>A: At IMPACT, we believe in personalized growth. Every member starts with comprehensive hands-on guidance. As you progress, we'll tailor your research path based on your capabilities, achievements, and interests. Our goal is to make each member grow into an independent researcher, regardless of whether you're pursuing a Master's or a PhD degree. We're committed to helping you develop a unique research mindset and skillset.</p>
+        <h3>Q: What would the training program be like for Master/Ph.D. students at IMPACT Lab?</h3>
+        <p>A: At IMPACT, we believe in personalized growth. Every member starts with comprehensive hands-on guidance. As you progress, we'll tailor your research path based on your capabilities, achievements, and interests. Our goal is to make each member grow into an independent researcher, regardless of whether you're pursuing a Master's or a Ph.D. degree. We're committed to helping you develop a unique research mindset and skillset.</p>
     </div>
     <div class="faq">
         <h3>Q: How can I join IMPACT Lab?</h3>

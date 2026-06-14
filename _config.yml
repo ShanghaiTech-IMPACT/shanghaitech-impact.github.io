@@ -13,7 +13,8 @@
 title: IMPACT Lab
 # Your name to show in the footer
 author: IMPACT Lab
-favicon: /assets/img/IMPACT.jpg # /assets/img/shanghaitech.png
+favicon: /assets/img/favicon.png # /assets/img/shanghaitech.png
+url: "https://shanghaitech-impact.github.io"
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
@@ -79,7 +80,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Academic homepage of Zhiming Cui and IMPACT Lab at ShanghaiTech University.
 
 ###########################
 # --- General options --- #
