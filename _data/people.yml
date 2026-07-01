@@ -49,12 +49,17 @@ phd_students:
     education: B.E. ShanghaiTech
     note: ""
 
+  - name: Jicheng Dai
+    image: /assets/img/people/JichengDai.jpg
+    info: Eng.D. since 2026
+    education: B.E. NBU
+    note: ""
+
   - name: Lanzhuju Mei
     image: /assets/img/people/LanzhujuMei.jpg
     info: Ph.D. since 2023
     education: M.S. ShanghaiTech, B.E. BJTU
     note: "(with Prof. Dinggang Shen)"
-    new_row: true
 
   - name: Han Wu
     image: /assets/img/people/HanWu.png
@@ -114,6 +119,12 @@ graduate_students:
     education: B.E. UPC
     note: ""
 
+  - name: Quan Yuan
+    image: /assets/img/people/QuanYuan.jpeg
+    info: M.Eng. since 2026
+    education: B.E. HNU
+    note: ""
+
 visiting_students: []
 
 undergraduate_students:
@@ -133,13 +144,13 @@ alumni:
 
     - name: Zhenyu Tao
       image: /assets/img/people/ZhenyuTao.jpg
-      info: M.Eng. since 2023
+      info: M.Eng. 2023.09 - 2026.06
       period: B.E. HFUT
       note: "First Placement: Yangtze Memory Technologies"
 
     - name: Yunjie Tan
       image: /assets/img/people/YunjieTan.png
-      info: M.Eng. since 2023
+      info: M.Eng. 2023.09 - 2026.06
       period: B.E. SHU
       note: "First Placement: Startup Company"
 

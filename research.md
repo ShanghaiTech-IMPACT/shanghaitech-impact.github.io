@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+share-description: "Research directions of the IMPACT Lab, ShanghaiTech University: advanced medical imaging computing, image reconstruction, and digital dentistry."
 ---
 
 <style>

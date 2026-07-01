@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dataset
+share-description: "Open benchmark datasets released by the IMPACT Lab at ShanghaiTech University for medical imaging and digital dentistry research."
 ---
 
 <style>
@@ -191,7 +192,7 @@ organization={Springer}
     </div>
     <div class="dataset-item">
         <h2>03 Tooth Alignment Dataset</h2>
-        <p>We acquire 2,224 CBCT scans from Shanghai NinthPeople’s Hospital under consistent acquisition parameters (100 kVsource voltage, 0.3 mm voxel size, 468 × 468 × 250 resolution). Eachscan undergoes rigid registration to align it to a standardized jawcoordinate system for uniform orientation and field of view, and weapply stringent quality control to remove scans with metal or motionartifacts and incomplete dentition coverage. The resulting dataset comprises1,955 clinically validated high-quality sets of 3D tooth models.</p>
+        <p>We acquire 2,224 CBCT scans from Shanghai Ninth People’s Hospital under consistent acquisition parameters (100 kV source voltage, 0.3 mm voxel size, 468 × 468 × 250 resolution). Each scan undergoes rigid registration to align it to a standardized jaw coordinate system for uniform orientation and field of view, and we apply stringent quality control to remove scans with metal or motion artifacts and incomplete dentition coverage. The resulting dataset comprises 1,955 clinically validated high-quality sets of 3D tooth models.</p>
         <p><a href="https://github.com/ShanghaiTech-IMPACT/CLIK-Diffusion">Download Link</a></p>
         <p><strong>Reference:</strong></p>
         <pre><code>@article{DOU2025103746,

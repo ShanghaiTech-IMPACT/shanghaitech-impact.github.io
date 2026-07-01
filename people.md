@@ -1,6 +1,7 @@
 ---
 layout: page
 title: People
+share-description: "Members of the IMPACT Lab at ShanghaiTech University — PhD, master's, and undergraduate researchers in medical imaging AI, led by Dr. Zhiming Cui."
 ---
 
 <style>
@@ -96,21 +97,10 @@ title: People
         border-bottom: 3px solid #2c3e50;
         padding-bottom: 12px;
         text-align: center;
-        position: relative;
-    }
-
-    h2::after {
-        content: '';
-        position: absolute;
-        bottom: -3px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60px;
-        height: 3px;
     }
 
     a {
-        color: #4db8ff;
+        color: #1a6bd4;
         text-decoration: none;
         font-weight: bold;
         transition: color 0.3s ease;
@@ -131,6 +121,13 @@ title: People
         font-size: 0.95em;
         color: #7f8c8d;
         line-height: 1.4;
+    }
+
+    @media (max-width: 600px) {
+        table.people, .people tbody, .people tr { display: block; width: 100%; }
+        .people td { display: block; width: 100%; margin-bottom: 15px; }
+        .people td.empty-cell { display: none; }
+        h2 { font-size: 1.7em; }
     }
 </style>
 
@@ -220,12 +217,12 @@ title: People
 
 <div id="slider">
     <div id="image-container">
-        <img src="/assets/img/Gallery/20240328.jpg" alt="Gallery Image 1">
-        <img src="/assets/img/Gallery/20230919_0.jpg" alt="Gallery Image 2">
-        <img src="/assets/img/Gallery/20230617_2.jpg" alt="Gallery Image 3">
-        <img src="/assets/img/Gallery/UMI2024.png" alt="Gallery Image 4">
-        <img src="/assets/img/Gallery/MLMI2024.jpg" alt="Gallery Image 5">
-        <img src="/assets/img/Gallery/whs.png" alt="Gallery Image 6">
+        <img src="/assets/img/Gallery/20240328.jpg" alt="Gallery Image 1" loading="lazy">
+        <img src="/assets/img/Gallery/20230919_0.jpg" alt="Gallery Image 2" loading="lazy">
+        <img src="/assets/img/Gallery/20230617_2.jpg" alt="Gallery Image 3" loading="lazy">
+        <img src="/assets/img/Gallery/UMI2024.png" alt="Gallery Image 4" loading="lazy">
+        <img src="/assets/img/Gallery/MLMI2024.jpg" alt="Gallery Image 5" loading="lazy">
+        <img src="/assets/img/Gallery/whs.png" alt="Gallery Image 6" loading="lazy">
     </div>
     <div class="slider-nav">
         <button onclick="prevSlide()">Previous</button>

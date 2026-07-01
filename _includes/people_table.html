@@ -11,7 +11,7 @@
                 {% assign row_position = 0 %}
             {% endif %}
             <td>
-                <img src="{{ person.image }}" class="rounded-image" alt="{{ person.name }}">
+                <img src="{{ person.image }}" class="rounded-image" alt="{{ person.name }}" loading="lazy">
                 <div class="name">
                     {% if person.url %}
                         <a href="{{ person.url }}">{{ person.name }}</a>

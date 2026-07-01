@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Join Us
+share-description: "Join the IMPACT Lab at ShanghaiTech University — opportunities for prospective graduate students, interns, and visiting researchers in medical imaging AI."
 ---
 
 <style>
