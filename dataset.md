@@ -162,7 +162,7 @@ share-description: "Open benchmark datasets released by the IMPACT Lab at Shangh
     </div>
     <div class="dataset-item">
         <h2>01 CBCT Dataset</h2>
-        <p>This is the dataset for our 'A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images' paper in  Nature Communication 2022. We released partial data (50 raw data of CBCT scans collected from dental clinics) to support the results in this study with permission from respective data centers. The full datasets are protected because of privacy issues and regulation policies in hospitals. </p>
+        <p>This is the dataset for our 'A fully automatic AI system for tooth and alveolar bone segmentation from cone-beam CT images' paper in Nature Communications 2022. We released partial data (50 raw data of CBCT scans collected from dental clinics) to support the results in this study with permission from respective data centers. The full datasets are protected because of privacy issues and regulation policies in hospitals. </p>
         <p><a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">Download Link</a></p>
         <p><strong>Reference:</strong></p>
         <pre><code>@article{cui2022fully,

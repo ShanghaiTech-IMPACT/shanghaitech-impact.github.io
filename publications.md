@@ -4,10 +4,9 @@ title: Selected Publications
 share-description: "Selected publications from the IMPACT Lab at ShanghaiTech University in medical image computing, reconstruction (CBCT/DSA/PET-CT), and digital dentistry."
 ---
 
-<br>
-Full publication list can be referred [here](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=uEd_TroAAAAJ&sortby=pubdate).
+Full publication list is available [here](https://scholar.google.com/citations?view_op=list_works&hl=en&user=uEd_TroAAAAJ&sortby=pubdate).
 
-\* indicates equal contribution and <sup>+</sup> indicates corresponding author.
+<sup>*</sup> indicates equal contribution and <sup>+</sup> indicates corresponding author.
 
 <style>
         .publication-item {
@@ -98,7 +97,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2026_VPAL.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">3D Vessel Reconstruction from Sparse-View Dynamic DSA Images via Vessel Probability Guided Attenuation Learning</div>
-                <p>Zhentao Liu, Huangxuan Zhao, Wenhui Qin, Zhenghong Zhou, Xinggang Wang, Wenping Wang, Xiaochun Lai, Chuansheng Zheng, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup></p>
+                <p>Zhentao Liu, Huangxuan Zhao, Wenhui Qin, Zhenghong Zhou, Xinggang Wang, Wenping Wang, Xiaochun Lai, Chuansheng Zheng, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2026.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S136184152600157X?via=ihub" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/VPAL">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/VPAL"></p>
             </div>
@@ -109,7 +108,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Semi-Supervised Landmark Tracking in Echocardiography Video via Spatial-Temporal Co-Training and Perception-Aware Attention</div>
                 <p>Han Wu, Haoyuan Chen, Lin Zhou<sup>+</sup>, Qi Xu<sup>+</sup>, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2026.</p>
-                <p>[<a href="https://github.com/Fitz-Fitz/SemiEchoTracker">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Fitz-Fitz/SemiEchoTracker"></p>
+                <p>[<a href="https://doi.org/10.1109/TMI.2026.3651389" >paper</a>] [<a href="https://github.com/Fitz-Fitz/SemiEchoTracker">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Fitz-Fitz/SemiEchoTracker"></p>
             </div>
         </li>
 </ul>
@@ -126,6 +125,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Structure-Preserving Two-Stage Diffusion Model for CBCT Metal Artifact Reduction</div>
                 <p>Xingyue Wang, Zhentao Liu, Haoshen Wang, Minhui Tan, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
+                <p>[<a href="https://doi.org/10.1109/TMI.2025.3628764" >paper</a>]</p>
             </div>
         </li>
         <li class="publication-item">
@@ -161,14 +161,14 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">3D MedDiffusion: A 3D Medical Diffusion Model for Controllable and High-quality Medical Image Generation</div>
                 <p>Haoshen Wang, Zhentao Liu, Kaicong Sun, Xiaodong Wang, Dinggang Shen, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2025.</p>
-                <p>[<a href="https://arxiv.org/abs/2412.13059" >paper</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion.github.io/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p>
+                <p>[<a href="https://doi.org/10.1109/TMI.2025.3585372" >paper</a>] [<a href="https://arxiv.org/abs/2412.13059">arXiv</a>] [<a href="https://shanghaitech-impact.github.io/3D-MedDiffusion/">project page</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-MedDiffusion/">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/3D-MedDiffusion"></p>
             </div>
         </li>
         <li class="publication-item">
             <img src="/assets/img/publications/2025_CRM.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">PerioAI: A digital system for periodontal disease diagnosis from an intra-oral scan and cone-beam CT image</div>
-                <p>Minhui Tan<sup>*</sup>, Zhiming Cui<sup>*</sup>, Yuan Li<sup>*</sup>, Yu Fang, Lanzhuju Mei, Yue Zhao, Xinyu Wu, Hongchang Lai, Maurizio S. Tonetti, Dinggang Shen.</p>
+                <p>Minhui Tan<sup>*</sup>, <strong>Zhiming Cui</strong><sup>*</sup>, Yuan Li<sup>*</sup>, Yu Fang, Lanzhuju Mei, Yue Zhao, Xinyu Wu, Hongchang Lai, Maurizio S. Tonetti, Dinggang Shen.</p>
                 <p>Cell Reports Medicine, 2025.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S2666379125002599" >paper</a>]</p>
             </div>
@@ -177,9 +177,9 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2025_clip_review.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">CLIP in Medical Imaging: A Comprehensive Survey</div>
-                <p>Zihao Zhao*, Yuxiao Liu*, Han Wu*, Mei Wang, Yonghao Li, Sheng Wang, Lin Teng, Disheng Liu, <strong>Zhiming Cui</strong><sup>+</sup>, Qian Wang<sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
+                <p>Zihao Zhao<sup>*</sup>, Yuxiao Liu<sup>*</sup>, Han Wu<sup>*</sup>, Mei Wang, Yonghao Li, Sheng Wang, Lin Teng, Disheng Liu, <strong>Zhiming Cui</strong><sup>+</sup>, Qian Wang<sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2025.</p> 
-                <p>[<a href="https://arxiv.org/abs/2312.07353" >paper</a>] [<a href="https://github.com/zhaozh10/Awesome-CLIP-in-Medical-Imaging">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/Awesome-CLIP-in-Medical-Imaging?style=social&label=Stars"></p>
+                <p>[<a href="https://doi.org/10.1016/j.media.2025.103551" >paper</a>] [<a href="https://arxiv.org/abs/2312.07353">arXiv</a>] [<a href="https://github.com/zhaozh10/Awesome-CLIP-in-Medical-Imaging">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zhaozh10/Awesome-CLIP-in-Medical-Imaging"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -288,7 +288,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Multi-View Vertebra Localization and Identification from CT Images</div>
                 <p>Han Wu, Jiadong Zhang, Yu Fang, Zhentao Liu, Nizhuan Wang, <strong>Zhiming Cui</strong><sup>+</sup>, Dinggang Shen<sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2023.</p>
-                <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images?"></p>
+                <p>[<a href="https://arxiv.org/abs/2307.12845" >paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/Multi-View-Vertebra-Localization-and-Identification-from-CT-Images"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -335,7 +335,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2022_BowelNet.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">BowelNet: Joint Semantic-Geometric Ensemble Learning for Bowel Segmentation from Both Partially and Fully Labeled CT Images</div>
-                <p>Chong Wang*, <strong>Zhiming Cui</strong>*, Junwei Yang, Miaofei Han, Gustavo Carneiro, Dinggang Shen<sup>+</sup>.</p>
+                <p>Chong Wang<sup>*</sup>, <strong>Zhiming Cui</strong><sup>*</sup>, Junwei Yang, Miaofei Han, Gustavo Carneiro, Dinggang Shen<sup>+</sup>.</p>
                 <p>IEEE Transactions on Medical Imaging (TMI), 2022.</p>
                 <p>[<a href="https://ieeexplore.ieee.org/abstract/document/9966840" >paper</a>]</p>
             </div>
@@ -370,18 +370,18 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <li class="publication-item">
             <img src="/assets/img/publications/2022_NC.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
-                <div class="title">A fully Automatic AI System for Tooth and Alveolar Bone Segmentation from Cone-beam CT Images</div>
+                <div class="title">A Fully Automatic AI System for Tooth and Alveolar Bone Segmentation from Cone-beam CT Images</div>
                 <p><strong>Zhiming Cui</strong>, Yu Fang, Lanzhuju Mei, Bojun Zhang, Bo Yu, Jiameng Liu, Caiwen Jiang, Yuhang Sun, Lei Ma, Jiawei Huang, Yang Liu, Yue Zhao<sup>+</sup>, Chunfeng Lian<sup>+</sup>, Zhongxiang Ding<sup>+</sup>, Min Zhu<sup>+</sup>, and Dinggang Shen<sup>+</sup>.</p>
                 <p>Nature Communications, 2022.</p>
-                <p>[<a href="https://www.nature.com/articles/s41467-022-29637-2.pdf" >paper</a>] [<a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT?"></p>
+                <p>[<a href="https://www.nature.com/articles/s41467-022-29637-2.pdf" >paper</a>] [<a href="https://github.com/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErdanC/Tooth-and-alveolar-bone-segmentation-from-CBCT"></p>
             </div>
         </li>
         <li class="publication-item">
             <img src="/assets/img/publications/2022_Reconstruction.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
-                <div class="title">Reconstruction of Standard-Dose Pet From Low-Dose Pet Via Dual-Frequency Supervision and Global Aggregation Module</div>
+                <div class="title">Reconstruction of Standard-Dose PET from Low-Dose PET via Dual-Frequency Supervision and Global Aggregation Module</div>
                 <p>Caiwen Jiang, Yongsheng Pan, <strong>Zhiming Cui</strong>, Dinggang Shen<sup>+</sup>.</p>
-                <p>IEEE 19th International Symposium on Biomedical Imaging (ISBI), 2022.</p>
+                <p>International Symposium on Biomedical Imaging (ISBI), 2022.</p>
                 <p>[<a href="https://ieeexplore.ieee.org/abstract/document/9761694" >paper</a>]</p>
             </div>
         </li>
@@ -407,7 +407,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2022_Dense.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">Dense Representative Tooth Landmark/Axis Detection Network on 3D Model</div>
-                <p>Guangshun Wei, <strong>Zhiming Cui</strong>, Jie Zhu, Lei Yang, Yuanfeng Zhou, P Singh, Min Gu, Wenping Wang<sup>+</sup>.</p>
+                <p>Guangshun Wei, <strong>Zhiming Cui</strong>, Jie Zhu, Lei Yang, Yuanfeng Zhou, Pradeep Singh, Min Gu, Wenping Wang<sup>+</sup>.</p>
                 <p>Computer Aided Geometric Design (CAGD), 2022.</p>
                 <p>[<a href="https://www.sciencedirect.com/science/article/pii/S0167839622000139" >paper</a>]</p>
             </div>
@@ -430,7 +430,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2021_Domain.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">Domain Generalization for Mammography Detection via Multi-style and Multi-view Contrastive Learning</div>
-                <p>Zheren Li*, <strong>Zhiming Cui</strong>*, Sheng Wang, Yuji Qi, Ouyang Xi, Yuezhi Yang, Jiezhi Cheng<sup>+</sup>.</p>
+                <p>Zheren Li<sup>*</sup>, <strong>Zhiming Cui</strong><sup>*</sup>, Sheng Wang, Yuji Qi, Xi Ouyang, Qitian Chen, Yuezhi Yang, Zhong Xue, Dinggang Shen, Jie-Zhi Cheng<sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2021.</p>
                 <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-87234-2_10" >paper</a>]</p>
             </div>
@@ -439,7 +439,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2021_Motion.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">Motion Correction for Liver DCE-MRI with Time-Intensity Curve Constraint</div>
-                <p>Yuhang Sun, Dongming Wei, <strong>Zhiming Cui</strong>, YUjia Zhou, Caiwen Jiang, Jiameng Liu, Qianjin Feng, Dinggang Shen<sup>+</sup>.</p>
+                <p>Yuhang Sun, Dongming Wei, <strong>Zhiming Cui</strong>, Yujia Zhou, Caiwen Jiang, Jiameng Liu, Qianjin Feng, Dinggang Shen<sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2021.</p>
                 <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-87234-2_69" >paper</a>]</p>
             </div>
@@ -448,7 +448,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2021_Confidence-Aware.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">Confidence-aware Cascaded Network for Fetal Brain Segmentation on MR Images</div>
-                <p>Xukun Zhang*, <strong>Zhiming Cui</strong>*, Jie Wei, Jingjiao Lou, Changan Chen, Wenxin Hu, He Zhang, Tao Zhou, Feng Shi, Dinggang Shen<sup>+</sup>.</p>
+                <p>Xukun Zhang<sup>*</sup>, <strong>Zhiming Cui</strong><sup>*</sup>, Jie Wei, Jingjiao Lou, Changan Chen, Wenxin Hu, He Zhang, Tao Zhou, Feng Shi, Dinggang Shen<sup>+</sup>.</p>
                 <p>International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), 2021.</p>
                 <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-87199-4_55" >paper</a>]</p>
             </div>
@@ -484,15 +484,15 @@ Full publication list can be referred [here](https://scholar.google.com/citation
             <img src="/assets/img/publications/2021_Hierarchical.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
                 <div class="title">Hierarchical Morphology-Guided Tooth Instance Segmentation from CBCT Images</div>
-                <p><strong>Zhiming Cui</strong>, Bojun Zhang, Chunfeng Lian, Changjian Li, Yang Lei, Min Zhu, Wenping Wang, Dinggang Shen.</p>
-                <p>Information Processing in Medical Imaging (IPMI Oral), 2021.</p>
+                <p><strong>Zhiming Cui</strong>, Bojun Zhang, Chunfeng Lian, Changjian Li, Lei Yang, Min Zhu, Wenping Wang, Dinggang Shen.</p>
+                <p>Information Processing in Medical Imaging (IPMI), 2021. <span style="color: red;">oral</span></p>
                 <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-78191-0_12" >paper</a>]</p>
             </div>
         </li>
         <li class="publication-item">
             <img src="/assets/img/publications/2021_TSGCNet.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
-                <div class="title">TSGCNet: Discriminative Geometric Feature Learning with Two-Stream GraphConvolutional Network for 3D Dental Model Segmentation</div>
+                <div class="title">TSGCNet: Discriminative Geometric Feature Learning with Two-Stream Graph Convolutional Network for 3D Dental Model Segmentation</div>
                 <p>Lingming Zhang, Yue Zhao, Deyu Meng, <strong>Zhiming Cui</strong>, Chenqiang Gao, Chunfeng Lian, Dinggang Shen<sup>+</sup>.</p>
                 <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021.</p>
                 <p>[<a href="http://openaccess.thecvf.com/content/CVPR2021/html/Zhang_TSGCNet_Discriminative_Geometric_Feature_Learning_With_Two-Stream_Graph_Convolutional_Network_CVPR_2021_paper.html" >paper</a>]</p>
@@ -523,8 +523,8 @@ Full publication list can be referred [here](https://scholar.google.com/citation
         <li class="publication-item">
             <img src="/assets/img/publications/2020_Mapping.png" class="publication-img" loading="lazy" alt="">
             <div class="publication-content">
-                <div class="title">Mapping in a cycle: Sinkhorn regularized unsupervised learning for point cloud shapes</div>
-                <p>Yang Lei, Wenxi Liu, <strong>Zhiming Cui</strong>, Nenglun Chen, Wenping Wang<sup>+</sup>.</p>
+                <div class="title">Mapping in a Cycle: Sinkhorn Regularized Unsupervised Learning for Point Cloud Shapes</div>
+                <p>Lei Yang, Wenxi Liu, <strong>Zhiming Cui</strong>, Nenglun Chen, Wenping Wang<sup>+</sup>.</p>
                 <p>European Conference on Computer Vision (ECCV), 2020.</p>
                 <p>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-58607-2_27" >paper</a>]</p>
             </div>
@@ -535,7 +535,7 @@ Full publication list can be referred [here](https://scholar.google.com/citation
                 <div class="title">Unsupervised Learning of Intrinsic Structural Representation Points</div>
                 <p>Nenglun Chen, Lingjie Liu, <strong>Zhiming Cui</strong>, Runnan Chen, Changhe Tu, Wenping Wang<sup>+</sup>.</p>
                 <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.</p>
-                <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>] [<a href="https://github.com/NolenChen/3DStructurePoints">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NolenChen/3DStructurePoints?"></p>
+                <p>[<a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Unsupervised_Learning_of_Intrinsic_Structural_Representation_Points_CVPR_2020_paper.html" >paper</a>] [<a href="https://github.com/NolenChen/3DStructurePoints">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NolenChen/3DStructurePoints"></p>
             </div>
         </li>
 </ul>
