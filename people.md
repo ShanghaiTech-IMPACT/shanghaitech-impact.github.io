@@ -6,88 +6,37 @@ share-description: "Members of the IMPACT Lab at ShanghaiTech University — PhD
 
 <style>
     .rounded-image {
-        width: 200px;
-        height: 200px;
+        width: 176px;
+        height: 176px;
         border-radius: 50%;
         border: 5px solid #f0f0f0;
-        object-fit: cover; 
+        object-fit: cover;
         object-position: center;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        display: block;
+        margin: 0 auto 4px;
     }
 
-    .rounded-image:hover {
-        transform: scale(1.05) translateY(-5px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-        border-color:rgb(0, 0, 0);
+    .people-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+        gap: 20px;
+        margin: 20px 0 40px;
     }
 
-    @media (max-width: 600px) {
-        .rounded-image {
-            width: 120px;  
-            height: 120px;  
-            border-width: 3px;
-        }
-    }
-
-    table.people {
-        width: 100%;
-        table-layout: fixed;
-        border-collapse: separate; 
-        border-spacing: 15px;
-        margin: 20px 0;
-    }
-
-    .people td {
-        width: 25%;
+    .person-card {
+        display: block;
         text-align: center;
-        vertical-align: top;
-        padding: 15px;
+        padding: 22px 15px;
         background-color: #ffffff;
         border-radius: 15px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-        transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-        position: relative;
-        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .people td:hover {
-        transform: translateY(-8px);
+    .person-card:hover {
+        transform: translateY(-6px);
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    }
-
-    .people td::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-        transform: translateX(-100%);
-        transition: 0.5s;
-    }
-
-    .people td:hover::after {
-        transform: translateX(100%);
-    }
-
-    /* Add this new style for empty cells */
-    .people td.empty-cell {
-        background-color: transparent;
-        box-shadow: none;
-        padding: 0;
-        pointer-events: none;
-    }
-    
-    /* Disable all hover effects for empty cells */
-    .people td.empty-cell:hover {
-        transform: none;
-        box-shadow: none;
-    }
-    
-    .people td.empty-cell::after {
-        content: none;
     }
 
     h2 {
@@ -124,15 +73,19 @@ share-description: "Members of the IMPACT Lab at ShanghaiTech University — PhD
     }
 
     @media (max-width: 600px) {
-        table.people, .people tbody, .people tr { display: block; width: 100%; }
-        .people td { display: block; width: 100%; margin-bottom: 15px; }
-        .people td.empty-cell { display: none; }
-        h2 { font-size: 1.7em; }
+        .rounded-image {
+            width: 120px;
+            height: 120px;
+            border-width: 3px;
+        }
+        h2 {
+            font-size: 1.7em;
+        }
     }
 </style>
 
 {% assign categories = "phd_students,graduate_students,visiting_students,undergraduate_students" | split: "," %}
-{% assign titles = "Ph.D. Students,Graduate Students,Visiting Students,Undergraduate Students" | split: "," %}
+{% assign titles = "Ph.D. Students,Master's Students,Visiting Students,Undergraduate Students" | split: "," %}
 
 {% for category in categories %}
 {% assign people = site.data.people[category] %}
@@ -144,7 +97,7 @@ share-description: "Members of the IMPACT Lab at ShanghaiTech University — PhD
 
 {% assign alumni = site.data.people.alumni %}
 {% assign alumni_categories = "graduate_students,undergraduate_students,visiting_students" | split: "," %}
-{% assign alumni_titles = "Graduate Students,Undergraduate Students,Visiting Students" | split: "," %}
+{% assign alumni_titles = "Master's Students,Undergraduate Students,Visiting Students" | split: "," %}
 {% assign has_alumni = false %}
 {% for subcategory in alumni_categories %}
 {% assign alumni_people = alumni[subcategory] %}

@@ -1,48 +1,24 @@
-<table class="people" id="{{ include.id }}">
-    <tr>
-        {% assign row_position = 0 %}
-        {% for person in include.people %}
-            {% if person.new_row and row_position != 0 %}
-                {% assign empty_cells = 4 | minus: row_position %}
-                {% for i in (1..empty_cells) %}
-                    <td class="empty-cell"></td>
-                {% endfor %}
-                </tr><tr>
-                {% assign row_position = 0 %}
+<div class="people-grid" id="{{ include.id }}">
+    {% for person in include.people %}
+    <div class="person-card">
+        <img src="{{ person.image }}" class="rounded-image" alt="{{ person.name }}" loading="lazy">
+        <div class="name">
+            {% if person.url %}
+            <a href="{{ person.url }}">{{ person.name }}</a>
+            {% else %}
+            {{ person.name }}
             {% endif %}
-            <td>
-                <img src="{{ person.image }}" class="rounded-image" alt="{{ person.name }}" loading="lazy">
-                <div class="name">
-                    {% if person.url %}
-                        <a href="{{ person.url }}">{{ person.name }}</a>
-                    {% else %}
-                        {{ person.name }}
-                    {% endif %}
-                </div>
-                <div class="info">{{ person.info }}</div>
-                {% if person.education %}
-                    <div class="info">{{ person.education }}</div>
-                {% endif %}
-                {% if person.period %}
-                    <div class="info">{{ person.period }}</div>
-                {% endif %}
-                {% if person.note != "" %}
-                    <div class="info">{{ person.note }}</div>
-                {% endif %}
-            </td>
-            {% assign row_position = row_position | plus: 1 %}
-            {% if row_position == 4 %}
-                {% assign row_position = 0 %}
-            {% endif %}
-            {% if row_position == 0 and forloop.index != forloop.length %}
-                </tr><tr>
-            {% endif %}
-        {% endfor %}
-        {% assign empty_cells = 4 | minus: row_position %}
-        {% if row_position != 0 %}
-            {% for i in (1..empty_cells) %}
-                <td class="empty-cell"></td>
-            {% endfor %}
+        </div>
+        <div class="info">{{ person.info }}</div>
+        {% if person.education %}
+        <div class="info">{{ person.education }}</div>
         {% endif %}
-    </tr>
-</table>
+        {% if person.period %}
+        <div class="info">{{ person.period }}</div>
+        {% endif %}
+        {% if person.note != "" %}
+        <div class="info">{{ person.note }}</div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

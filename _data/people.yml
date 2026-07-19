@@ -7,22 +7,22 @@ phd_students:
     education: B.E. NBU
     note: ""
 
-  - name: Ruochen Pi
-    image: /assets/img/people/RuochenPi.jpg
-    info: Eng.D. since 2024
-    education: M.S. USYD, B.E. SHNU
-    note: ""
-    
   - name: Chenfan Xu
     image: /assets/img/people/ChenfanXu.png
     info: Ph.D. since 2023
     education: B.E. SHU
     note: ""
-  
+
   - name: Xingyue Wang
     image: /assets/img/people/XingyueWang.jpg
     info: Ph.D. since 2023
     education: B.E. TMU & TJU
+    note: ""
+
+  - name: Ruochen Pi
+    image: /assets/img/people/RuochenPi.jpg
+    info: Eng.D. since 2024
+    education: M.S. USYD, B.E. SHNU
     note: ""
 
   - name: Tao Luo
@@ -86,7 +86,7 @@ graduate_students:
   - name: Weizhen Wang
     image: /assets/img/people/WeizhenWang.jpg
     info: M.S. since 2025
-    education: B.E. Shanghaitech
+    education: B.E. ShanghaiTech
     note: ""
 
   - name: Lei Luo
@@ -130,7 +130,7 @@ visiting_students: []
 undergraduate_students:
 
   - name: Yudi Cao
-    image: /assets/img/people/avatar.jpg
+    image: /assets/img/people/placeholder.png
     info: BME, Class 2024
     note: ""
 
