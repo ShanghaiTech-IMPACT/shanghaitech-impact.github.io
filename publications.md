@@ -77,12 +77,13 @@ Full publication list is available [here](https://scholar.google.com/citations?v
 
 ## 2026
 <ul class="publications">
-        <li class="publication-item">
-            <img src="/assets/img/publications/2026_ThinTubularSeg.png" class="publication-img" loading="lazy" alt="">
+        <li class="publication-item" id="pub-celda-plus">
+            <img src="/assets/img/publications/2026_CeLDA_plus.png" class="publication-img" loading="lazy" alt="CeLDA+ cephalometric landmark detection framework">
             <div class="publication-content">
-                <div class="title">Anatomical Prior-guided Implicit Segmentation of Challenging Thin and Tubular Anatomical Structures in CBCT Images</div>
-                <p>Chenfan Xu, Zhentao Liu, Haoshen Wang, Siyu Chen, Jiepeng Wang, Guangying Song, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
+                <div class="title">CeLDA+: Cephalometric Landmark Detection across Ages with Learnable Prototypical Network</div>
+                <p>Han Wu<sup>*</sup>, Wei Jia<sup>*</sup>, Lanzhuju Mei, Tong Yang, Min Zhu, Haizhen Li<sup>+</sup>, Chong Wang<sup>+</sup>, Dinggang Shen<sup>+</sup>, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2026.</p>
+                <p>[<a href="https://github.com/ShanghaiTech-IMPACT/CeLDA_plus">code</a>] <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ShanghaiTech-IMPACT/CeLDA_plus"></p>
             </div>
         </li>
         <li class="publication-item">
@@ -91,6 +92,7 @@ Full publication list is available [here](https://scholar.google.com/citations?v
                 <div class="title">3D Craniofacial Generative Model for Surgical Planning in Mandibular Reconstruction</div>
                 <p>Chenfan Xu, Zhentao Liu, Jiamin Wu, Haoshen Wang, Jiepeng Wang, Hao Wang, Wen Du, Xin Peng, <strong>Zhiming Cui</strong><sup>+</sup>.</p>
                 <p>Medical Image Analysis (MedIA), 2026.</p>
+                <p>[<a href="https://doi.org/10.1016/j.media.2026.104136">paper</a>] [<a href="https://github.com/ShanghaiTech-IMPACT/3D-Craniofacial-Generative-Model-for-Surgical-Planning-in-Mandibular-Reconstruction">code</a>]</p>
             </div>
         </li>
         <li class="publication-item">

@@ -106,10 +106,11 @@ share-description: "Research at the IMPACT Lab, ShanghaiTech University: medical
     <p>We develop learning-based methods for segmentation, landmark detection, and localization across CT, CBCT, MRI, and X-ray images, with a particular focus on robustness when annotations are scarce — including semi-supervised, cross-domain, and prototype-based learning. Beyond methodology, we validate our systems in multi-center clinical studies with close clinical collaborators.</p>
     <div class="rep-grid">
         <div class="rep-card">
-            <img src="/assets/img/publications/2026_ThinTubularSeg.png" alt="Anatomical prior-guided implicit segmentation of thin and tubular structures" loading="lazy">
+            <img src="/assets/img/publications/2026_CeLDA_plus.png" alt="CeLDA+ cephalometric landmark detection framework" loading="lazy">
             <div class="rep-info">
-                <div class="rep-title">Anatomical Prior-guided Implicit Segmentation of Challenging Thin and Tubular Anatomical Structures in CBCT Images</div>
+                <div class="rep-title">CeLDA+: Cephalometric Landmark Detection across Ages with Learnable Prototypical Network</div>
                 <div class="rep-venue">MedIA, 2026</div>
+                <div class="rep-links">[<a href="https://github.com/ShanghaiTech-IMPACT/CeLDA_plus">code</a>]</div>
             </div>
         </div>
         <div class="rep-card">
