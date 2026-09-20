@@ -176,6 +176,8 @@ share-description: "Members of the IMPACT Lab at ShanghaiTech University — PhD
         <img src="/assets/img/Gallery/UMI2024.png" alt="Gallery Image 4" loading="lazy">
         <img src="/assets/img/Gallery/MLMI2024.jpg" alt="Gallery Image 5" loading="lazy">
         <img src="/assets/img/Gallery/whs.png" alt="Gallery Image 6" loading="lazy">
+        <img src="/assets/img/Gallery/MLMI2025.jpg" alt="Gallery Image 7" loading="lazy">
+        <img src="/assets/img/Gallery/20260920-124223.jpg" alt="Gallery Image 8" loading="lazy">
     </div>
     <div class="slider-nav">
         <button onclick="prevSlide()">Previous</button>

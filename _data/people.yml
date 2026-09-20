@@ -124,13 +124,29 @@ graduate_students:
     info: M.Eng. since 2026
     education: B.E. HNU
     note: ""
+  
+  - name: Binchao Ban
+    image: /assets/img/people/BinchaoBan.jpg
+    info: M.Eng. since 2026
+    education: B.E. ZJU
+    note: ""
+
+  - name: Bowen Chen
+    image: /assets/img/people/BowenChen.jpg
+    info: M.Eng. since 2026
+    education: B.E. HIT
+    note: ""
 
 visiting_students: []
 
 undergraduate_students:
+  - name: Zihang Wang
+    image: /assets/img/people/ZihangWang.jpg
+    info: BME, Class 2023
+    note: ""
 
   - name: Yudi Cao
-    image: /assets/img/people/placeholder.png
+    image: /assets/img/people/YudiCao.jpg
     info: BME, Class 2024
     note: ""
 
